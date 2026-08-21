@@ -51,6 +51,17 @@ class ReviewQueueController extends Controller
                     ->first(['feedback', 'missing_concepts', 'misconceptions', 'status'])
                 : null;
 
+            $feedback = null;
+            $missingConcepts = [];
+            $misconceptions = [];
+            $gradingStatus = null;
+            if ($recommendation) {
+                $feedback = $recommendation->feedback ? (string) $recommendation->feedback : null;
+                $missingConcepts = $this->jsonList($recommendation->missing_concepts);
+                $misconceptions = $this->jsonList($recommendation->misconceptions);
+                $gradingStatus = $recommendation->status ? (string) $recommendation->status : null;
+            }
+
             $unit = DB::table('concept_learning_unit')
                 ->join('learning_units', 'learning_units.id', '=', 'concept_learning_unit.learning_unit_id')
                 ->where('concept_learning_unit.concept_id', $row->concept_id)
@@ -67,10 +78,10 @@ class ReviewQueueController extends Controller
                 'reason' => (string) $row->reason,
                 'priority' => (int) $row->priority,
                 'dueAt' => (string) $row->due_at,
-                'feedback' => $recommendation?->feedback ? (string) $recommendation->feedback : null,
-                'missingConcepts' => $this->jsonList($recommendation?->missing_concepts ?? null),
-                'misconceptions' => $this->jsonList($recommendation?->misconceptions ?? null),
-                'gradingStatus' => $recommendation?->status ? (string) $recommendation->status : null,
+                'feedback' => $feedback,
+                'missingConcepts' => $missingConcepts,
+                'misconceptions' => $misconceptions,
+                'gradingStatus' => $gradingStatus,
                 'unit' => $unit ? ['slug' => (string) $unit->slug, 'title' => (string) $unit->title] : null,
             ];
         })->values();
