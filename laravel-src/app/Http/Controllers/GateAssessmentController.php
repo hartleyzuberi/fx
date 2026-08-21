@@ -7,6 +7,7 @@ use App\Models\Enrollment;
 use App\Models\LearningUnit;
 use App\Models\Question;
 use App\Models\UnitProgress;
+use App\Services\Assessment\GateEvidenceService;
 use App\Services\Assessment\QuestionDeliveryService;
 use App\Services\Assessment\StructuredQuestionGrader;
 use App\Services\Learning\MasteryService;
@@ -44,7 +45,12 @@ class GateAssessmentController extends Controller
                     'choices' => $delivery->publicChoices($question->choices),
                 ])->values(),
             ],
-            'latestAttempt' => $latest ? ['status' => $latest->status, 'score' => $latest->score, 'passed' => $latest->passed, 'summary' => json_decode($latest->grading_summary ?? '{}', true)] : null,
+            'latestAttempt' => $latest ? [
+                'status' => $latest->status,
+                'score' => $latest->score,
+                'passed' => $latest->passed,
+                'summary' => json_decode($latest->grading_summary ?? '{}', true),
+            ] : null,
         ]);
     }
 
@@ -53,10 +59,12 @@ class GateAssessmentController extends Controller
         LearningUnit $unit,
         StructuredQuestionGrader $grader,
         QuestionDeliveryService $delivery,
+        GateEvidenceService $evidenceService,
         ProgressionService $progression,
         MasteryService $mastery,
     ): RedirectResponse {
         [$enrollment, $assessment] = $this->context($unit);
+        $user = $request->user();
         abort_unless(DB::table('assessment_attempts')->where('enrollment_id', $enrollment->id)->whereIn('assessment_id', Assessment::query()->where('learning_unit_id', $unit->id)->where('assessment_type', 'chapter_quiz')->pluck('id'))->where('passed', true)->exists(), 403, 'Pass the chapter mastery check before submitting this gate.');
         $structured = $this->structuredQuestions($assessment);
 
@@ -73,7 +81,7 @@ class GateAssessmentController extends Controller
             $answers[$question->id] = $this->normalizeStructuredAnswer($question, $validated['answers'][$question->id]);
         }
 
-        DB::transaction(function () use ($assessment, $enrollment, $unit, $structured, $answers, $grader, $delivery, $progression, $mastery): void {
+        DB::transaction(function () use ($assessment, $enrollment, $unit, $structured, $answers, $grader, $delivery, $evidenceService, $progression, $mastery, $user): void {
             $attemptId = (string) Str::ulid();
             $attemptNumber = ((int) DB::table('assessment_attempts')->where('enrollment_id', $enrollment->id)->where('assessment_id', $assessment->id)->max('attempt_number')) + 1;
             DB::table('assessment_attempts')->insert([
@@ -150,20 +158,43 @@ class GateAssessmentController extends Controller
             }
 
             $score = $maximum > 0 ? round(($earned / $maximum) * 100, 2) : 0;
-            $passed = $score >= (float) $assessment->passing_score;
-            $decision = $progression->evaluateAfterGate($enrollment, $unit, $score, $passed, $assessment->assessment_type === 'final_exam');
+            $scorePassed = $score >= (float) $assessment->passing_score;
+            $evidence = $evidenceService->evaluate($user, $assessment, $attemptId);
+            $passed = $scorePassed && $evidence['ready'];
+            $blockingReasons = [];
+            if (! $scorePassed) {
+                $blockingReasons[] = "Gate score {$score}% is below the required {$assessment->passing_score}%.";
+            }
+            foreach ($evidence['predicates'] as $key => $predicate) {
+                if (! $predicate['passed']) {
+                    $blockingReasons[] = str_replace('_', ' ', $key).': '.$this->stringify($predicate['actual']).' (required '.$this->stringify($predicate['required']).').';
+                }
+            }
+
+            $decision = $progression->evaluateAfterGate(
+                $enrollment,
+                $unit,
+                $score,
+                $passed,
+                $assessment->assessment_type === 'final_exam',
+                $blockingReasons,
+            );
             DB::table('assessment_attempts')->where('id', $attemptId)->update([
                 'status' => 'graded',
                 'score' => $score,
                 'maximum_score' => 100,
                 'passed' => $passed,
                 'submitted_at' => now(),
-                'grading_summary' => json_encode($decision + ['deterministic_self_study' => true], JSON_THROW_ON_ERROR),
+                'grading_summary' => json_encode($decision + [
+                    'deterministic_self_study' => true,
+                    'score_threshold_passed' => $scorePassed,
+                    'canonical_evidence' => $evidence,
+                ], JSON_THROW_ON_ERROR),
                 'updated_at' => now(),
             ]);
         });
 
-        return back()->with('success', 'Gate mastery check graded automatically.');
+        return back()->with('success', 'Gate mastery check graded automatically. Knowledge and canonical evidence predicates were evaluated separately.');
     }
 
     private function storeManualReview(Request $request, LearningUnit $unit, Enrollment $enrollment, Assessment $assessment): RedirectResponse
@@ -235,5 +266,17 @@ class GateAssessmentController extends Controller
         $assessment = Assessment::query()->with('questions')->where('learning_unit_id', $unit->id)->whereIn('assessment_type', ['gate_exam', 'final_exam'])->firstOrFail();
 
         return [$enrollment, $assessment];
+    }
+
+    private function stringify(mixed $value): string
+    {
+        if (is_array($value)) {
+            return implode(', ', array_map(fn (mixed $item): string => (string) $item, $value));
+        }
+        if (is_bool($value)) {
+            return $value ? 'true' : 'false';
+        }
+
+        return (string) $value;
     }
 }
