@@ -74,7 +74,7 @@ class StructuredQuestionBankBuilder
     }
 
     /**
-     * @param Collection<int, Question> $siblings
+     * @param  Collection<int, Question>  $siblings
      * @return array<string, mixed>|null
      */
     private function referenceAnswerVariant(Question $question, Collection $siblings): ?array
@@ -230,7 +230,7 @@ class StructuredQuestionBankBuilder
     }
 
     /**
-     * @param list<array{0: string, 1: string|null}> $options
+     * @param  list<array{0: string, 1: string|null}>  $options
      * @return array<string, mixed>
      */
     private function singleChoice(Question $question, array $options, string $correctText, string $method): array
@@ -360,7 +360,7 @@ class StructuredQuestionBankBuilder
     }
 
     /**
-     * @param Collection<int, Question> $pool
+     * @param  Collection<int, Question>  $pool
      * @return Collection<int, Question>
      */
     private function spreadSelection(Collection $pool, int $target): Collection
