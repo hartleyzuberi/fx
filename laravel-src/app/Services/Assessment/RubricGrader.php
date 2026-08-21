@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 class RubricGrader
 {
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     public function grade(string $answer, array $key): array
@@ -76,9 +76,9 @@ class RubricGrader
     }
 
     /**
-     * @param list<string> $correct
-     * @param list<string> $missing
-     * @param list<string> $misconceptions
+     * @param  list<string>  $correct
+     * @param  list<string>  $missing
+     * @param  list<string>  $misconceptions
      * @return array<string, mixed>
      */
     private function result(string $status, int $score, array $correct, array $missing, array $misconceptions, string $feedback): array
