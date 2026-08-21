@@ -122,7 +122,7 @@ class QuestionBankValidator
             }
         }
 
-        $duplicatePrompts = Question::query()
+        $duplicatePrompts = DB::table('questions')
             ->select('assessment_id', 'prompt', DB::raw('COUNT(*) as aggregate'))
             ->where('status', 'approved')
             ->groupBy('assessment_id', 'prompt')
