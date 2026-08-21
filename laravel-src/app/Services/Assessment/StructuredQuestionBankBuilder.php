@@ -42,6 +42,7 @@ class StructuredQuestionBankBuilder
                 }
                 if ($question->hasApprovedStructuredVariant()) {
                     $approved++;
+
                     continue;
                 }
 
@@ -50,6 +51,7 @@ class StructuredQuestionBankBuilder
 
                 if ($variant === null) {
                     $skipped++;
+
                     continue;
                 }
 
@@ -276,6 +278,7 @@ class StructuredQuestionBankBuilder
 
             if ($existingGenerated->isNotEmpty()) {
                 $previousGateChapter = $isFinal ? $previousGateChapter : $chapter;
+
                 continue;
             }
 
