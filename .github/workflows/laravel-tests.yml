@@ -61,7 +61,12 @@ jobs:
         run: npm ci
 
       - name: Run PHP style checks
-        run: composer lint:check
+        run: |
+          if ! composer lint:check; then
+            ./vendor/bin/pint
+            git diff -- app/Services/Assessment/QuestionBankValidator.php app/Services/Assessment/QuestionDeliveryService.php app/Services/Assessment/RubricGrader.php app/Services/Assessment/StructuredQuestionBankBuilder.php app/Services/Assessment/StructuredQuestionGrader.php
+            exit 1
+          fi
 
       - name: Run strict assessment static analysis
         run: composer types:assessment
