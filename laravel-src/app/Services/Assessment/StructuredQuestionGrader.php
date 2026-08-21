@@ -7,7 +7,7 @@ use App\Models\Question;
 class StructuredQuestionGrader
 {
     /**
-     * @param array<string, mixed> $answerKey
+     * @param  array<string, mixed>  $answerKey
      * @return array<string, mixed>
      */
     public function grade(Question $question, mixed $answer, string $questionType, array $answerKey): array
@@ -24,7 +24,7 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     private function gradeSingleChoice(mixed $answer, array $key): array
@@ -46,7 +46,7 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     private function gradeMultipleSelect(mixed $answer, array $key): array
@@ -75,7 +75,7 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     private function gradeNumeric(mixed $answer, array $key): array
@@ -101,7 +101,7 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     private function gradeMap(mixed $answer, array $key): array
@@ -127,7 +127,7 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     private function gradeOrdering(mixed $answer, array $key): array
@@ -163,7 +163,7 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param array<string, mixed> $key
+     * @param  array<string, mixed>  $key
      * @return array<string, mixed>
      */
     private function gradeFillBlank(mixed $answer, array $key): array
@@ -187,8 +187,8 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param list<string> $selected
-     * @param array<string, mixed> $key
+     * @param  list<string>  $selected
+     * @param  array<string, mixed>  $key
      * @return list<string>
      */
     private function selectedMisconceptions(array $selected, array $key): array
@@ -204,9 +204,9 @@ class StructuredQuestionGrader
     }
 
     /**
-     * @param list<string> $correct
-     * @param list<string> $missing
-     * @param list<string> $misconceptions
+     * @param  list<string>  $correct
+     * @param  list<string>  $missing
+     * @param  list<string>  $misconceptions
      * @return array<string, mixed>
      */
     private function result(string $status, int $score, array $correct, array $missing, array $misconceptions, string $feedback): array
