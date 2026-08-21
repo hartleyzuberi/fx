@@ -1,17 +1,17 @@
 import { Form, Head } from '@inertiajs/react';
 import InputError from '@/components/input-error';
 import PasswordInput from '@/components/password-input';
+import PasskeyVerify from '@/components/passkey-verify';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Spinner } from '@/components/ui/spinner';
-import { store } from '@/routes/password/confirm';
 /* @chisel-passkeys */
 import {
     index as confirmOptions,
     store as confirmStore,
 } from '@/actions/Laravel/Passkeys/Http/Controllers/PasskeyConfirmationController';
-import PasskeyVerify from '@/components/passkey-verify';
 /* @end-chisel-passkeys */
+import { store } from '@/routes/password/confirm';
 
 export default function ConfirmPassword() {
     return (
