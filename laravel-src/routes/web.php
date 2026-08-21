@@ -21,6 +21,7 @@ use App\Http\Controllers\OnboardingController;
 use App\Http\Controllers\PracticeHubController;
 use App\Http\Controllers\ReferenceController;
 use App\Http\Controllers\ResourceLibraryController;
+use App\Http\Controllers\ReviewQueueController;
 use App\Http\Controllers\RobustnessController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\SessionPositionController;
@@ -35,6 +36,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('onboarding', [OnboardingController::class, 'create'])->name('onboarding.create');
     Route::post('onboarding', [OnboardingController::class, 'store'])->name('onboarding.store');
     Route::get('dashboard', DashboardController::class)->name('dashboard');
+    Route::get('review', ReviewQueueController::class)->name('review.index');
     Route::get('course', CurriculumMapController::class)->name('course.index');
     Route::get('course-search', CourseSearchController::class)->middleware('throttle:60,1')->name('course.search');
     Route::get('course/{unit:slug}', [SessionController::class, 'show'])->name('sessions.show');
