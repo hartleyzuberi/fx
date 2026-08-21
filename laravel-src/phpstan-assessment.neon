@@ -1,0 +1,13 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
+parameters:
+    paths:
+        - app/Services/Assessment/
+        - app/Http/Controllers/AssessmentAttemptController.php
+        - app/Http/Controllers/GateAssessmentController.php
+        - app/Models/Assessment.php
+        - app/Models/Question.php
+
+    level: 7

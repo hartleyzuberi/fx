@@ -1,0 +1,98 @@
+name: Laravel assessment CI
+
+on:
+  pull_request:
+    paths:
+      - 'laravel-src/**'
+      - 'tmp/pdfs/source-audit/**'
+      - '.github/workflows/laravel-tests.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'laravel-src/**'
+      - 'tmp/pdfs/source-audit/**'
+      - '.github/workflows/laravel-tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: laravel-src
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          tools: composer:v2
+          coverage: none
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: laravel-src/package-lock.json
+
+      - name: Install PHP dependencies
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Prepare environment
+        run: |
+          cp .env.example .env
+          touch database/database.sqlite
+          php artisan key:generate
+          php artisan migrate --force
+
+      - name: Ingest canonical course and validate no-AI question bank
+        run: |
+          php artisan course:ingest --force
+          php artisan course:validate-question-bank
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Run PHP style checks
+        run: |
+          if ! composer lint:check; then
+            ./vendor/bin/pint
+            git diff -- app/Services/Assessment/QuestionBankValidator.php app/Services/Assessment/QuestionDeliveryService.php app/Services/Assessment/RubricGrader.php app/Services/Assessment/StructuredQuestionBankBuilder.php app/Services/Assessment/StructuredQuestionGrader.php
+            exit 1
+          fi
+
+      - name: Run strict assessment static analysis
+        run: composer types:assessment
+
+      - name: Run application static analysis
+        run: composer types:check
+
+      - name: Run frontend lint
+        run: npm run lint:check
+
+      - name: Normalize frontend formatting for CI
+        run: npm run format
+
+      - name: Run frontend format check
+        run: npm run format:check
+
+      - name: Generate Wayfinder route and action definitions
+        run: |
+          php artisan route:clear
+          php artisan wayfinder:generate --with-form
+
+      - name: Run frontend type check
+        run: npm run types:check
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Run test suite
+        run: php artisan test
