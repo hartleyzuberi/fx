@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Assessment;
-use App\Models\ContentBlock;
-use App\Models\ContentMapping;
 use App\Models\Enrollment;
 use App\Models\LearningPosition;
 use App\Models\LearningUnit;
@@ -31,15 +29,9 @@ class SessionController extends Controller
 
         $blockPayload = [];
         foreach ($blocks as $block) {
-            if (! $block instanceof ContentBlock) {
-                continue;
-            }
             $sources = [];
             $seen = [];
             foreach ($block->mappings as $mapping) {
-                if (! $mapping instanceof ContentMapping) {
-                    continue;
-                }
                 $document = $mapping->segment->page->version->document->title;
                 $page = $mapping->segment->page->physical_page;
                 $relationship = $mapping->mapping_type;
