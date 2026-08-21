@@ -17,12 +17,26 @@ import {
 } from '@/components/ui/card';
 import { Spinner } from '@/components/ui/spinner';
 
+type Option = { id: string; text: string };
+type ChoicePayload =
+    | Option[]
+    | {
+          left?: Option[];
+          right?: Option[];
+          items?: Option[];
+          categories?: Option[];
+      }
+    | null;
+
 type Question = {
     id: string;
     position: number;
     type: string;
     prompt: string;
     points: number;
+    choices: ChoicePayload;
+    requiresWorking: boolean;
+    structuredFallback: boolean;
 };
 type Result = {
     prompt: string;
@@ -57,6 +71,10 @@ export default function AssessmentShow({
     assessment,
     latestAttempt,
 }: Props) {
+    const usingStructuredFallback = assessment.questions.some(
+        (question) => question.structuredFallback,
+    );
+
     return (
         <>
             <Head title={assessment.title} />
@@ -73,14 +91,26 @@ export default function AssessmentShow({
                         <Badge variant="outline">
                             Pass mark {assessment.passingScore}%
                         </Badge>
+                        {usingStructuredFallback && (
+                            <Badge variant="secondary">
+                                Deterministic mastery mode
+                            </Badge>
+                        )}
                     </div>
                     <h1 className="mt-3 text-3xl font-semibold tracking-tight">
                         {assessment.title}
                     </h1>
                     <p className="mt-2 text-muted-foreground">
-                        Answer from memory first. The tutor will not reveal
-                        protected answers during an active attempt.
+                        Answer from memory first. Protected answer keys stay on
+                        the server during the active attempt.
                     </p>
+                    {usingStructuredFallback && (
+                        <p className="mt-2 text-sm text-muted-foreground">
+                            AI semantic grading is not being used for these
+                            questions. The same course objectives are being
+                            assessed through deterministic structured checks.
+                        </p>
+                    )}
                 </header>
                 {latestAttempt && <AttemptSummary attempt={latestAttempt} />}
                 <Form
@@ -93,22 +123,27 @@ export default function AssessmentShow({
                             {assessment.questions.map((question) => (
                                 <Card key={question.id}>
                                     <CardHeader>
-                                        <div className="text-xs font-medium text-muted-foreground">
-                                            QUESTION {question.position} OF{' '}
-                                            {assessment.questions.length}
+                                        <div className="flex flex-wrap items-center justify-between gap-2">
+                                            <div className="text-xs font-medium text-muted-foreground">
+                                                QUESTION {question.position} OF{' '}
+                                                {assessment.questions.length}
+                                            </div>
+                                            <Badge
+                                                variant="outline"
+                                                className="capitalize"
+                                            >
+                                                {question.type.replaceAll(
+                                                    '_',
+                                                    ' ',
+                                                )}
+                                            </Badge>
                                         </div>
                                         <CardTitle className="text-lg leading-7">
                                             {question.prompt}
                                         </CardTitle>
                                     </CardHeader>
                                     <CardContent>
-                                        <textarea
-                                            name={`answers[${question.id}]`}
-                                            required
-                                            rows={4}
-                                            className="w-full rounded-lg border bg-background p-3 text-sm leading-6 outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
-                                            placeholder="Explain in your own words…"
-                                        />
+                                        <QuestionInput question={question} />
                                         <p className="mt-2 text-xs text-destructive">
                                             {errors[`answers.${question.id}`]}
                                         </p>
@@ -130,6 +165,241 @@ export default function AssessmentShow({
             </main>
         </>
     );
+}
+
+function QuestionInput({ question }: { question: Question }) {
+    const field = `answers[${question.id}]`;
+
+    if (question.type === 'free_response') {
+        return (
+            <textarea
+                name={field}
+                required
+                rows={4}
+                maxLength={5000}
+                className="w-full rounded-lg border bg-background p-3 text-sm leading-6 outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
+                placeholder="Explain in your own words…"
+            />
+        );
+    }
+
+    if (question.type === 'fill_blank') {
+        return (
+            <input
+                name={field}
+                required
+                maxLength={500}
+                className="w-full rounded-lg border bg-background px-3 py-2 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
+                placeholder="Enter your answer"
+            />
+        );
+    }
+
+    if (question.type === 'numeric' || question.type === 'calculation') {
+        return (
+            <div className="space-y-3">
+                <input
+                    type="number"
+                    step="any"
+                    name={field}
+                    required
+                    inputMode="decimal"
+                    className="w-full rounded-lg border bg-background px-3 py-2 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
+                    placeholder="Enter the numerical result"
+                />
+                {question.requiresWorking && (
+                    <p className="text-xs text-muted-foreground">
+                        Keep your working in your notebook. The authoritative
+                        result is calculated by the backend.
+                    </p>
+                )}
+            </div>
+        );
+    }
+
+    const options = arrayChoices(question.choices);
+    if (
+        [
+            'single_choice',
+            'scenario_choice',
+            'misconception_choice',
+            'true_false',
+        ].includes(question.type)
+    ) {
+        const renderedOptions =
+            question.type === 'true_false' && options.length === 0
+                ? [
+                      { id: 'true', text: 'True' },
+                      { id: 'false', text: 'False' },
+                  ]
+                : options;
+
+        return (
+            <fieldset className="space-y-2">
+                <legend className="sr-only">Choose one answer</legend>
+                {renderedOptions.map((option) => (
+                    <label
+                        key={option.id}
+                        className="flex cursor-pointer items-start gap-3 rounded-lg border p-3 hover:bg-muted/40"
+                    >
+                        <input
+                            type="radio"
+                            name={field}
+                            value={option.id}
+                            required
+                            className="mt-1 size-4"
+                        />
+                        <span className="text-sm leading-6">
+                            {option.text}
+                        </span>
+                    </label>
+                ))}
+            </fieldset>
+        );
+    }
+
+    if (question.type === 'multiple_select') {
+        return (
+            <fieldset className="space-y-2">
+                <legend className="mb-2 text-xs text-muted-foreground">
+                    Select every option that applies.
+                </legend>
+                {options.map((option) => (
+                    <label
+                        key={option.id}
+                        className="flex cursor-pointer items-start gap-3 rounded-lg border p-3 hover:bg-muted/40"
+                    >
+                        <input
+                            type="checkbox"
+                            name={`${field}[]`}
+                            value={option.id}
+                            className="mt-1 size-4"
+                        />
+                        <span className="text-sm leading-6">
+                            {option.text}
+                        </span>
+                    </label>
+                ))}
+            </fieldset>
+        );
+    }
+
+    if (question.type === 'matching') {
+        const payload = objectChoices(question.choices);
+        const left = payload.left ?? [];
+        const right = payload.right ?? [];
+
+        return (
+            <div className="space-y-3">
+                {left.map((item) => (
+                    <label
+                        key={item.id}
+                        className="grid gap-2 rounded-lg border p-3 md:grid-cols-[1fr_1fr] md:items-center"
+                    >
+                        <span className="text-sm">{item.text}</span>
+                        <select
+                            name={`${field}[${item.id}]`}
+                            required
+                            defaultValue=""
+                            className="rounded-md border bg-background px-3 py-2 text-sm"
+                        >
+                            <option value="" disabled>
+                                Select match
+                            </option>
+                            {right.map((option) => (
+                                <option key={option.id} value={option.id}>
+                                    {option.text}
+                                </option>
+                            ))}
+                        </select>
+                    </label>
+                ))}
+            </div>
+        );
+    }
+
+    if (question.type === 'classification') {
+        const payload = objectChoices(question.choices);
+        const items = payload.items ?? [];
+        const categories = payload.categories ?? [];
+
+        return (
+            <div className="space-y-3">
+                {items.map((item) => (
+                    <label
+                        key={item.id}
+                        className="grid gap-2 rounded-lg border p-3 md:grid-cols-[1fr_1fr] md:items-center"
+                    >
+                        <span className="text-sm">{item.text}</span>
+                        <select
+                            name={`${field}[${item.id}]`}
+                            required
+                            defaultValue=""
+                            className="rounded-md border bg-background px-3 py-2 text-sm"
+                        >
+                            <option value="" disabled>
+                                Select category
+                            </option>
+                            {categories.map((option) => (
+                                <option key={option.id} value={option.id}>
+                                    {option.text}
+                                </option>
+                            ))}
+                        </select>
+                    </label>
+                ))}
+            </div>
+        );
+    }
+
+    if (question.type === 'ordering') {
+        return (
+            <div className="space-y-3">
+                <p className="text-xs text-muted-foreground">
+                    Assign each item a unique position from 1 to {options.length}.
+                </p>
+                {options.map((item) => (
+                    <label
+                        key={item.id}
+                        className="grid gap-2 rounded-lg border p-3 md:grid-cols-[1fr_8rem] md:items-center"
+                    >
+                        <span className="text-sm">{item.text}</span>
+                        <select
+                            name={`${field}[${item.id}]`}
+                            required
+                            defaultValue=""
+                            className="rounded-md border bg-background px-3 py-2 text-sm"
+                        >
+                            <option value="" disabled>
+                                Position
+                            </option>
+                            {options.map((_, index) => (
+                                <option key={index + 1} value={index + 1}>
+                                    {index + 1}
+                                </option>
+                            ))}
+                        </select>
+                    </label>
+                ))}
+            </div>
+        );
+    }
+
+    return (
+        <div className="rounded-lg border border-destructive/50 bg-destructive/5 p-3 text-sm text-destructive">
+            This question type is not supported by the current learner UI.
+        </div>
+    );
+}
+
+function arrayChoices(choices: ChoicePayload): Option[] {
+    return Array.isArray(choices) ? choices : [];
+}
+
+function objectChoices(
+    choices: ChoicePayload,
+): Exclude<ChoicePayload, Option[] | null> {
+    return !Array.isArray(choices) && choices ? choices : {};
 }
 
 function AttemptSummary({ attempt }: { attempt: Attempt }) {
@@ -201,10 +471,12 @@ function AttemptSummary({ attempt }: { attempt: Attempt }) {
                                 <p className="mt-2 text-sm">
                                     {result.feedback}
                                 </p>
-                                <p className="mt-2 text-sm text-emerald-800 dark:text-emerald-200">
-                                    <strong>Model explanation:</strong>{' '}
-                                    {result.explanation}
-                                </p>
+                                {result.explanation && (
+                                    <p className="mt-2 text-sm text-emerald-800 dark:text-emerald-200">
+                                        <strong>Course explanation:</strong>{' '}
+                                        {result.explanation}
+                                    </p>
+                                )}
                             </div>
                         ))}
                     </div>
