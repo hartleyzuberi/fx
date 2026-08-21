@@ -61,6 +61,17 @@ export default function Dashboard({
                     </div>
                     <div className="flex flex-wrap gap-2">
                         <Button variant="outline" asChild>
+                            <Link href="/review">
+                                <Brain />
+                                Review queue
+                                {mastery.needsReview > 0 && (
+                                    <Badge variant="secondary">
+                                        {mastery.needsReview}
+                                    </Badge>
+                                )}
+                            </Link>
+                        </Button>
+                        <Button variant="outline" asChild>
                             <Link href="/course">
                                 <Search />
                                 Search course
@@ -223,9 +234,10 @@ export default function Dashboard({
                                 title="Review queue"
                                 text={
                                     mastery.needsReview > 0
-                                        ? `${mastery.needsReview} mastered concepts need another recall check.`
+                                        ? `${mastery.needsReview} concepts need fresh mastery evidence. Fix the highest-priority misconceptions first.`
                                         : 'No concepts are currently flagged for review.'
                                 }
+                                href="/review"
                             />
                             <SmallCard
                                 icon={ShieldCheck}
@@ -368,18 +380,27 @@ function SmallCard({
     icon: Icon,
     title,
     text,
+    href,
 }: {
     icon: typeof Brain;
     title: string;
     text: string;
+    href?: string;
 }) {
-    return (
-        <div className="rounded-xl border p-4">
-            <Icon className="mb-3 size-5 text-emerald-600" />
+    const content = (
+        <div className="group h-full rounded-xl border p-4 transition hover:border-emerald-400 hover:bg-emerald-500/5">
+            <div className="flex items-start justify-between gap-2">
+                <Icon className="mb-3 size-5 text-emerald-600" />
+                {href && (
+                    <ArrowRight className="size-4 text-muted-foreground opacity-0 transition group-hover:opacity-100" />
+                )}
+            </div>
             <h3 className="text-sm font-semibold">{title}</h3>
             <p className="mt-1 text-xs leading-5 text-muted-foreground">
                 {text}
             </p>
         </div>
     );
+
+    return href ? <Link href={href}>{content}</Link> : content;
 }
