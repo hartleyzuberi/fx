@@ -6,7 +6,6 @@ use App\Models\Assessment;
 use App\Models\Question;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Str;
 
 class StructuredQuestionBankBuilder
 {
@@ -81,11 +80,11 @@ class StructuredQuestionBankBuilder
         }
 
         $correct = $this->cleanOption((string) ($key['reference'] ?? ''));
-        if ($correct === '' || mb_strlen($correct) > 480) {
+        if ($correct === '') {
             return null;
         }
 
-        $distractors = $siblings
+        $candidates = $siblings
             ->reject(fn (Question $candidate): bool => $candidate->id === $question->id)
             ->map(function (Question $candidate): string {
                 $candidateKey = $candidate->answer_key ?? [];
@@ -94,11 +93,21 @@ class StructuredQuestionBankBuilder
                     ? $this->cleanOption((string) ($candidateKey['reference'] ?? ''))
                     : '';
             })
-            ->filter(fn (string $text): bool => $text !== '' && mb_strlen($text) <= 480 && $this->normalize($text) !== $this->normalize($correct))
+            ->filter(fn (string $text): bool => $text !== '' && $this->normalize($text) !== $this->normalize($correct))
             ->unique(fn (string $text): string => $this->normalize($text))
+            ->values();
+
+        $strictDistractors = $candidates
             ->filter(fn (string $text): bool => $this->similarity($correct, $text) < 0.86)
             ->take(3)
             ->values();
+
+        $distractors = $strictDistractors->count() >= 3
+            ? $strictDistractors
+            : $candidates
+                ->sortBy(fn (string $text): float => $this->similarity($correct, $text))
+                ->take(3)
+                ->values();
 
         if ($distractors->count() < 3) {
             return null;
@@ -116,7 +125,9 @@ class StructuredQuestionBankBuilder
             'derivation' => [
                 'method' => 'source_reference_with_sibling_source_distractors',
                 'canonical_reference' => true,
-                'auto_validation' => 'unique_options_and_similarity_guard',
+                'auto_validation' => $strictDistractors->count() >= 3
+                    ? 'unique_options_and_similarity_guard'
+                    : 'unique_options_three_least_similar_source_distractors',
             ],
         ];
     }
