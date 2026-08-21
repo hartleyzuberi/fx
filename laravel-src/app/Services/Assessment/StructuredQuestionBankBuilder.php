@@ -137,7 +137,7 @@ class StructuredQuestionBankBuilder
     {
         $prompt = $this->normalize($question->prompt);
 
-        if (str_contains($prompt, 'eur/usd = 1.1700')) {
+        if (str_contains($prompt, 'eur usd 1.1700')) {
             return $this->singleChoice(
                 $question,
                 [
@@ -151,7 +151,7 @@ class StructuredQuestionBankBuilder
             );
         }
 
-        if (str_contains($prompt, 'eur/usd rises')) {
+        if (str_contains($prompt, 'eur usd rises')) {
             return $this->singleChoice(
                 $question,
                 [
@@ -207,7 +207,7 @@ class StructuredQuestionBankBuilder
             );
         }
 
-        if (str_contains($prompt, 'care whether their product is otc or exchange-traded')) {
+        if (str_contains($prompt, 'care whether their product is otc or exchange traded')) {
             return $this->singleChoice(
                 $question,
                 [
