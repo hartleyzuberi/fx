@@ -218,6 +218,7 @@ function QuestionInput({ question }: { question: Question }) {
     }
 
     const options = arrayChoices(question.choices);
+
     if (
         [
             'single_choice',
