@@ -100,7 +100,9 @@ export default function GateAssessment({
                             )}
                             {latestAttempt.passed !== null && (
                                 <Badge variant="outline">
-                                    {latestAttempt.passed ? 'Passed' : 'Not passed'}
+                                    {latestAttempt.passed
+                                        ? 'Passed'
+                                        : 'Not passed'}
                                 </Badge>
                             )}
                         </div>
@@ -110,14 +112,17 @@ export default function GateAssessment({
                             </p>
                         )}
                         {latestAttempt.summary.reasons?.map((reason) => (
-                            <p key={reason} className="mt-2 text-muted-foreground">
+                            <p
+                                key={reason}
+                                className="mt-2 text-muted-foreground"
+                            >
                                 {reason}
                             </p>
                         ))}
                         {latestAttempt.summary.course_completed && (
                             <p className="mt-2 font-medium text-emerald-700 dark:text-emerald-300">
-                                All final assessment requirements for this course
-                                path are complete.
+                                All final assessment requirements for this
+                                course path are complete.
                             </p>
                         )}
                     </div>
@@ -152,7 +157,9 @@ export default function GateAssessment({
                                     </h2>
 
                                     {deterministic ? (
-                                        <GateStructuredInput question={question} />
+                                        <GateStructuredInput
+                                            question={question}
+                                        />
                                     ) : (
                                         <textarea
                                             name={`answers[${question.id}]`}
@@ -168,7 +175,11 @@ export default function GateAssessment({
                                     </p>
                                 </section>
                             ))}
-                            <Button type="submit" size="lg" disabled={processing}>
+                            <Button
+                                type="submit"
+                                size="lg"
+                                disabled={processing}
+                            >
                                 {deterministic
                                     ? 'Submit gate for automatic grading'
                                     : 'Submit gate for review'}
@@ -216,9 +227,7 @@ function GateStructuredInput({ question }: { question: Question }) {
                             required
                             className="mt-1 size-4"
                         />
-                        <span className="text-sm leading-6">
-                            {option.text}
-                        </span>
+                        <span className="text-sm leading-6">{option.text}</span>
                     </label>
                 ))}
             </fieldset>
