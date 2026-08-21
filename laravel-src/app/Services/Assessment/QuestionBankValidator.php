@@ -4,7 +4,6 @@ namespace App\Services\Assessment;
 
 use App\Models\Assessment;
 use App\Models\Question;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
 class QuestionBankValidator
@@ -115,6 +114,7 @@ class QuestionBankValidator
                 if ($formalAssessments->isNotEmpty()) {
                     $errors[] = "Canonical evidence assignment {$key} is missing.";
                 }
+
                 continue;
             }
             if ((int) ($assignment->required_observations ?? 0) < $minimum) {
@@ -154,21 +154,25 @@ class QuestionBankValidator
     {
         if (! in_array($type, self::SUPPORTED_TYPES, true) || $type === 'free_response' || $type === 'manual_review') {
             $errors[] = "{$label} has invalid structured type {$type}.";
+
             return;
         }
         if (! is_array($answerKey) || $answerKey === []) {
             $errors[] = "{$label} is missing a protected answer key.";
+
             return;
         }
 
         if (in_array($type, self::CHOICE_TYPES, true)) {
             if (! is_array($choices) || $choices === []) {
                 $errors[] = "{$label} has no options.";
+
                 return;
             }
             $options = collect($choices)->filter(fn (mixed $option): bool => is_array($option) && isset($option['id'], $option['text']));
             if ($options->count() !== count($choices)) {
                 $errors[] = "{$label} contains a malformed option.";
+
                 return;
             }
             $ids = $options->pluck('id')->map(fn (mixed $id): string => (string) $id);
