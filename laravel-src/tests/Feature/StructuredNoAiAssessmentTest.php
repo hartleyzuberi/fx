@@ -9,6 +9,8 @@ use App\Models\LearningUnit;
 use App\Models\Question;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 use Inertia\Testing\AssertableInertia as Assert;
 use Tests\TestCase;
 
@@ -29,6 +31,27 @@ class StructuredNoAiAssessmentTest extends TestCase
             'entry_type' => 'own_words',
             'body' => 'A currency quote is a relative price.',
         ])->assertRedirect();
+
+        $assignmentId = (string) Str::ulid();
+        DB::table('practice_assignments')->insert([
+            'id' => $assignmentId,
+            'learning_unit_id' => $first->id,
+            'assignment_type' => 'gate_evidence',
+            'title' => 'Gate A evidence',
+            'instructions' => 'Record platform and regulator competence.',
+            'requirements' => json_encode(['evidence_key' => 'gate_a_platform_and_regulator_competence', 'attachment_required' => false], JSON_THROW_ON_ERROR),
+            'required_observations' => 1,
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+        $this->actingAs($learner)->post(route('exercises.store', [$first, $assignmentId]), [
+            'response' => 'I completed the platform operations and recorded the regulator verification source used.',
+        ])->assertRedirect();
+        $this->assertDatabaseHas('practice_observations', [
+            'practice_assignment_id' => $assignmentId,
+            'user_id' => $learner->id,
+            'sequence' => 1,
+        ]);
 
         $this->actingAs($learner)->get(route('assessments.show', $first))
             ->assertOk()
@@ -139,7 +162,7 @@ class StructuredNoAiAssessmentTest extends TestCase
                 ['id' => 'correct_gate', 'text' => 'One euro equals 1.17 U.S. dollars.'],
             ],
             'answer_key' => ['correct' => 'correct_gate'],
-            'metadata' => ['completion_role' => 'structured_gate'],
+            'metadata' => ['completion_role' => 'structured_gate', 'source_question_id' => $quizQuestion->id],
             'points' => 1,
         ]);
 
