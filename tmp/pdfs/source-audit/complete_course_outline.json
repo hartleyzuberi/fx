@@ -1,0 +1,7821 @@
+[
+  {
+    "order": 0,
+    "depth": 0,
+    "title": "How to Use This Course",
+    "physical_page": 29,
+    "parent_order": null
+  },
+  {
+    "order": 1,
+    "depth": 1,
+    "title": "What this document is - and is not",
+    "physical_page": 29,
+    "parent_order": 0
+  },
+  {
+    "order": 2,
+    "depth": 1,
+    "title": "The rule for progression",
+    "physical_page": 29,
+    "parent_order": 0
+  },
+  {
+    "order": 3,
+    "depth": 1,
+    "title": "Suggested weekly workload",
+    "physical_page": 30,
+    "parent_order": 0
+  },
+  {
+    "order": 4,
+    "depth": 1,
+    "title": "The full progression at a glance",
+    "physical_page": 30,
+    "parent_order": 0
+  },
+  {
+    "order": 5,
+    "depth": 1,
+    "title": "Your notebook system",
+    "physical_page": 31,
+    "parent_order": 0
+  },
+  {
+    "order": 6,
+    "depth": 1,
+    "title": "Assessment rules",
+    "physical_page": 31,
+    "parent_order": 0
+  },
+  {
+    "order": 7,
+    "depth": 0,
+    "title": "I Part I - Orientation and Market Mechanics",
+    "physical_page": 32,
+    "parent_order": null
+  },
+  {
+    "order": 8,
+    "depth": 1,
+    "title": "Chapter 1 - What Forex Actually Is",
+    "physical_page": 33,
+    "parent_order": 7
+  },
+  {
+    "order": 9,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 33,
+    "parent_order": 8
+  },
+  {
+    "order": 10,
+    "depth": 2,
+    "title": "First principle: a currency is a price relative to another currency",
+    "physical_page": 33,
+    "parent_order": 8
+  },
+  {
+    "order": 11,
+    "depth": 2,
+    "title": "Why currencies need to be exchanged",
+    "physical_page": 33,
+    "parent_order": 8
+  },
+  {
+    "order": 12,
+    "depth": 2,
+    "title": "How large is the market?",
+    "physical_page": 34,
+    "parent_order": 8
+  },
+  {
+    "order": 13,
+    "depth": 2,
+    "title": "The main FX instruments",
+    "physical_page": 34,
+    "parent_order": 8
+  },
+  {
+    "order": 14,
+    "depth": 3,
+    "title": "Spot FX",
+    "physical_page": 34,
+    "parent_order": 13
+  },
+  {
+    "order": 15,
+    "depth": 3,
+    "title": "Outright forwards",
+    "physical_page": 34,
+    "parent_order": 13
+  },
+  {
+    "order": 16,
+    "depth": 3,
+    "title": "FX swaps",
+    "physical_page": 34,
+    "parent_order": 13
+  },
+  {
+    "order": 17,
+    "depth": 3,
+    "title": "Currency futures",
+    "physical_page": 34,
+    "parent_order": 13
+  },
+  {
+    "order": 18,
+    "depth": 3,
+    "title": "Currency options",
+    "physical_page": 34,
+    "parent_order": 13
+  },
+  {
+    "order": 19,
+    "depth": 2,
+    "title": "OTC versus exchange-traded",
+    "physical_page": 35,
+    "parent_order": 8
+  },
+  {
+    "order": 20,
+    "depth": 2,
+    "title": "Why there is no single universal EUR/USD price",
+    "physical_page": 35,
+    "parent_order": 8
+  },
+  {
+    "order": 21,
+    "depth": 2,
+    "title": "Example: a simple economic exposure",
+    "physical_page": 35,
+    "parent_order": 8
+  },
+  {
+    "order": 22,
+    "depth": 2,
+    "title": "Common beginner mistakes",
+    "physical_page": 35,
+    "parent_order": 8
+  },
+  {
+    "order": 23,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 35,
+    "parent_order": 8
+  },
+  {
+    "order": 24,
+    "depth": 2,
+    "title": "Quiz 1",
+    "physical_page": 36,
+    "parent_order": 8
+  },
+  {
+    "order": 25,
+    "depth": 2,
+    "title": "Core resources",
+    "physical_page": 36,
+    "parent_order": 8
+  },
+  {
+    "order": 26,
+    "depth": 1,
+    "title": "Chapter 2 - Who Trades Forex and Why Prices Move",
+    "physical_page": 37,
+    "parent_order": 7
+  },
+  {
+    "order": 27,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 37,
+    "parent_order": 26
+  },
+  {
+    "order": 28,
+    "depth": 2,
+    "title": "The market is an auction of competing needs",
+    "physical_page": 37,
+    "parent_order": 26
+  },
+  {
+    "order": 29,
+    "depth": 2,
+    "title": "Major participant groups",
+    "physical_page": 37,
+    "parent_order": 26
+  },
+  {
+    "order": 30,
+    "depth": 3,
+    "title": "Commercial banks and dealers",
+    "physical_page": 37,
+    "parent_order": 29
+  },
+  {
+    "order": 31,
+    "depth": 3,
+    "title": "Corporations",
+    "physical_page": 37,
+    "parent_order": 29
+  },
+  {
+    "order": 32,
+    "depth": 3,
+    "title": "Asset managers and pension funds",
+    "physical_page": 38,
+    "parent_order": 29
+  },
+  {
+    "order": 33,
+    "depth": 3,
+    "title": "Hedge funds and proprietary traders",
+    "physical_page": 38,
+    "parent_order": 29
+  },
+  {
+    "order": 34,
+    "depth": 3,
+    "title": "Central banks and sovereign institutions",
+    "physical_page": 38,
+    "parent_order": 29
+  },
+  {
+    "order": 35,
+    "depth": 3,
+    "title": "Retail traders",
+    "physical_page": 38,
+    "parent_order": 29
+  },
+  {
+    "order": 36,
+    "depth": 2,
+    "title": "Price moves because expectations change",
+    "physical_page": 38,
+    "parent_order": 26
+  },
+  {
+    "order": 37,
+    "depth": 2,
+    "title": "Flow can matter even without new headlines",
+    "physical_page": 38,
+    "parent_order": 26
+  },
+  {
+    "order": 38,
+    "depth": 2,
+    "title": "Liquidity and market depth",
+    "physical_page": 38,
+    "parent_order": 26
+  },
+  {
+    "order": 39,
+    "depth": 2,
+    "title": "Example: the same news, different reaction",
+    "physical_page": 39,
+    "parent_order": 26
+  },
+  {
+    "order": 40,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 39,
+    "parent_order": 26
+  },
+  {
+    "order": 41,
+    "depth": 2,
+    "title": "Quiz 2",
+    "physical_page": 39,
+    "parent_order": 26
+  },
+  {
+    "order": 42,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 39,
+    "parent_order": 26
+  },
+  {
+    "order": 43,
+    "depth": 1,
+    "title": "Chapter 3 - Currency Pairs, Quotes, Pips and Cross Rates",
+    "physical_page": 40,
+    "parent_order": 7
+  },
+  {
+    "order": 44,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 40,
+    "parent_order": 43
+  },
+  {
+    "order": 45,
+    "depth": 2,
+    "title": "Base and quote currency",
+    "physical_page": 40,
+    "parent_order": 43
+  },
+  {
+    "order": 46,
+    "depth": 2,
+    "title": "Major, minor and cross pairs",
+    "physical_page": 40,
+    "parent_order": 43
+  },
+  {
+    "order": 47,
+    "depth": 2,
+    "title": "What is a pip?",
+    "physical_page": 40,
+    "parent_order": 43
+  },
+  {
+    "order": 48,
+    "depth": 2,
+    "title": "Lots and notional value",
+    "physical_page": 41,
+    "parent_order": 43
+  },
+  {
+    "order": 49,
+    "depth": 2,
+    "title": "Pip value - first principles",
+    "physical_page": 41,
+    "parent_order": 43
+  },
+  {
+    "order": 50,
+    "depth": 2,
+    "title": "Direct and indirect quotation",
+    "physical_page": 41,
+    "parent_order": 43
+  },
+  {
+    "order": 51,
+    "depth": 2,
+    "title": "Cross-rate calculation",
+    "physical_page": 41,
+    "parent_order": 43
+  },
+  {
+    "order": 52,
+    "depth": 2,
+    "title": "Percentage return versus pip movement",
+    "physical_page": 42,
+    "parent_order": 43
+  },
+  {
+    "order": 53,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 42,
+    "parent_order": 43
+  },
+  {
+    "order": 54,
+    "depth": 2,
+    "title": "Quiz 3",
+    "physical_page": 42,
+    "parent_order": 43
+  },
+  {
+    "order": 55,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 42,
+    "parent_order": 43
+  },
+  {
+    "order": 56,
+    "depth": 1,
+    "title": "Chapter 4 - Bid, Ask, Spread and Transaction Costs",
+    "physical_page": 43,
+    "parent_order": 7
+  },
+  {
+    "order": 57,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 43,
+    "parent_order": 56
+  },
+  {
+    "order": 58,
+    "depth": 2,
+    "title": "Two prices exist because liquidity has a cost",
+    "physical_page": 43,
+    "parent_order": 56
+  },
+  {
+    "order": 59,
+    "depth": 2,
+    "title": "The immediate-loss intuition",
+    "physical_page": 43,
+    "parent_order": 56
+  },
+  {
+    "order": 60,
+    "depth": 2,
+    "title": "Fixed versus variable spreads",
+    "physical_page": 44,
+    "parent_order": 56
+  },
+  {
+    "order": 61,
+    "depth": 2,
+    "title": "Commission",
+    "physical_page": 44,
+    "parent_order": 56
+  },
+  {
+    "order": 62,
+    "depth": 2,
+    "title": "Slippage",
+    "physical_page": 44,
+    "parent_order": 56
+  },
+  {
+    "order": 63,
+    "depth": 2,
+    "title": "Overnight financing / swap",
+    "physical_page": 44,
+    "parent_order": 56
+  },
+  {
+    "order": 64,
+    "depth": 2,
+    "title": "Currency conversion charges",
+    "physical_page": 44,
+    "parent_order": 56
+  },
+  {
+    "order": 65,
+    "depth": 2,
+    "title": "The all-in cost model",
+    "physical_page": 44,
+    "parent_order": 56
+  },
+  {
+    "order": 66,
+    "depth": 2,
+    "title": "Example",
+    "physical_page": 45,
+    "parent_order": 56
+  },
+  {
+    "order": 67,
+    "depth": 2,
+    "title": "Broker-advertising trap",
+    "physical_page": 45,
+    "parent_order": 56
+  },
+  {
+    "order": 68,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 45,
+    "parent_order": 56
+  },
+  {
+    "order": 69,
+    "depth": 2,
+    "title": "Quiz 4",
+    "physical_page": 45,
+    "parent_order": 56
+  },
+  {
+    "order": 70,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 45,
+    "parent_order": 56
+  },
+  {
+    "order": 71,
+    "depth": 1,
+    "title": "Chapter 5 - Orders and Execution",
+    "physical_page": 46,
+    "parent_order": 7
+  },
+  {
+    "order": 72,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 46,
+    "parent_order": 71
+  },
+  {
+    "order": 73,
+    "depth": 2,
+    "title": "Market order",
+    "physical_page": 46,
+    "parent_order": 71
+  },
+  {
+    "order": 74,
+    "depth": 2,
+    "title": "Limit order",
+    "physical_page": 46,
+    "parent_order": 71
+  },
+  {
+    "order": 75,
+    "depth": 2,
+    "title": "Stop order",
+    "physical_page": 46,
+    "parent_order": 71
+  },
+  {
+    "order": 76,
+    "depth": 2,
+    "title": "Stop-loss order",
+    "physical_page": 46,
+    "parent_order": 71
+  },
+  {
+    "order": 77,
+    "depth": 2,
+    "title": "Take-profit order",
+    "physical_page": 47,
+    "parent_order": 71
+  },
+  {
+    "order": 78,
+    "depth": 2,
+    "title": "Stop-limit order",
+    "physical_page": 47,
+    "parent_order": 71
+  },
+  {
+    "order": 79,
+    "depth": 2,
+    "title": "Time in force",
+    "physical_page": 47,
+    "parent_order": 71
+  },
+  {
+    "order": 80,
+    "depth": 2,
+    "title": "Entry quality versus strategy quality",
+    "physical_page": 47,
+    "parent_order": 71
+  },
+  {
+    "order": 81,
+    "depth": 2,
+    "title": "Example: breakout order",
+    "physical_page": 47,
+    "parent_order": 71
+  },
+  {
+    "order": 82,
+    "depth": 2,
+    "title": "Execution journal",
+    "physical_page": 47,
+    "parent_order": 71
+  },
+  {
+    "order": 83,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 48,
+    "parent_order": 71
+  },
+  {
+    "order": 84,
+    "depth": 2,
+    "title": "Quiz 5",
+    "physical_page": 48,
+    "parent_order": 71
+  },
+  {
+    "order": 85,
+    "depth": 2,
+    "title": "Resource",
+    "physical_page": 48,
+    "parent_order": 71
+  },
+  {
+    "order": 86,
+    "depth": 1,
+    "title": "Chapter 6 - Margin, Leverage, Equity and Stop-Out",
+    "physical_page": 49,
+    "parent_order": 7
+  },
+  {
+    "order": 87,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 49,
+    "parent_order": 86
+  },
+  {
+    "order": 88,
+    "depth": 2,
+    "title": "Leverage is not the same as risk",
+    "physical_page": 49,
+    "parent_order": 86
+  },
+  {
+    "order": 89,
+    "depth": 2,
+    "title": "Notional exposure",
+    "physical_page": 49,
+    "parent_order": 86
+  },
+  {
+    "order": 90,
+    "depth": 2,
+    "title": "Margin requirement",
+    "physical_page": 49,
+    "parent_order": 86
+  },
+  {
+    "order": 91,
+    "depth": 2,
+    "title": "Balance, equity, used margin and free margin",
+    "physical_page": 50,
+    "parent_order": 86
+  },
+  {
+    "order": 92,
+    "depth": 2,
+    "title": "Margin call versus stop-out",
+    "physical_page": 50,
+    "parent_order": 86
+  },
+  {
+    "order": 93,
+    "depth": 2,
+    "title": "Example: available leverage does not justify position size",
+    "physical_page": 50,
+    "parent_order": 86
+  },
+  {
+    "order": 94,
+    "depth": 2,
+    "title": "Kenyan regulatory context",
+    "physical_page": 51,
+    "parent_order": 86
+  },
+  {
+    "order": 95,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 51,
+    "parent_order": 86
+  },
+  {
+    "order": 96,
+    "depth": 2,
+    "title": "Quiz 6",
+    "physical_page": 51,
+    "parent_order": 86
+  },
+  {
+    "order": 97,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 51,
+    "parent_order": 86
+  },
+  {
+    "order": 98,
+    "depth": 1,
+    "title": "Chapter 7 - Kenya: Regulation, Broker Due Diligence and Scam Defence",
+    "physical_page": 52,
+    "parent_order": 7
+  },
+  {
+    "order": 99,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 52,
+    "parent_order": 98
+  },
+  {
+    "order": 100,
+    "depth": 2,
+    "title": "First principle: verify the legal entity, not the logo",
+    "physical_page": 52,
+    "parent_order": 98
+  },
+  {
+    "order": 101,
+    "depth": 2,
+    "title": "Key regulatory documents",
+    "physical_page": 52,
+    "parent_order": 98
+  },
+  {
+    "order": 102,
+    "depth": 2,
+    "title": "Dealing versus non-dealing broker categories",
+    "physical_page": 53,
+    "parent_order": 98
+  },
+  {
+    "order": 103,
+    "depth": 2,
+    "title": "Due-diligence checklist",
+    "physical_page": 53,
+    "parent_order": 98
+  },
+  {
+    "order": 104,
+    "depth": 2,
+    "title": "Scam patterns",
+    "physical_page": 53,
+    "parent_order": 98
+  },
+  {
+    "order": 105,
+    "depth": 2,
+    "title": "Binary-option style products",
+    "physical_page": 53,
+    "parent_order": 98
+  },
+  {
+    "order": 106,
+    "depth": 2,
+    "title": "Broker scorecard - demo stage only",
+    "physical_page": 53,
+    "parent_order": 98
+  },
+  {
+    "order": 107,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 54,
+    "parent_order": 98
+  },
+  {
+    "order": 108,
+    "depth": 2,
+    "title": "Quiz 7",
+    "physical_page": 54,
+    "parent_order": 98
+  },
+  {
+    "order": 109,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 54,
+    "parent_order": 98
+  },
+  {
+    "order": 110,
+    "depth": 1,
+    "title": "Chapter 8 - Demo Platform Literacy Before Chart Analysis",
+    "physical_page": 55,
+    "parent_order": 7
+  },
+  {
+    "order": 111,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 55,
+    "parent_order": 110
+  },
+  {
+    "order": 112,
+    "depth": 2,
+    "title": "Why platform literacy comes before strategy",
+    "physical_page": 55,
+    "parent_order": 110
+  },
+  {
+    "order": 113,
+    "depth": 2,
+    "title": "Recommended training platforms",
+    "physical_page": 55,
+    "parent_order": 110
+  },
+  {
+    "order": 114,
+    "depth": 3,
+    "title": "MetaTrader 5",
+    "physical_page": 55,
+    "parent_order": 113
+  },
+  {
+    "order": 115,
+    "depth": 3,
+    "title": "TradingView",
+    "physical_page": 55,
+    "parent_order": 113
+  },
+  {
+    "order": 116,
+    "depth": 2,
+    "title": "Platform checklist",
+    "physical_page": 56,
+    "parent_order": 110
+  },
+  {
+    "order": 117,
+    "depth": 2,
+    "title": "Demo-account setup",
+    "physical_page": 56,
+    "parent_order": 110
+  },
+  {
+    "order": 118,
+    "depth": 2,
+    "title": "Exercise: platform competence test",
+    "physical_page": 56,
+    "parent_order": 110
+  },
+  {
+    "order": 119,
+    "depth": 2,
+    "title": "Quiz 8",
+    "physical_page": 57,
+    "parent_order": 110
+  },
+  {
+    "order": 120,
+    "depth": 2,
+    "title": "Gate Exam A - Orientation and Mechanics",
+    "physical_page": 57,
+    "parent_order": 110
+  },
+  {
+    "order": 121,
+    "depth": 0,
+    "title": "II Part II - Reading Price and Technical Analysis",
+    "physical_page": 58,
+    "parent_order": null
+  },
+  {
+    "order": 122,
+    "depth": 1,
+    "title": "Chapter 9 - OHLC, Candlesticks and Timeframes",
+    "physical_page": 59,
+    "parent_order": 121
+  },
+  {
+    "order": 123,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 59,
+    "parent_order": 122
+  },
+  {
+    "order": 124,
+    "depth": 2,
+    "title": "A candle is compressed information",
+    "physical_page": 59,
+    "parent_order": 122
+  },
+  {
+    "order": 125,
+    "depth": 2,
+    "title": "Read the story, not the nickname",
+    "physical_page": 59,
+    "parent_order": 122
+  },
+  {
+    "order": 126,
+    "depth": 2,
+    "title": "Timeframes",
+    "physical_page": 60,
+    "parent_order": 122
+  },
+  {
+    "order": 127,
+    "depth": 2,
+    "title": "Why beginners should start higher",
+    "physical_page": 60,
+    "parent_order": 122
+  },
+  {
+    "order": 128,
+    "depth": 2,
+    "title": "Candle boundaries differ",
+    "physical_page": 60,
+    "parent_order": 122
+  },
+  {
+    "order": 129,
+    "depth": 2,
+    "title": "Non-standard charts",
+    "physical_page": 60,
+    "parent_order": 122
+  },
+  {
+    "order": 130,
+    "depth": 2,
+    "title": "Exercise: candle reconstruction",
+    "physical_page": 60,
+    "parent_order": 122
+  },
+  {
+    "order": 131,
+    "depth": 2,
+    "title": "Quiz 9",
+    "physical_page": 61,
+    "parent_order": 122
+  },
+  {
+    "order": 132,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 61,
+    "parent_order": 122
+  },
+  {
+    "order": 133,
+    "depth": 1,
+    "title": "Chapter 10 - Swing Highs, Swing Lows and Market Structure",
+    "physical_page": 62,
+    "parent_order": 121
+  },
+  {
+    "order": 134,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 62,
+    "parent_order": 133
+  },
+  {
+    "order": 135,
+    "depth": 2,
+    "title": "Market structure starts with turning points",
+    "physical_page": 62,
+    "parent_order": 133
+  },
+  {
+    "order": 136,
+    "depth": 2,
+    "title": "Uptrend structure",
+    "physical_page": 62,
+    "parent_order": 133
+  },
+  {
+    "order": 137,
+    "depth": 2,
+    "title": "Trend is descriptive, not predictive",
+    "physical_page": 63,
+    "parent_order": 133
+  },
+  {
+    "order": 138,
+    "depth": 2,
+    "title": "Structural break versus noise",
+    "physical_page": 63,
+    "parent_order": 133
+  },
+  {
+    "order": 139,
+    "depth": 2,
+    "title": "Retracement versus reversal",
+    "physical_page": 63,
+    "parent_order": 133
+  },
+  {
+    "order": 140,
+    "depth": 2,
+    "title": "The fractal problem",
+    "physical_page": 63,
+    "parent_order": 133
+  },
+  {
+    "order": 141,
+    "depth": 2,
+    "title": "Exercise: 50-chart structure drill",
+    "physical_page": 63,
+    "parent_order": 133
+  },
+  {
+    "order": 142,
+    "depth": 2,
+    "title": "Quiz 10",
+    "physical_page": 63,
+    "parent_order": 133
+  },
+  {
+    "order": 143,
+    "depth": 2,
+    "title": "Resource",
+    "physical_page": 64,
+    "parent_order": 133
+  },
+  {
+    "order": 144,
+    "depth": 1,
+    "title": "Chapter 11 - Support, Resistance and Zones",
+    "physical_page": 65,
+    "parent_order": 121
+  },
+  {
+    "order": 145,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 65,
+    "parent_order": 144
+  },
+  {
+    "order": 146,
+    "depth": 2,
+    "title": "What support and resistance actually mean",
+    "physical_page": 65,
+    "parent_order": 144
+  },
+  {
+    "order": 147,
+    "depth": 2,
+    "title": "Why zones are usually more honest than perfect lines",
+    "physical_page": 65,
+    "parent_order": 144
+  },
+  {
+    "order": 148,
+    "depth": 2,
+    "title": "Sources of commonly watched areas",
+    "physical_page": 65,
+    "parent_order": 144
+  },
+  {
+    "order": 149,
+    "depth": 2,
+    "title": "Role reversal",
+    "physical_page": 66,
+    "parent_order": 144
+  },
+  {
+    "order": 150,
+    "depth": 2,
+    "title": "Touch count trap",
+    "physical_page": 66,
+    "parent_order": 144
+  },
+  {
+    "order": 151,
+    "depth": 2,
+    "title": "Drawing discipline",
+    "physical_page": 66,
+    "parent_order": 144
+  },
+  {
+    "order": 152,
+    "depth": 2,
+    "title": "Trendlines",
+    "physical_page": 66,
+    "parent_order": 144
+  },
+  {
+    "order": 153,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 66,
+    "parent_order": 144
+  },
+  {
+    "order": 154,
+    "depth": 2,
+    "title": "Quiz 11",
+    "physical_page": 66,
+    "parent_order": 144
+  },
+  {
+    "order": 155,
+    "depth": 1,
+    "title": "Chapter 12 - Breakouts, False Breakouts and Consolidation",
+    "physical_page": 67,
+    "parent_order": 121
+  },
+  {
+    "order": 156,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 67,
+    "parent_order": 155
+  },
+  {
+    "order": 157,
+    "depth": 2,
+    "title": "Breakout definition",
+    "physical_page": 67,
+    "parent_order": 155
+  },
+  {
+    "order": 158,
+    "depth": 2,
+    "title": "Why false breakouts happen",
+    "physical_page": 67,
+    "parent_order": 155
+  },
+  {
+    "order": 159,
+    "depth": 2,
+    "title": "Consolidation and volatility compression",
+    "physical_page": 68,
+    "parent_order": 155
+  },
+  {
+    "order": 160,
+    "depth": 2,
+    "title": "Closing confirmation",
+    "physical_page": 68,
+    "parent_order": 155
+  },
+  {
+    "order": 161,
+    "depth": 2,
+    "title": "Retest entry",
+    "physical_page": 68,
+    "parent_order": 155
+  },
+  {
+    "order": 162,
+    "depth": 2,
+    "title": "Donchian example",
+    "physical_page": 68,
+    "parent_order": 155
+  },
+  {
+    "order": 163,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 68,
+    "parent_order": 155
+  },
+  {
+    "order": 164,
+    "depth": 2,
+    "title": "Quiz 12",
+    "physical_page": 68,
+    "parent_order": 155
+  },
+  {
+    "order": 165,
+    "depth": 1,
+    "title": "Chapter 13 - Volatility: Range, ATR and Why Stops Need Context",
+    "physical_page": 69,
+    "parent_order": 121
+  },
+  {
+    "order": 166,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 69,
+    "parent_order": 165
+  },
+  {
+    "order": 167,
+    "depth": 2,
+    "title": "What volatility means",
+    "physical_page": 69,
+    "parent_order": 165
+  },
+  {
+    "order": 168,
+    "depth": 2,
+    "title": "True Range",
+    "physical_page": 69,
+    "parent_order": 165
+  },
+  {
+    "order": 169,
+    "depth": 2,
+    "title": "Average True Range (ATR)",
+    "physical_page": 70,
+    "parent_order": 165
+  },
+  {
+    "order": 170,
+    "depth": 2,
+    "title": "Fixed pips versus volatility units",
+    "physical_page": 70,
+    "parent_order": 165
+  },
+  {
+    "order": 171,
+    "depth": 2,
+    "title": "Risk connection",
+    "physical_page": 70,
+    "parent_order": 165
+  },
+  {
+    "order": 172,
+    "depth": 2,
+    "title": "Volatility regimes",
+    "physical_page": 70,
+    "parent_order": 165
+  },
+  {
+    "order": 173,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 70,
+    "parent_order": 165
+  },
+  {
+    "order": 174,
+    "depth": 2,
+    "title": "Quiz 13",
+    "physical_page": 70,
+    "parent_order": 165
+  },
+  {
+    "order": 175,
+    "depth": 1,
+    "title": "Chapter 14 - Moving Averages, Trend Filters and Momentum",
+    "physical_page": 72,
+    "parent_order": 121
+  },
+  {
+    "order": 176,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 72,
+    "parent_order": 175
+  },
+  {
+    "order": 177,
+    "depth": 2,
+    "title": "Simple moving average",
+    "physical_page": 72,
+    "parent_order": 175
+  },
+  {
+    "order": 178,
+    "depth": 2,
+    "title": "Exponential moving average",
+    "physical_page": 72,
+    "parent_order": 175
+  },
+  {
+    "order": 179,
+    "depth": 2,
+    "title": "Lag is not automatically bad",
+    "physical_page": 72,
+    "parent_order": 175
+  },
+  {
+    "order": 180,
+    "depth": 2,
+    "title": "Crossover systems",
+    "physical_page": 73,
+    "parent_order": 175
+  },
+  {
+    "order": 181,
+    "depth": 2,
+    "title": "Momentum",
+    "physical_page": 73,
+    "parent_order": 175
+  },
+  {
+    "order": 182,
+    "depth": 2,
+    "title": "Indicator redundancy",
+    "physical_page": 73,
+    "parent_order": 175
+  },
+  {
+    "order": 183,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 73,
+    "parent_order": 175
+  },
+  {
+    "order": 184,
+    "depth": 2,
+    "title": "Quiz 14",
+    "physical_page": 73,
+    "parent_order": 175
+  },
+  {
+    "order": 185,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 74,
+    "parent_order": 175
+  },
+  {
+    "order": 186,
+    "depth": 1,
+    "title": "Chapter 15 - Oscillators: RSI, MACD, Bollinger Bands and Misuse",
+    "physical_page": 75,
+    "parent_order": 121
+  },
+  {
+    "order": 187,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 75,
+    "parent_order": 186
+  },
+  {
+    "order": 188,
+    "depth": 2,
+    "title": "RSI",
+    "physical_page": 75,
+    "parent_order": 186
+  },
+  {
+    "order": 189,
+    "depth": 2,
+    "title": "MACD",
+    "physical_page": 75,
+    "parent_order": 186
+  },
+  {
+    "order": 190,
+    "depth": 2,
+    "title": "Bollinger Bands",
+    "physical_page": 75,
+    "parent_order": 186
+  },
+  {
+    "order": 191,
+    "depth": 2,
+    "title": "Stochastic oscillator",
+    "physical_page": 76,
+    "parent_order": 186
+  },
+  {
+    "order": 192,
+    "depth": 2,
+    "title": "Divergence",
+    "physical_page": 76,
+    "parent_order": 186
+  },
+  {
+    "order": 193,
+    "depth": 2,
+    "title": "The regime problem",
+    "physical_page": 76,
+    "parent_order": 186
+  },
+  {
+    "order": 194,
+    "depth": 2,
+    "title": "Indicator rule",
+    "physical_page": 76,
+    "parent_order": 186
+  },
+  {
+    "order": 195,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 76,
+    "parent_order": 186
+  },
+  {
+    "order": 196,
+    "depth": 2,
+    "title": "Quiz 15",
+    "physical_page": 76,
+    "parent_order": 186
+  },
+  {
+    "order": 197,
+    "depth": 1,
+    "title": "Chapter 16 - Chart Patterns and Candlestick Patterns: Language, Not Proof",
+    "physical_page": 77,
+    "parent_order": 121
+  },
+  {
+    "order": 198,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 77,
+    "parent_order": 197
+  },
+  {
+    "order": 199,
+    "depth": 2,
+    "title": "Why learn patterns at all?",
+    "physical_page": 77,
+    "parent_order": 197
+  },
+  {
+    "order": 200,
+    "depth": 2,
+    "title": "Common price patterns",
+    "physical_page": 77,
+    "parent_order": 197
+  },
+  {
+    "order": 201,
+    "depth": 3,
+    "title": "Double top / double bottom",
+    "physical_page": 77,
+    "parent_order": 200
+  },
+  {
+    "order": 202,
+    "depth": 3,
+    "title": "Head and shoulders",
+    "physical_page": 77,
+    "parent_order": 200
+  },
+  {
+    "order": 203,
+    "depth": 3,
+    "title": "Triangles and wedges",
+    "physical_page": 78,
+    "parent_order": 200
+  },
+  {
+    "order": 204,
+    "depth": 3,
+    "title": "Flags and pennants",
+    "physical_page": 78,
+    "parent_order": 200
+  },
+  {
+    "order": 205,
+    "depth": 2,
+    "title": "Candlestick patterns",
+    "physical_page": 78,
+    "parent_order": 197
+  },
+  {
+    "order": 206,
+    "depth": 2,
+    "title": "Evidence discipline",
+    "physical_page": 78,
+    "parent_order": 197
+  },
+  {
+    "order": 207,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 78,
+    "parent_order": 197
+  },
+  {
+    "order": 208,
+    "depth": 2,
+    "title": "Quiz 16",
+    "physical_page": 78,
+    "parent_order": 197
+  },
+  {
+    "order": 209,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 79,
+    "parent_order": 197
+  },
+  {
+    "order": 210,
+    "depth": 1,
+    "title": "Chapter 17 - Multiple-Timeframe Analysis and the 100-Chart Gate",
+    "physical_page": 80,
+    "parent_order": 121
+  },
+  {
+    "order": 211,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 80,
+    "parent_order": 210
+  },
+  {
+    "order": 212,
+    "depth": 2,
+    "title": "A practical three-layer model",
+    "physical_page": 80,
+    "parent_order": 210
+  },
+  {
+    "order": 213,
+    "depth": 2,
+    "title": "Context, setup, trigger",
+    "physical_page": 80,
+    "parent_order": 210
+  },
+  {
+    "order": 214,
+    "depth": 2,
+    "title": "The timeframe-shopping trap",
+    "physical_page": 80,
+    "parent_order": 210
+  },
+  {
+    "order": 215,
+    "depth": 2,
+    "title": "Conflicting timeframes",
+    "physical_page": 81,
+    "parent_order": 210
+  },
+  {
+    "order": 216,
+    "depth": 2,
+    "title": "The 100-chart gate",
+    "physical_page": 81,
+    "parent_order": 210
+  },
+  {
+    "order": 217,
+    "depth": 2,
+    "title": "Technical-literacy gate",
+    "physical_page": 81,
+    "parent_order": 210
+  },
+  {
+    "order": 218,
+    "depth": 2,
+    "title": "Quiz 17",
+    "physical_page": 82,
+    "parent_order": 210
+  },
+  {
+    "order": 219,
+    "depth": 2,
+    "title": "Gate Exam B - Chart and Technical Literacy",
+    "physical_page": 82,
+    "parent_order": 210
+  },
+  {
+    "order": 220,
+    "depth": 0,
+    "title": "III Part III - Fundamental and Macro Analysis",
+    "physical_page": 83,
+    "parent_order": null
+  },
+  {
+    "order": 221,
+    "depth": 1,
+    "title": "Chapter 18 - Economics From First Principles: Growth, Inflation, Employment and Rates",
+    "physical_page": 84,
+    "parent_order": 220
+  },
+  {
+    "order": 222,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 84,
+    "parent_order": 221
+  },
+  {
+    "order": 223,
+    "depth": 2,
+    "title": "Why macro matters in FX",
+    "physical_page": 84,
+    "parent_order": 221
+  },
+  {
+    "order": 224,
+    "depth": 2,
+    "title": "Gross domestic product (GDP)",
+    "physical_page": 84,
+    "parent_order": 221
+  },
+  {
+    "order": 225,
+    "depth": 2,
+    "title": "Inflation",
+    "physical_page": 85,
+    "parent_order": 221
+  },
+  {
+    "order": 226,
+    "depth": 2,
+    "title": "Employment and wages",
+    "physical_page": 85,
+    "parent_order": 221
+  },
+  {
+    "order": 227,
+    "depth": 2,
+    "title": "Interest rates",
+    "physical_page": 85,
+    "parent_order": 221
+  },
+  {
+    "order": 228,
+    "depth": 2,
+    "title": "Real interest rates",
+    "physical_page": 85,
+    "parent_order": 221
+  },
+  {
+    "order": 229,
+    "depth": 2,
+    "title": "Productivity",
+    "physical_page": 86,
+    "parent_order": 221
+  },
+  {
+    "order": 230,
+    "depth": 2,
+    "title": "Supply versus demand shocks",
+    "physical_page": 86,
+    "parent_order": 221
+  },
+  {
+    "order": 231,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 86,
+    "parent_order": 221
+  },
+  {
+    "order": 232,
+    "depth": 2,
+    "title": "Quiz 18",
+    "physical_page": 86,
+    "parent_order": 221
+  },
+  {
+    "order": 233,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 86,
+    "parent_order": 221
+  },
+  {
+    "order": 234,
+    "depth": 1,
+    "title": "Chapter 19 - How Central Banks Move Markets",
+    "physical_page": 87,
+    "parent_order": 220
+  },
+  {
+    "order": 235,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 87,
+    "parent_order": 234
+  },
+  {
+    "order": 236,
+    "depth": 2,
+    "title": "What a central bank is trying to do",
+    "physical_page": 87,
+    "parent_order": 234
+  },
+  {
+    "order": 237,
+    "depth": 2,
+    "title": "Policy transmission",
+    "physical_page": 87,
+    "parent_order": 234
+  },
+  {
+    "order": 238,
+    "depth": 2,
+    "title": "Reaction function",
+    "physical_page": 88,
+    "parent_order": 234
+  },
+  {
+    "order": 239,
+    "depth": 2,
+    "title": "Forward guidance",
+    "physical_page": 88,
+    "parent_order": 234
+  },
+  {
+    "order": 240,
+    "depth": 2,
+    "title": "Quantitative easing (QE)",
+    "physical_page": 88,
+    "parent_order": 234
+  },
+  {
+    "order": 241,
+    "depth": 2,
+    "title": "Quantitative tightening (QT)",
+    "physical_page": 88,
+    "parent_order": 234
+  },
+  {
+    "order": 242,
+    "depth": 2,
+    "title": "Decision versus path",
+    "physical_page": 88,
+    "parent_order": 234
+  },
+  {
+    "order": 243,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 88,
+    "parent_order": 234
+  },
+  {
+    "order": 244,
+    "depth": 2,
+    "title": "Quiz 19",
+    "physical_page": 89,
+    "parent_order": 234
+  },
+  {
+    "order": 245,
+    "depth": 2,
+    "title": "Official resources",
+    "physical_page": 89,
+    "parent_order": 234
+  },
+  {
+    "order": 246,
+    "depth": 1,
+    "title": "Chapter 20 - The U.S. Dollar and the Federal Reserve",
+    "physical_page": 90,
+    "parent_order": 220
+  },
+  {
+    "order": 247,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 90,
+    "parent_order": 246
+  },
+  {
+    "order": 248,
+    "depth": 2,
+    "title": "The dollar’s special role",
+    "physical_page": 90,
+    "parent_order": 246
+  },
+  {
+    "order": 249,
+    "depth": 2,
+    "title": "The Fed’s dual mandate",
+    "physical_page": 90,
+    "parent_order": 246
+  },
+  {
+    "order": 250,
+    "depth": 2,
+    "title": "Core U.S. data",
+    "physical_page": 91,
+    "parent_order": 246
+  },
+  {
+    "order": 251,
+    "depth": 3,
+    "title": "CPI",
+    "physical_page": 91,
+    "parent_order": 250
+  },
+  {
+    "order": 252,
+    "depth": 3,
+    "title": "Employment Situation / Nonfarm Payrolls",
+    "physical_page": 91,
+    "parent_order": 250
+  },
+  {
+    "order": 253,
+    "depth": 3,
+    "title": "PCE inflation",
+    "physical_page": 91,
+    "parent_order": 250
+  },
+  {
+    "order": 254,
+    "depth": 3,
+    "title": "GDP",
+    "physical_page": 91,
+    "parent_order": 250
+  },
+  {
+    "order": 255,
+    "depth": 3,
+    "title": "Other data",
+    "physical_page": 91,
+    "parent_order": 250
+  },
+  {
+    "order": 256,
+    "depth": 2,
+    "title": "Treasury yields and USD",
+    "physical_page": 91,
+    "parent_order": 246
+  },
+  {
+    "order": 257,
+    "depth": 2,
+    "title": "Safe-haven and funding dynamics",
+    "physical_page": 91,
+    "parent_order": 246
+  },
+  {
+    "order": 258,
+    "depth": 2,
+    "title": "Weekly USD checklist",
+    "physical_page": 91,
+    "parent_order": 246
+  },
+  {
+    "order": 259,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 92,
+    "parent_order": 246
+  },
+  {
+    "order": 260,
+    "depth": 2,
+    "title": "Quiz 20",
+    "physical_page": 92,
+    "parent_order": 246
+  },
+  {
+    "order": 261,
+    "depth": 1,
+    "title": "Chapter 21 - The Euro and the ECB",
+    "physical_page": 93,
+    "parent_order": 220
+  },
+  {
+    "order": 262,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 93,
+    "parent_order": 261
+  },
+  {
+    "order": 263,
+    "depth": 2,
+    "title": "One currency, many economies",
+    "physical_page": 93,
+    "parent_order": 261
+  },
+  {
+    "order": 264,
+    "depth": 2,
+    "title": "ECB objective",
+    "physical_page": 93,
+    "parent_order": 261
+  },
+  {
+    "order": 265,
+    "depth": 2,
+    "title": "Core euro-area data",
+    "physical_page": 94,
+    "parent_order": 261
+  },
+  {
+    "order": 266,
+    "depth": 2,
+    "title": "Bund yields and spreads",
+    "physical_page": 94,
+    "parent_order": 261
+  },
+  {
+    "order": 267,
+    "depth": 2,
+    "title": "EUR/USD is a relative macro trade",
+    "physical_page": 94,
+    "parent_order": 261
+  },
+  {
+    "order": 268,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 94,
+    "parent_order": 261
+  },
+  {
+    "order": 269,
+    "depth": 2,
+    "title": "Quiz 21",
+    "physical_page": 94,
+    "parent_order": 261
+  },
+  {
+    "order": 270,
+    "depth": 2,
+    "title": "Resources",
+    "physical_page": 94,
+    "parent_order": 261
+  },
+  {
+    "order": 271,
+    "depth": 1,
+    "title": "Chapter 22 - The British Pound and the Bank of England",
+    "physical_page": 95,
+    "parent_order": 220
+  },
+  {
+    "order": 272,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 95,
+    "parent_order": 271
+  },
+  {
+    "order": 273,
+    "depth": 2,
+    "title": "Bank of England framework",
+    "physical_page": 95,
+    "parent_order": 271
+  },
+  {
+    "order": 274,
+    "depth": 2,
+    "title": "U.K. data",
+    "physical_page": 95,
+    "parent_order": 271
+  },
+  {
+    "order": 275,
+    "depth": 2,
+    "title": "Why wages and services matter",
+    "physical_page": 95,
+    "parent_order": 271
+  },
+  {
+    "order": 276,
+    "depth": 2,
+    "title": "Fiscal policy and gilt markets",
+    "physical_page": 96,
+    "parent_order": 271
+  },
+  {
+    "order": 277,
+    "depth": 2,
+    "title": "GBP pairs",
+    "physical_page": 96,
+    "parent_order": 271
+  },
+  {
+    "order": 278,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 96,
+    "parent_order": 271
+  },
+  {
+    "order": 279,
+    "depth": 2,
+    "title": "Quiz 22",
+    "physical_page": 96,
+    "parent_order": 271
+  },
+  {
+    "order": 280,
+    "depth": 1,
+    "title": "Chapter 23 - The Japanese Yen and the Bank of Japan",
+    "physical_page": 97,
+    "parent_order": 220
+  },
+  {
+    "order": 281,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 97,
+    "parent_order": 280
+  },
+  {
+    "order": 282,
+    "depth": 2,
+    "title": "Japan’s monetary-policy history matters",
+    "physical_page": 97,
+    "parent_order": 280
+  },
+  {
+    "order": 283,
+    "depth": 2,
+    "title": "Yield differentials",
+    "physical_page": 97,
+    "parent_order": 280
+  },
+  {
+    "order": 284,
+    "depth": 2,
+    "title": "Funding-currency concept",
+    "physical_page": 97,
+    "parent_order": 280
+  },
+  {
+    "order": 285,
+    "depth": 2,
+    "title": "Intervention",
+    "physical_page": 98,
+    "parent_order": 280
+  },
+  {
+    "order": 286,
+    "depth": 2,
+    "title": "Key Japanese data",
+    "physical_page": 98,
+    "parent_order": 280
+  },
+  {
+    "order": 287,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 98,
+    "parent_order": 280
+  },
+  {
+    "order": 288,
+    "depth": 2,
+    "title": "Quiz 23",
+    "physical_page": 98,
+    "parent_order": 280
+  },
+  {
+    "order": 289,
+    "depth": 1,
+    "title": "Chapter 24 - AUD, CAD, NZD and CHF: Commodity, Small-Open-Economy and Safe-Haven Dynamics",
+    "physical_page": 99,
+    "parent_order": 220
+  },
+  {
+    "order": 290,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 99,
+    "parent_order": 289
+  },
+  {
+    "order": 291,
+    "depth": 2,
+    "title": "Australian dollar (AUD)",
+    "physical_page": 99,
+    "parent_order": 289
+  },
+  {
+    "order": 292,
+    "depth": 2,
+    "title": "Canadian dollar (CAD)",
+    "physical_page": 99,
+    "parent_order": 289
+  },
+  {
+    "order": 293,
+    "depth": 2,
+    "title": "New Zealand dollar (NZD)",
+    "physical_page": 100,
+    "parent_order": 289
+  },
+  {
+    "order": 294,
+    "depth": 2,
+    "title": "Swiss franc (CHF)",
+    "physical_page": 100,
+    "parent_order": 289
+  },
+  {
+    "order": 295,
+    "depth": 2,
+    "title": "Commodity-currency simplification warning",
+    "physical_page": 100,
+    "parent_order": 289
+  },
+  {
+    "order": 296,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 100,
+    "parent_order": 289
+  },
+  {
+    "order": 297,
+    "depth": 2,
+    "title": "Quiz 24",
+    "physical_page": 100,
+    "parent_order": 289
+  },
+  {
+    "order": 298,
+    "depth": 1,
+    "title": "Chapter 25 - Economic Data Releases: How to Read Them Properly",
+    "physical_page": 101,
+    "parent_order": 220
+  },
+  {
+    "order": 299,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 101,
+    "parent_order": 298
+  },
+  {
+    "order": 300,
+    "depth": 2,
+    "title": "The four numbers you need",
+    "physical_page": 101,
+    "parent_order": 298
+  },
+  {
+    "order": 301,
+    "depth": 2,
+    "title": "Level versus change",
+    "physical_page": 101,
+    "parent_order": 298
+  },
+  {
+    "order": 302,
+    "depth": 2,
+    "title": "Revisions",
+    "physical_page": 102,
+    "parent_order": 298
+  },
+  {
+    "order": 303,
+    "depth": 2,
+    "title": "Seasonal adjustment",
+    "physical_page": 102,
+    "parent_order": 298
+  },
+  {
+    "order": 304,
+    "depth": 2,
+    "title": "Base effects",
+    "physical_page": 102,
+    "parent_order": 298
+  },
+  {
+    "order": 305,
+    "depth": 2,
+    "title": "High-impact releases to master",
+    "physical_page": 102,
+    "parent_order": 298
+  },
+  {
+    "order": 306,
+    "depth": 2,
+    "title": "Official-source habit",
+    "physical_page": 102,
+    "parent_order": 298
+  },
+  {
+    "order": 307,
+    "depth": 2,
+    "title": "Event worksheet",
+    "physical_page": 102,
+    "parent_order": 298
+  },
+  {
+    "order": 308,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 103,
+    "parent_order": 298
+  },
+  {
+    "order": 309,
+    "depth": 2,
+    "title": "Quiz 25",
+    "physical_page": 103,
+    "parent_order": 298
+  },
+  {
+    "order": 310,
+    "depth": 1,
+    "title": "Chapter 26 - Expectations, Pricing and “Good News / Bad Price”",
+    "physical_page": 104,
+    "parent_order": 220
+  },
+  {
+    "order": 311,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 104,
+    "parent_order": 310
+  },
+  {
+    "order": 312,
+    "depth": 2,
+    "title": "Markets trade differences from expectation",
+    "physical_page": 104,
+    "parent_order": 310
+  },
+  {
+    "order": 313,
+    "depth": 2,
+    "title": "First-order versus second-order thinking",
+    "physical_page": 104,
+    "parent_order": 310
+  },
+  {
+    "order": 314,
+    "depth": 2,
+    "title": "Priced in",
+    "physical_page": 104,
+    "parent_order": 310
+  },
+  {
+    "order": 315,
+    "depth": 2,
+    "title": "Positioning",
+    "physical_page": 105,
+    "parent_order": 310
+  },
+  {
+    "order": 316,
+    "depth": 2,
+    "title": "Buy the rumour, sell the fact",
+    "physical_page": 105,
+    "parent_order": 310
+  },
+  {
+    "order": 317,
+    "depth": 2,
+    "title": "Event-study assignment",
+    "physical_page": 105,
+    "parent_order": 310
+  },
+  {
+    "order": 318,
+    "depth": 2,
+    "title": "Quiz 26",
+    "physical_page": 105,
+    "parent_order": 310
+  },
+  {
+    "order": 319,
+    "depth": 1,
+    "title": "Chapter 27 - Bonds, Yields, Yield Curves and Real Rates",
+    "physical_page": 106,
+    "parent_order": 220
+  },
+  {
+    "order": 320,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 106,
+    "parent_order": 319
+  },
+  {
+    "order": 321,
+    "depth": 2,
+    "title": "Bond price and yield move inversely",
+    "physical_page": 106,
+    "parent_order": 319
+  },
+  {
+    "order": 322,
+    "depth": 2,
+    "title": "Why short-term yields matter",
+    "physical_page": 106,
+    "parent_order": 319
+  },
+  {
+    "order": 323,
+    "depth": 2,
+    "title": "Long-term yields",
+    "physical_page": 106,
+    "parent_order": 319
+  },
+  {
+    "order": 324,
+    "depth": 2,
+    "title": "Yield curve",
+    "physical_page": 106,
+    "parent_order": 319
+  },
+  {
+    "order": 325,
+    "depth": 2,
+    "title": "Relative yields in FX",
+    "physical_page": 107,
+    "parent_order": 319
+  },
+  {
+    "order": 326,
+    "depth": 2,
+    "title": "Real yields",
+    "physical_page": 107,
+    "parent_order": 319
+  },
+  {
+    "order": 327,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 107,
+    "parent_order": 319
+  },
+  {
+    "order": 328,
+    "depth": 2,
+    "title": "Quiz 27",
+    "physical_page": 107,
+    "parent_order": 319
+  },
+  {
+    "order": 329,
+    "depth": 1,
+    "title": "Chapter 28 - Risk Sentiment, Equity Markets, Credit and Safe Havens",
+    "physical_page": 108,
+    "parent_order": 220
+  },
+  {
+    "order": 330,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 108,
+    "parent_order": 329
+  },
+  {
+    "order": 331,
+    "depth": 2,
+    "title": "Risk sentiment is a shorthand",
+    "physical_page": 108,
+    "parent_order": 329
+  },
+  {
+    "order": 332,
+    "depth": 2,
+    "title": "Typical but non-permanent relationships",
+    "physical_page": 108,
+    "parent_order": 329
+  },
+  {
+    "order": 333,
+    "depth": 2,
+    "title": "Credit spreads",
+    "physical_page": 108,
+    "parent_order": 329
+  },
+  {
+    "order": 334,
+    "depth": 2,
+    "title": "Volatility indices",
+    "physical_page": 109,
+    "parent_order": 329
+  },
+  {
+    "order": 335,
+    "depth": 2,
+    "title": "Liquidity crises",
+    "physical_page": 109,
+    "parent_order": 329
+  },
+  {
+    "order": 336,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 109,
+    "parent_order": 329
+  },
+  {
+    "order": 337,
+    "depth": 2,
+    "title": "Quiz 28",
+    "physical_page": 109,
+    "parent_order": 329
+  },
+  {
+    "order": 338,
+    "depth": 1,
+    "title": "Chapter 29 - Balance of Payments, Trade and Capital Flows",
+    "physical_page": 110,
+    "parent_order": 220
+  },
+  {
+    "order": 339,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 110,
+    "parent_order": 338
+  },
+  {
+    "order": 340,
+    "depth": 2,
+    "title": "Balance-of-payments intuition",
+    "physical_page": 110,
+    "parent_order": 338
+  },
+  {
+    "order": 341,
+    "depth": 2,
+    "title": "Trade balance",
+    "physical_page": 110,
+    "parent_order": 338
+  },
+  {
+    "order": 342,
+    "depth": 2,
+    "title": "Portfolio flows",
+    "physical_page": 110,
+    "parent_order": 338
+  },
+  {
+    "order": 343,
+    "depth": 2,
+    "title": "Foreign direct investment (FDI)",
+    "physical_page": 110,
+    "parent_order": 338
+  },
+  {
+    "order": 344,
+    "depth": 2,
+    "title": "Reserve management",
+    "physical_page": 111,
+    "parent_order": 338
+  },
+  {
+    "order": 345,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 111,
+    "parent_order": 338
+  },
+  {
+    "order": 346,
+    "depth": 2,
+    "title": "Quiz 29",
+    "physical_page": 111,
+    "parent_order": 338
+  },
+  {
+    "order": 347,
+    "depth": 1,
+    "title": "Chapter 30 - Carry, Interest Differentials and Forward Pricing",
+    "physical_page": 112,
+    "parent_order": 220
+  },
+  {
+    "order": 348,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 112,
+    "parent_order": 347
+  },
+  {
+    "order": 349,
+    "depth": 2,
+    "title": "Carry intuition",
+    "physical_page": 112,
+    "parent_order": 347
+  },
+  {
+    "order": 350,
+    "depth": 2,
+    "title": "Retail swap is not identical to textbook carry",
+    "physical_page": 112,
+    "parent_order": 347
+  },
+  {
+    "order": 351,
+    "depth": 2,
+    "title": "Covered interest parity intuition",
+    "physical_page": 112,
+    "parent_order": 347
+  },
+  {
+    "order": 352,
+    "depth": 2,
+    "title": "Carry with trend filter",
+    "physical_page": 113,
+    "parent_order": 347
+  },
+  {
+    "order": 353,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 113,
+    "parent_order": 347
+  },
+  {
+    "order": 354,
+    "depth": 2,
+    "title": "Quiz 30",
+    "physical_page": 113,
+    "parent_order": 347
+  },
+  {
+    "order": 355,
+    "depth": 1,
+    "title": "Chapter 31 - Correlations, Intermarket Relationships and Hidden Duplicate Bets",
+    "physical_page": 114,
+    "parent_order": 220
+  },
+  {
+    "order": 356,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 114,
+    "parent_order": 355
+  },
+  {
+    "order": 357,
+    "depth": 2,
+    "title": "One currency appears in many pairs",
+    "physical_page": 114,
+    "parent_order": 355
+  },
+  {
+    "order": 358,
+    "depth": 2,
+    "title": "Correlation",
+    "physical_page": 114,
+    "parent_order": 355
+  },
+  {
+    "order": 359,
+    "depth": 2,
+    "title": "Cross-rate consistency",
+    "physical_page": 114,
+    "parent_order": 355
+  },
+  {
+    "order": 360,
+    "depth": 2,
+    "title": "Intermarket relationships",
+    "physical_page": 115,
+    "parent_order": 355
+  },
+  {
+    "order": 361,
+    "depth": 2,
+    "title": "Portfolio risk",
+    "physical_page": 115,
+    "parent_order": 355
+  },
+  {
+    "order": 362,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 115,
+    "parent_order": 355
+  },
+  {
+    "order": 363,
+    "depth": 2,
+    "title": "Quiz 31",
+    "physical_page": 115,
+    "parent_order": 355
+  },
+  {
+    "order": 364,
+    "depth": 1,
+    "title": "Chapter 32 - Geopolitics, Intervention and Event Risk",
+    "physical_page": 116,
+    "parent_order": 220
+  },
+  {
+    "order": 365,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 116,
+    "parent_order": 364
+  },
+  {
+    "order": 366,
+    "depth": 2,
+    "title": "Mechanism before headline",
+    "physical_page": 116,
+    "parent_order": 364
+  },
+  {
+    "order": 367,
+    "depth": 2,
+    "title": "Scheduled political events",
+    "physical_page": 116,
+    "parent_order": 364
+  },
+  {
+    "order": 368,
+    "depth": 2,
+    "title": "Unscheduled shocks",
+    "physical_page": 116,
+    "parent_order": 364
+  },
+  {
+    "order": 369,
+    "depth": 2,
+    "title": "FX intervention",
+    "physical_page": 117,
+    "parent_order": 364
+  },
+  {
+    "order": 370,
+    "depth": 2,
+    "title": "Course policy for high-impact events",
+    "physical_page": 117,
+    "parent_order": 364
+  },
+  {
+    "order": 371,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 117,
+    "parent_order": 364
+  },
+  {
+    "order": 372,
+    "depth": 2,
+    "title": "Quiz 32",
+    "physical_page": 117,
+    "parent_order": 364
+  },
+  {
+    "order": 373,
+    "depth": 1,
+    "title": "Chapter 33 - Building a Weekly Macro Process",
+    "physical_page": 118,
+    "parent_order": 220
+  },
+  {
+    "order": 374,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 118,
+    "parent_order": 373
+  },
+  {
+    "order": 375,
+    "depth": 2,
+    "title": "The weekly macro sheet",
+    "physical_page": 118,
+    "parent_order": 373
+  },
+  {
+    "order": 376,
+    "depth": 3,
+    "title": "1. Central-bank stance",
+    "physical_page": 118,
+    "parent_order": 375
+  },
+  {
+    "order": 377,
+    "depth": 3,
+    "title": "2. Inflation",
+    "physical_page": 118,
+    "parent_order": 375
+  },
+  {
+    "order": 378,
+    "depth": 3,
+    "title": "3. Growth",
+    "physical_page": 118,
+    "parent_order": 375
+  },
+  {
+    "order": 379,
+    "depth": 3,
+    "title": "4. Labour market",
+    "physical_page": 119,
+    "parent_order": 375
+  },
+  {
+    "order": 380,
+    "depth": 3,
+    "title": "5. Rates",
+    "physical_page": 119,
+    "parent_order": 375
+  },
+  {
+    "order": 381,
+    "depth": 3,
+    "title": "6. Positioning and risk",
+    "physical_page": 119,
+    "parent_order": 375
+  },
+  {
+    "order": 382,
+    "depth": 2,
+    "title": "Scenario table",
+    "physical_page": 119,
+    "parent_order": 373
+  },
+  {
+    "order": 383,
+    "depth": 2,
+    "title": "The 20-event gate",
+    "physical_page": 119,
+    "parent_order": 373
+  },
+  {
+    "order": 384,
+    "depth": 2,
+    "title": "Quiz 33",
+    "physical_page": 120,
+    "parent_order": 373
+  },
+  {
+    "order": 385,
+    "depth": 2,
+    "title": "Gate Exam C - Macro and Fundamental Literacy",
+    "physical_page": 120,
+    "parent_order": 373
+  },
+  {
+    "order": 386,
+    "depth": 0,
+    "title": "IV Part IV - Risk, Probability and Money Management",
+    "physical_page": 121,
+    "parent_order": null
+  },
+  {
+    "order": 387,
+    "depth": 1,
+    "title": "Chapter 34 - Probability: The Language of Trading",
+    "physical_page": 122,
+    "parent_order": 386
+  },
+  {
+    "order": 388,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 122,
+    "parent_order": 387
+  },
+  {
+    "order": 389,
+    "depth": 2,
+    "title": "First principle: a trade is one observation from a distribution",
+    "physical_page": 122,
+    "parent_order": 387
+  },
+  {
+    "order": 390,
+    "depth": 2,
+    "title": "Expectancy",
+    "physical_page": 122,
+    "parent_order": 387
+  },
+  {
+    "order": 391,
+    "depth": 3,
+    "title": "Example 1: low win rate, positive expectancy",
+    "physical_page": 123,
+    "parent_order": 390
+  },
+  {
+    "order": 392,
+    "depth": 3,
+    "title": "Example 2: high win rate, negative expectancy",
+    "physical_page": 123,
+    "parent_order": 390
+  },
+  {
+    "order": 393,
+    "depth": 2,
+    "title": "Sample expectancy is not the true expectancy",
+    "physical_page": 123,
+    "parent_order": 387
+  },
+  {
+    "order": 394,
+    "depth": 2,
+    "title": "Variance and sequencing",
+    "physical_page": 123,
+    "parent_order": 387
+  },
+  {
+    "order": 395,
+    "depth": 2,
+    "title": "Outcome quality matrix",
+    "physical_page": 123,
+    "parent_order": 387
+  },
+  {
+    "order": 396,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 123,
+    "parent_order": 387
+  },
+  {
+    "order": 397,
+    "depth": 2,
+    "title": "Quiz 34",
+    "physical_page": 124,
+    "parent_order": 387
+  },
+  {
+    "order": 398,
+    "depth": 2,
+    "title": "Companion reading",
+    "physical_page": 124,
+    "parent_order": 387
+  },
+  {
+    "order": 399,
+    "depth": 1,
+    "title": "Chapter 35 - R-Multiples, Payoff Ratios and Profit Factor",
+    "physical_page": 125,
+    "parent_order": 386
+  },
+  {
+    "order": 400,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 125,
+    "parent_order": 399
+  },
+  {
+    "order": 401,
+    "depth": 2,
+    "title": "R: one unit of planned risk",
+    "physical_page": 125,
+    "parent_order": 399
+  },
+  {
+    "order": 402,
+    "depth": 2,
+    "title": "Why initial risk matters",
+    "physical_page": 125,
+    "parent_order": 399
+  },
+  {
+    "order": 403,
+    "depth": 2,
+    "title": "Payoff ratio",
+    "physical_page": 125,
+    "parent_order": 399
+  },
+  {
+    "order": 404,
+    "depth": 2,
+    "title": "Profit factor",
+    "physical_page": 126,
+    "parent_order": 399
+  },
+  {
+    "order": 405,
+    "depth": 2,
+    "title": "Break-even win rate",
+    "physical_page": 126,
+    "parent_order": 399
+  },
+  {
+    "order": 406,
+    "depth": 2,
+    "title": "Why average statistics can hide tails",
+    "physical_page": 126,
+    "parent_order": 399
+  },
+  {
+    "order": 407,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 126,
+    "parent_order": 399
+  },
+  {
+    "order": 408,
+    "depth": 2,
+    "title": "Quiz 35",
+    "physical_page": 127,
+    "parent_order": 399
+  },
+  {
+    "order": 409,
+    "depth": 1,
+    "title": "Chapter 36 - Position Sizing From First Principles",
+    "physical_page": 128,
+    "parent_order": 386
+  },
+  {
+    "order": 410,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 128,
+    "parent_order": 409
+  },
+  {
+    "order": 411,
+    "depth": 2,
+    "title": "The order of decisions",
+    "physical_page": 128,
+    "parent_order": 409
+  },
+  {
+    "order": 412,
+    "depth": 2,
+    "title": "Cash risk",
+    "physical_page": 128,
+    "parent_order": 409
+  },
+  {
+    "order": 413,
+    "depth": 2,
+    "title": "Pip value when quote currency equals account currency",
+    "physical_page": 128,
+    "parent_order": 409
+  },
+  {
+    "order": 414,
+    "depth": 2,
+    "title": "Position size formula",
+    "physical_page": 129,
+    "parent_order": 409
+  },
+  {
+    "order": 415,
+    "depth": 3,
+    "title": "Example: EUR/USD",
+    "physical_page": 129,
+    "parent_order": 414
+  },
+  {
+    "order": 416,
+    "depth": 2,
+    "title": "JPY pairs",
+    "physical_page": 129,
+    "parent_order": 409
+  },
+  {
+    "order": 417,
+    "depth": 2,
+    "title": "Cross-currency pairs",
+    "physical_page": 129,
+    "parent_order": 409
+  },
+  {
+    "order": 418,
+    "depth": 2,
+    "title": "KES-funded or KES-denominated accounts",
+    "physical_page": 129,
+    "parent_order": 409
+  },
+  {
+    "order": 419,
+    "depth": 2,
+    "title": "Granularity problem",
+    "physical_page": 130,
+    "parent_order": 409
+  },
+  {
+    "order": 420,
+    "depth": 2,
+    "title": "Position-sizing drill",
+    "physical_page": 130,
+    "parent_order": 409
+  },
+  {
+    "order": 421,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 130,
+    "parent_order": 409
+  },
+  {
+    "order": 422,
+    "depth": 2,
+    "title": "Quiz 36",
+    "physical_page": 130,
+    "parent_order": 409
+  },
+  {
+    "order": 423,
+    "depth": 1,
+    "title": "Chapter 37 - Drawdown, Losing Streaks, Compounding and Risk of Ruin",
+    "physical_page": 131,
+    "parent_order": 386
+  },
+  {
+    "order": 424,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 131,
+    "parent_order": 423
+  },
+  {
+    "order": 425,
+    "depth": 2,
+    "title": "Drawdown",
+    "physical_page": 131,
+    "parent_order": 423
+  },
+  {
+    "order": 426,
+    "depth": 2,
+    "title": "Recovery is asymmetric",
+    "physical_page": 131,
+    "parent_order": 423
+  },
+  {
+    "order": 427,
+    "depth": 2,
+    "title": "Repeated fractional losses",
+    "physical_page": 132,
+    "parent_order": 423
+  },
+  {
+    "order": 428,
+    "depth": 2,
+    "title": "Risk of ruin",
+    "physical_page": 132,
+    "parent_order": 423
+  },
+  {
+    "order": 429,
+    "depth": 2,
+    "title": "Maximum drawdown is not a permanent constant",
+    "physical_page": 132,
+    "parent_order": 423
+  },
+  {
+    "order": 430,
+    "depth": 2,
+    "title": "The reference framework’s review thresholds",
+    "physical_page": 132,
+    "parent_order": 423
+  },
+  {
+    "order": 431,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 133,
+    "parent_order": 423
+  },
+  {
+    "order": 432,
+    "depth": 2,
+    "title": "Quiz 37",
+    "physical_page": 133,
+    "parent_order": 423
+  },
+  {
+    "order": 433,
+    "depth": 1,
+    "title": "Chapter 38 - Stops, Targets and Exit Logic",
+    "physical_page": 134,
+    "parent_order": 386
+  },
+  {
+    "order": 434,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 134,
+    "parent_order": 433
+  },
+  {
+    "order": 435,
+    "depth": 2,
+    "title": "A stop is an invalidation and risk-control mechanism",
+    "physical_page": 134,
+    "parent_order": 433
+  },
+  {
+    "order": 436,
+    "depth": 2,
+    "title": "Common stop frameworks",
+    "physical_page": 134,
+    "parent_order": 433
+  },
+  {
+    "order": 437,
+    "depth": 3,
+    "title": "Structure stop",
+    "physical_page": 134,
+    "parent_order": 436
+  },
+  {
+    "order": 438,
+    "depth": 3,
+    "title": "Volatility stop",
+    "physical_page": 134,
+    "parent_order": 436
+  },
+  {
+    "order": 439,
+    "depth": 3,
+    "title": "Time stop",
+    "physical_page": 134,
+    "parent_order": 436
+  },
+  {
+    "order": 440,
+    "depth": 3,
+    "title": "Emergency/catastrophic stop",
+    "physical_page": 135,
+    "parent_order": 436
+  },
+  {
+    "order": 441,
+    "depth": 2,
+    "title": "Targets and exits",
+    "physical_page": 135,
+    "parent_order": 433
+  },
+  {
+    "order": 442,
+    "depth": 2,
+    "title": "Trailing stops",
+    "physical_page": 135,
+    "parent_order": 433
+  },
+  {
+    "order": 443,
+    "depth": 2,
+    "title": "Stop widening",
+    "physical_page": 135,
+    "parent_order": 433
+  },
+  {
+    "order": 444,
+    "depth": 2,
+    "title": "Gaps and slippage",
+    "physical_page": 135,
+    "parent_order": 433
+  },
+  {
+    "order": 445,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 135,
+    "parent_order": 433
+  },
+  {
+    "order": 446,
+    "depth": 2,
+    "title": "Quiz 38",
+    "physical_page": 136,
+    "parent_order": 433
+  },
+  {
+    "order": 447,
+    "depth": 1,
+    "title": "Chapter 39 - Correlation, Portfolio Exposure and Open-Risk Limits",
+    "physical_page": 137,
+    "parent_order": 386
+  },
+  {
+    "order": 448,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 137,
+    "parent_order": 447
+  },
+  {
+    "order": 449,
+    "depth": 2,
+    "title": "One pair contains two exposures",
+    "physical_page": 137,
+    "parent_order": 447
+  },
+  {
+    "order": 450,
+    "depth": 2,
+    "title": "Open risk",
+    "physical_page": 137,
+    "parent_order": 447
+  },
+  {
+    "order": 451,
+    "depth": 2,
+    "title": "Correlation is not enough",
+    "physical_page": 137,
+    "parent_order": 447
+  },
+  {
+    "order": 452,
+    "depth": 2,
+    "title": "Net currency exposure table",
+    "physical_page": 138,
+    "parent_order": 447
+  },
+  {
+    "order": 453,
+    "depth": 2,
+    "title": "Portfolio heat",
+    "physical_page": 138,
+    "parent_order": 447
+  },
+  {
+    "order": 454,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 138,
+    "parent_order": 447
+  },
+  {
+    "order": 455,
+    "depth": 2,
+    "title": "Quiz 39",
+    "physical_page": 138,
+    "parent_order": 447
+  },
+  {
+    "order": 456,
+    "depth": 1,
+    "title": "Chapter 40 - Costs, Break-Even Mathematics and Trading Frequency",
+    "physical_page": 139,
+    "parent_order": 386
+  },
+  {
+    "order": 457,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 139,
+    "parent_order": 456
+  },
+  {
+    "order": 458,
+    "depth": 2,
+    "title": "All-in cost",
+    "physical_page": 139,
+    "parent_order": 456
+  },
+  {
+    "order": 459,
+    "depth": 2,
+    "title": "Cost as R",
+    "physical_page": 139,
+    "parent_order": 456
+  },
+  {
+    "order": 460,
+    "depth": 2,
+    "title": "Frequency amplifies friction",
+    "physical_page": 139,
+    "parent_order": 456
+  },
+  {
+    "order": 461,
+    "depth": 2,
+    "title": "Swap/financing",
+    "physical_page": 140,
+    "parent_order": 456
+  },
+  {
+    "order": 462,
+    "depth": 2,
+    "title": "Cost stress test",
+    "physical_page": 140,
+    "parent_order": 456
+  },
+  {
+    "order": 463,
+    "depth": 2,
+    "title": "Break-even spread exercise",
+    "physical_page": 140,
+    "parent_order": 456
+  },
+  {
+    "order": 464,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 140,
+    "parent_order": 456
+  },
+  {
+    "order": 465,
+    "depth": 2,
+    "title": "Quiz 40",
+    "physical_page": 140,
+    "parent_order": 456
+  },
+  {
+    "order": 466,
+    "depth": 1,
+    "title": "Chapter 41 - News, Weekend, Gap and Tail-Risk Controls",
+    "physical_page": 141,
+    "parent_order": 386
+  },
+  {
+    "order": 467,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 141,
+    "parent_order": 466
+  },
+  {
+    "order": 468,
+    "depth": 2,
+    "title": "Ordinary risk versus discontinuity",
+    "physical_page": 141,
+    "parent_order": 466
+  },
+  {
+    "order": 469,
+    "depth": 2,
+    "title": "Scheduled high-impact risk",
+    "physical_page": 141,
+    "parent_order": 466
+  },
+  {
+    "order": 470,
+    "depth": 2,
+    "title": "Weekend risk",
+    "physical_page": 142,
+    "parent_order": 466
+  },
+  {
+    "order": 471,
+    "depth": 2,
+    "title": "Kill switches",
+    "physical_page": 142,
+    "parent_order": 466
+  },
+  {
+    "order": 472,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 142,
+    "parent_order": 466
+  },
+  {
+    "order": 473,
+    "depth": 2,
+    "title": "Quiz 41",
+    "physical_page": 142,
+    "parent_order": 466
+  },
+  {
+    "order": 474,
+    "depth": 1,
+    "title": "Chapter 42 - Capital, Compounding and the Income Reality",
+    "physical_page": 143,
+    "parent_order": 386
+  },
+  {
+    "order": 475,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 143,
+    "parent_order": 474
+  },
+  {
+    "order": 476,
+    "depth": 2,
+    "title": "A profitable edge can still produce small cash returns",
+    "physical_page": 143,
+    "parent_order": 474
+  },
+  {
+    "order": 477,
+    "depth": 2,
+    "title": "Do not reverse-engineer risk from an income target",
+    "physical_page": 143,
+    "parent_order": 474
+  },
+  {
+    "order": 478,
+    "depth": 2,
+    "title": "Compounding",
+    "physical_page": 144,
+    "parent_order": 474
+  },
+  {
+    "order": 479,
+    "depth": 2,
+    "title": "Withdrawals",
+    "physical_page": 144,
+    "parent_order": 474
+  },
+  {
+    "order": 480,
+    "depth": 2,
+    "title": "When can trading be considered income?",
+    "physical_page": 144,
+    "parent_order": 474
+  },
+  {
+    "order": 481,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 144,
+    "parent_order": 474
+  },
+  {
+    "order": 482,
+    "depth": 2,
+    "title": "Quiz 42",
+    "physical_page": 144,
+    "parent_order": 474
+  },
+  {
+    "order": 483,
+    "depth": 2,
+    "title": "Gate Exam D - Risk and Probability",
+    "physical_page": 144,
+    "parent_order": 474
+  },
+  {
+    "order": 484,
+    "depth": 0,
+    "title": "V Part V - Trading Styles, Strategy Design and Evidence",
+    "physical_page": 146,
+    "parent_order": null
+  },
+  {
+    "order": 485,
+    "depth": 1,
+    "title": "Chapter 43 - Choosing a Trading Style Without Choosing an Identity",
+    "physical_page": 147,
+    "parent_order": 484
+  },
+  {
+    "order": 486,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 147,
+    "parent_order": 485
+  },
+  {
+    "order": 487,
+    "depth": 2,
+    "title": "Time horizon is a design variable",
+    "physical_page": 147,
+    "parent_order": 485
+  },
+  {
+    "order": 488,
+    "depth": 2,
+    "title": "Frequency versus evidence",
+    "physical_page": 147,
+    "parent_order": 485
+  },
+  {
+    "order": 489,
+    "depth": 2,
+    "title": "Lifestyle fit",
+    "physical_page": 148,
+    "parent_order": 485
+  },
+  {
+    "order": 490,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 148,
+    "parent_order": 485
+  },
+  {
+    "order": 491,
+    "depth": 2,
+    "title": "Quiz 43",
+    "physical_page": 148,
+    "parent_order": 485
+  },
+  {
+    "order": 492,
+    "depth": 1,
+    "title": "Chapter 44 - Trend Following From First Principles",
+    "physical_page": 149,
+    "parent_order": 484
+  },
+  {
+    "order": 493,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 149,
+    "parent_order": 492
+  },
+  {
+    "order": 494,
+    "depth": 2,
+    "title": "The hypothesis",
+    "physical_page": 149,
+    "parent_order": 492
+  },
+  {
+    "order": 495,
+    "depth": 2,
+    "title": "Moving-average baseline",
+    "physical_page": 149,
+    "parent_order": 492
+  },
+  {
+    "order": 496,
+    "depth": 2,
+    "title": "Trend filters versus entries",
+    "physical_page": 150,
+    "parent_order": 492
+  },
+  {
+    "order": 497,
+    "depth": 2,
+    "title": "Whipsaw",
+    "physical_page": 150,
+    "parent_order": 492
+  },
+  {
+    "order": 498,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 150,
+    "parent_order": 492
+  },
+  {
+    "order": 499,
+    "depth": 2,
+    "title": "Quiz 44",
+    "physical_page": 150,
+    "parent_order": 492
+  },
+  {
+    "order": 500,
+    "depth": 1,
+    "title": "Chapter 45 - Breakout Trading and Donchian Logic",
+    "physical_page": 151,
+    "parent_order": 484
+  },
+  {
+    "order": 501,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 151,
+    "parent_order": 500
+  },
+  {
+    "order": 502,
+    "depth": 2,
+    "title": "Breakout hypothesis",
+    "physical_page": 151,
+    "parent_order": 500
+  },
+  {
+    "order": 503,
+    "depth": 2,
+    "title": "Why “previous completed bars” matters",
+    "physical_page": 151,
+    "parent_order": 500
+  },
+  {
+    "order": 504,
+    "depth": 2,
+    "title": "False breakouts",
+    "physical_page": 151,
+    "parent_order": 500
+  },
+  {
+    "order": 505,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 152,
+    "parent_order": 500
+  },
+  {
+    "order": 506,
+    "depth": 2,
+    "title": "Quiz 45",
+    "physical_page": 152,
+    "parent_order": 500
+  },
+  {
+    "order": 507,
+    "depth": 1,
+    "title": "Chapter 46 - Momentum: Relative and Time-Series Concepts",
+    "physical_page": 153,
+    "parent_order": 484
+  },
+  {
+    "order": 508,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 153,
+    "parent_order": 507
+  },
+  {
+    "order": 509,
+    "depth": 2,
+    "title": "Time-series momentum",
+    "physical_page": 153,
+    "parent_order": 507
+  },
+  {
+    "order": 510,
+    "depth": 2,
+    "title": "Relative momentum",
+    "physical_page": 153,
+    "parent_order": 507
+  },
+  {
+    "order": 511,
+    "depth": 2,
+    "title": "Volatility-normalized sizing",
+    "physical_page": 153,
+    "parent_order": 507
+  },
+  {
+    "order": 512,
+    "depth": 2,
+    "title": "Academic evidence versus retail CFDs",
+    "physical_page": 153,
+    "parent_order": 507
+  },
+  {
+    "order": 513,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 154,
+    "parent_order": 507
+  },
+  {
+    "order": 514,
+    "depth": 2,
+    "title": "Quiz 46",
+    "physical_page": 154,
+    "parent_order": 507
+  },
+  {
+    "order": 515,
+    "depth": 1,
+    "title": "Chapter 47 - Mean Reversion: The Opposite Intuition",
+    "physical_page": 155,
+    "parent_order": 484
+  },
+  {
+    "order": 516,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 155,
+    "parent_order": 515
+  },
+  {
+    "order": 517,
+    "depth": 2,
+    "title": "The hypothesis",
+    "physical_page": 155,
+    "parent_order": 515
+  },
+  {
+    "order": 518,
+    "depth": 2,
+    "title": "The central danger",
+    "physical_page": 155,
+    "parent_order": 515
+  },
+  {
+    "order": 519,
+    "depth": 2,
+    "title": "Regime dependence",
+    "physical_page": 155,
+    "parent_order": 515
+  },
+  {
+    "order": 520,
+    "depth": 2,
+    "title": "Stops matter more than the attractive win rate",
+    "physical_page": 156,
+    "parent_order": 515
+  },
+  {
+    "order": 521,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 156,
+    "parent_order": 515
+  },
+  {
+    "order": 522,
+    "depth": 2,
+    "title": "Quiz 47",
+    "physical_page": 156,
+    "parent_order": 515
+  },
+  {
+    "order": 523,
+    "depth": 1,
+    "title": "Chapter 48 - Carry With a Trend Filter",
+    "physical_page": 157,
+    "parent_order": 484
+  },
+  {
+    "order": 524,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 157,
+    "parent_order": 523
+  },
+  {
+    "order": 525,
+    "depth": 2,
+    "title": "Carry is not free interest",
+    "physical_page": 157,
+    "parent_order": 523
+  },
+  {
+    "order": 526,
+    "depth": 2,
+    "title": "Educational carry + trend hypothesis",
+    "physical_page": 157,
+    "parent_order": 523
+  },
+  {
+    "order": 527,
+    "depth": 2,
+    "title": "Forward points and retail swap are not identical concepts",
+    "physical_page": 157,
+    "parent_order": 523
+  },
+  {
+    "order": 528,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 158,
+    "parent_order": 523
+  },
+  {
+    "order": 529,
+    "depth": 2,
+    "title": "Quiz 48",
+    "physical_page": 158,
+    "parent_order": 523
+  },
+  {
+    "order": 530,
+    "depth": 1,
+    "title": "Chapter 49 - News and Event Trading: Advanced, Not Beginner Territory",
+    "physical_page": 159,
+    "parent_order": 484
+  },
+  {
+    "order": 531,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 159,
+    "parent_order": 530
+  },
+  {
+    "order": 532,
+    "depth": 2,
+    "title": "The event-trading challenge",
+    "physical_page": 159,
+    "parent_order": 530
+  },
+  {
+    "order": 533,
+    "depth": 2,
+    "title": "Three possible event strategies",
+    "physical_page": 159,
+    "parent_order": 530
+  },
+  {
+    "order": 534,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 159,
+    "parent_order": 530
+  },
+  {
+    "order": 535,
+    "depth": 2,
+    "title": "Quiz 49",
+    "physical_page": 160,
+    "parent_order": 530
+  },
+  {
+    "order": 536,
+    "depth": 1,
+    "title": "Chapter 50 - Discretionary, Rules-Based and Systematic Decision Making",
+    "physical_page": 161,
+    "parent_order": 484
+  },
+  {
+    "order": 537,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 161,
+    "parent_order": 536
+  },
+  {
+    "order": 538,
+    "depth": 2,
+    "title": "Rules-based does not mean automated",
+    "physical_page": 161,
+    "parent_order": 536
+  },
+  {
+    "order": 539,
+    "depth": 2,
+    "title": "Discretion does not mean random",
+    "physical_page": 161,
+    "parent_order": 536
+  },
+  {
+    "order": 540,
+    "depth": 2,
+    "title": "Why ambiguity is dangerous",
+    "physical_page": 161,
+    "parent_order": 536
+  },
+  {
+    "order": 541,
+    "depth": 2,
+    "title": "Hybrid approach",
+    "physical_page": 162,
+    "parent_order": 536
+  },
+  {
+    "order": 542,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 162,
+    "parent_order": 536
+  },
+  {
+    "order": 543,
+    "depth": 2,
+    "title": "Quiz 50",
+    "physical_page": 162,
+    "parent_order": 536
+  },
+  {
+    "order": 544,
+    "depth": 1,
+    "title": "Chapter 51 - The One-Page Strategy Specification",
+    "physical_page": 163,
+    "parent_order": 484
+  },
+  {
+    "order": 545,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 163,
+    "parent_order": 544
+  },
+  {
+    "order": 546,
+    "depth": 2,
+    "title": "Strategy specification template",
+    "physical_page": 163,
+    "parent_order": 544
+  },
+  {
+    "order": 547,
+    "depth": 3,
+    "title": "Identity",
+    "physical_page": 163,
+    "parent_order": 546
+  },
+  {
+    "order": 548,
+    "depth": 3,
+    "title": "Market eligibility",
+    "physical_page": 163,
+    "parent_order": 546
+  },
+  {
+    "order": 549,
+    "depth": 3,
+    "title": "Long setup",
+    "physical_page": 163,
+    "parent_order": 546
+  },
+  {
+    "order": 550,
+    "depth": 3,
+    "title": "Short setup",
+    "physical_page": 163,
+    "parent_order": 546
+  },
+  {
+    "order": 551,
+    "depth": 3,
+    "title": "Risk",
+    "physical_page": 164,
+    "parent_order": 546
+  },
+  {
+    "order": 552,
+    "depth": 3,
+    "title": "Exit",
+    "physical_page": 164,
+    "parent_order": 546
+  },
+  {
+    "order": 553,
+    "depth": 3,
+    "title": "Forbidden actions",
+    "physical_page": 164,
+    "parent_order": 546
+  },
+  {
+    "order": 554,
+    "depth": 3,
+    "title": "Data and testing",
+    "physical_page": 164,
+    "parent_order": 546
+  },
+  {
+    "order": 555,
+    "depth": 2,
+    "title": "Version control without IT",
+    "physical_page": 164,
+    "parent_order": 544
+  },
+  {
+    "order": 556,
+    "depth": 2,
+    "title": "Strategy freeze gate",
+    "physical_page": 165,
+    "parent_order": 544
+  },
+  {
+    "order": 557,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 165,
+    "parent_order": 544
+  },
+  {
+    "order": 558,
+    "depth": 2,
+    "title": "Quiz 51",
+    "physical_page": 165,
+    "parent_order": 544
+  },
+  {
+    "order": 559,
+    "depth": 1,
+    "title": "Chapter 52 - Manual Backtesting and Bar Replay",
+    "physical_page": 166,
+    "parent_order": 484
+  },
+  {
+    "order": 560,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 166,
+    "parent_order": 559
+  },
+  {
+    "order": 561,
+    "depth": 2,
+    "title": "Backtest question",
+    "physical_page": 166,
+    "parent_order": 559
+  },
+  {
+    "order": 562,
+    "depth": 2,
+    "title": "Manual replay protocol",
+    "physical_page": 166,
+    "parent_order": 559
+  },
+  {
+    "order": 563,
+    "depth": 2,
+    "title": "Required fields",
+    "physical_page": 167,
+    "parent_order": 559
+  },
+  {
+    "order": 564,
+    "depth": 2,
+    "title": "Minimum sample",
+    "physical_page": 167,
+    "parent_order": 559
+  },
+  {
+    "order": 565,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 167,
+    "parent_order": 559
+  },
+  {
+    "order": 566,
+    "depth": 2,
+    "title": "Quiz 52",
+    "physical_page": 167,
+    "parent_order": 559
+  },
+  {
+    "order": 567,
+    "depth": 1,
+    "title": "Chapter 53 - Data Integrity, Time, Sessions and Look-Ahead Bias",
+    "physical_page": 168,
+    "parent_order": 484
+  },
+  {
+    "order": 568,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 168,
+    "parent_order": 567
+  },
+  {
+    "order": 569,
+    "depth": 2,
+    "title": "Completed-bar principle",
+    "physical_page": 168,
+    "parent_order": 567
+  },
+  {
+    "order": 570,
+    "depth": 2,
+    "title": "Common look-ahead mistakes",
+    "physical_page": 168,
+    "parent_order": 567
+  },
+  {
+    "order": 571,
+    "depth": 2,
+    "title": "Time zones",
+    "physical_page": 168,
+    "parent_order": 567
+  },
+  {
+    "order": 572,
+    "depth": 2,
+    "title": "Missing and duplicate data",
+    "physical_page": 169,
+    "parent_order": 567
+  },
+  {
+    "order": 573,
+    "depth": 2,
+    "title": "Economic data vintages",
+    "physical_page": 169,
+    "parent_order": 567
+  },
+  {
+    "order": 574,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 169,
+    "parent_order": 567
+  },
+  {
+    "order": 575,
+    "depth": 2,
+    "title": "Quiz 53",
+    "physical_page": 169,
+    "parent_order": 567
+  },
+  {
+    "order": 576,
+    "depth": 1,
+    "title": "Chapter 54 - Development Data, Out-of-Sample Data and Walk-Forward Logic",
+    "physical_page": 170,
+    "parent_order": 484
+  },
+  {
+    "order": 577,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 170,
+    "parent_order": 576
+  },
+  {
+    "order": 578,
+    "depth": 2,
+    "title": "Development versus test",
+    "physical_page": 170,
+    "parent_order": 576
+  },
+  {
+    "order": 579,
+    "depth": 2,
+    "title": "What contamination looks like",
+    "physical_page": 170,
+    "parent_order": 576
+  },
+  {
+    "order": 580,
+    "depth": 2,
+    "title": "Walk-forward concept",
+    "physical_page": 170,
+    "parent_order": 576
+  },
+  {
+    "order": 581,
+    "depth": 2,
+    "title": "Regime coverage",
+    "physical_page": 171,
+    "parent_order": 576
+  },
+  {
+    "order": 582,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 171,
+    "parent_order": 576
+  },
+  {
+    "order": 583,
+    "depth": 2,
+    "title": "Quiz 54",
+    "physical_page": 171,
+    "parent_order": 576
+  },
+  {
+    "order": 584,
+    "depth": 1,
+    "title": "Chapter 55 - Overfitting, Data Mining and Multiple Testing",
+    "physical_page": 172,
+    "parent_order": 484
+  },
+  {
+    "order": 585,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 172,
+    "parent_order": 584
+  },
+  {
+    "order": 586,
+    "depth": 2,
+    "title": "The garden of many strategies",
+    "physical_page": 172,
+    "parent_order": 584
+  },
+  {
+    "order": 587,
+    "depth": 2,
+    "title": "Parameter hunting",
+    "physical_page": 172,
+    "parent_order": 584
+  },
+  {
+    "order": 588,
+    "depth": 2,
+    "title": "Complexity tax",
+    "physical_page": 172,
+    "parent_order": 584
+  },
+  {
+    "order": 589,
+    "depth": 2,
+    "title": "Research log",
+    "physical_page": 173,
+    "parent_order": 584
+  },
+  {
+    "order": 590,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 173,
+    "parent_order": 584
+  },
+  {
+    "order": 591,
+    "depth": 2,
+    "title": "Quiz 55",
+    "physical_page": 173,
+    "parent_order": 584
+  },
+  {
+    "order": 592,
+    "depth": 1,
+    "title": "Chapter 56 - Robustness and Stress Testing",
+    "physical_page": 174,
+    "parent_order": 484
+  },
+  {
+    "order": 593,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 174,
+    "parent_order": 592
+  },
+  {
+    "order": 594,
+    "depth": 2,
+    "title": "The mindset",
+    "physical_page": 174,
+    "parent_order": 592
+  },
+  {
+    "order": 595,
+    "depth": 2,
+    "title": "Required stress tests",
+    "physical_page": 174,
+    "parent_order": 592
+  },
+  {
+    "order": 596,
+    "depth": 3,
+    "title": "1. Costs",
+    "physical_page": 174,
+    "parent_order": 595
+  },
+  {
+    "order": 597,
+    "depth": 3,
+    "title": "2. Slippage",
+    "physical_page": 174,
+    "parent_order": 595
+  },
+  {
+    "order": 598,
+    "depth": 3,
+    "title": "3. Parameters",
+    "physical_page": 174,
+    "parent_order": 595
+  },
+  {
+    "order": 599,
+    "depth": 3,
+    "title": "4. Timing",
+    "physical_page": 174,
+    "parent_order": 595
+  },
+  {
+    "order": 600,
+    "depth": 3,
+    "title": "5. Instruments",
+    "physical_page": 175,
+    "parent_order": 595
+  },
+  {
+    "order": 601,
+    "depth": 3,
+    "title": "6. Years/regimes",
+    "physical_page": 175,
+    "parent_order": 595
+  },
+  {
+    "order": 602,
+    "depth": 3,
+    "title": "7. Top trades",
+    "physical_page": 175,
+    "parent_order": 595
+  },
+  {
+    "order": 603,
+    "depth": 3,
+    "title": "8. Direction",
+    "physical_page": 175,
+    "parent_order": 595
+  },
+  {
+    "order": 604,
+    "depth": 2,
+    "title": "Concentration red flags",
+    "physical_page": 175,
+    "parent_order": 592
+  },
+  {
+    "order": 605,
+    "depth": 2,
+    "title": "Rejecting a strategy is success",
+    "physical_page": 175,
+    "parent_order": 592
+  },
+  {
+    "order": 606,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 175,
+    "parent_order": 592
+  },
+  {
+    "order": 607,
+    "depth": 2,
+    "title": "Quiz 56",
+    "physical_page": 175,
+    "parent_order": 592
+  },
+  {
+    "order": 608,
+    "depth": 1,
+    "title": "Chapter 57 - Performance Metrics That Matter",
+    "physical_page": 176,
+    "parent_order": 484
+  },
+  {
+    "order": 609,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 176,
+    "parent_order": 608
+  },
+  {
+    "order": 610,
+    "depth": 2,
+    "title": "Minimum scorecard",
+    "physical_page": 176,
+    "parent_order": 608
+  },
+  {
+    "order": 611,
+    "depth": 2,
+    "title": "Sharpe ratio - useful but limited",
+    "physical_page": 176,
+    "parent_order": 608
+  },
+  {
+    "order": 612,
+    "depth": 2,
+    "title": "MAE and MFE",
+    "physical_page": 177,
+    "parent_order": 608
+  },
+  {
+    "order": 613,
+    "depth": 2,
+    "title": "Equity curve layers",
+    "physical_page": 177,
+    "parent_order": 608
+  },
+  {
+    "order": 614,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 177,
+    "parent_order": 608
+  },
+  {
+    "order": 615,
+    "depth": 2,
+    "title": "Quiz 57",
+    "physical_page": 177,
+    "parent_order": 608
+  },
+  {
+    "order": 616,
+    "depth": 1,
+    "title": "Chapter 58 - Regimes, Edge Decay and Strategy Retirement",
+    "physical_page": 178,
+    "parent_order": 484
+  },
+  {
+    "order": 617,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 178,
+    "parent_order": 616
+  },
+  {
+    "order": 618,
+    "depth": 2,
+    "title": "Markets adapt",
+    "physical_page": 178,
+    "parent_order": 616
+  },
+  {
+    "order": 619,
+    "depth": 2,
+    "title": "Regime variables",
+    "physical_page": 178,
+    "parent_order": 616
+  },
+  {
+    "order": 620,
+    "depth": 2,
+    "title": "Edge-death protocol",
+    "physical_page": 179,
+    "parent_order": 616
+  },
+  {
+    "order": 621,
+    "depth": 3,
+    "title": "Continue",
+    "physical_page": 179,
+    "parent_order": 620
+  },
+  {
+    "order": 622,
+    "depth": 3,
+    "title": "Review",
+    "physical_page": 179,
+    "parent_order": 620
+  },
+  {
+    "order": 623,
+    "depth": 3,
+    "title": "Pause",
+    "physical_page": 179,
+    "parent_order": 620
+  },
+  {
+    "order": 624,
+    "depth": 3,
+    "title": "Investigate",
+    "physical_page": 179,
+    "parent_order": 620
+  },
+  {
+    "order": 625,
+    "depth": 3,
+    "title": "Retire or redesign",
+    "physical_page": 179,
+    "parent_order": 620
+  },
+  {
+    "order": 626,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 179,
+    "parent_order": 616
+  },
+  {
+    "order": 627,
+    "depth": 2,
+    "title": "Quiz 58",
+    "physical_page": 179,
+    "parent_order": 616
+  },
+  {
+    "order": 628,
+    "depth": 2,
+    "title": "Gate Exam E - Strategy Construction and Evidence",
+    "physical_page": 179,
+    "parent_order": 616
+  },
+  {
+    "order": 629,
+    "depth": 0,
+    "title": "VI Part VI - Psychology, Execution Discipline and the Trading Journal",
+    "physical_page": 181,
+    "parent_order": null
+  },
+  {
+    "order": 630,
+    "depth": 1,
+    "title": "Chapter 59 - Trading Psychology Is Behaviour Under Uncertainty",
+    "physical_page": 182,
+    "parent_order": 629
+  },
+  {
+    "order": 631,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 182,
+    "parent_order": 630
+  },
+  {
+    "order": 632,
+    "depth": 2,
+    "title": "Psychology cannot rescue negative expectancy",
+    "physical_page": 182,
+    "parent_order": 630
+  },
+  {
+    "order": 633,
+    "depth": 2,
+    "title": "Emotion is information, not permission",
+    "physical_page": 182,
+    "parent_order": 630
+  },
+  {
+    "order": 634,
+    "depth": 2,
+    "title": "Process versus P/L goals",
+    "physical_page": 182,
+    "parent_order": 630
+  },
+  {
+    "order": 635,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 183,
+    "parent_order": 630
+  },
+  {
+    "order": 636,
+    "depth": 2,
+    "title": "Quiz 59",
+    "physical_page": 183,
+    "parent_order": 630
+  },
+  {
+    "order": 637,
+    "depth": 1,
+    "title": "Chapter 60 - Cognitive Biases That Damage Traders",
+    "physical_page": 184,
+    "parent_order": 629
+  },
+  {
+    "order": 638,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 184,
+    "parent_order": 637
+  },
+  {
+    "order": 639,
+    "depth": 2,
+    "title": "Outcome bias",
+    "physical_page": 184,
+    "parent_order": 637
+  },
+  {
+    "order": 640,
+    "depth": 2,
+    "title": "Recency bias",
+    "physical_page": 184,
+    "parent_order": 637
+  },
+  {
+    "order": 641,
+    "depth": 2,
+    "title": "Confirmation bias",
+    "physical_page": 184,
+    "parent_order": 637
+  },
+  {
+    "order": 642,
+    "depth": 2,
+    "title": "Loss aversion",
+    "physical_page": 184,
+    "parent_order": 637
+  },
+  {
+    "order": 643,
+    "depth": 2,
+    "title": "Sunk-cost fallacy",
+    "physical_page": 184,
+    "parent_order": 637
+  },
+  {
+    "order": 644,
+    "depth": 2,
+    "title": "Anchoring",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 645,
+    "depth": 2,
+    "title": "Overconfidence",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 646,
+    "depth": 2,
+    "title": "Availability bias",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 647,
+    "depth": 2,
+    "title": "Hindsight bias",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 648,
+    "depth": 2,
+    "title": "Gambler’s fallacy",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 649,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 650,
+    "depth": 2,
+    "title": "Quiz 60",
+    "physical_page": 185,
+    "parent_order": 637
+  },
+  {
+    "order": 651,
+    "depth": 1,
+    "title": "Chapter 61 - FOMO, Revenge Trading, Overtrading and Strategy Hopping",
+    "physical_page": 186,
+    "parent_order": 629
+  },
+  {
+    "order": 652,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 186,
+    "parent_order": 651
+  },
+  {
+    "order": 653,
+    "depth": 2,
+    "title": "FOMO loop",
+    "physical_page": 186,
+    "parent_order": 651
+  },
+  {
+    "order": 654,
+    "depth": 2,
+    "title": "Revenge trading loop",
+    "physical_page": 186,
+    "parent_order": 651
+  },
+  {
+    "order": 655,
+    "depth": 2,
+    "title": "Overtrading",
+    "physical_page": 186,
+    "parent_order": 651
+  },
+  {
+    "order": 656,
+    "depth": 2,
+    "title": "Strategy hopping",
+    "physical_page": 187,
+    "parent_order": 651
+  },
+  {
+    "order": 657,
+    "depth": 2,
+    "title": "The reference framework’s behavioural rule",
+    "physical_page": 187,
+    "parent_order": 651
+  },
+  {
+    "order": 658,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 187,
+    "parent_order": 651
+  },
+  {
+    "order": 659,
+    "depth": 2,
+    "title": "Quiz 61",
+    "physical_page": 187,
+    "parent_order": 651
+  },
+  {
+    "order": 660,
+    "depth": 1,
+    "title": "Chapter 62 - Pre-Trade Commitment and Decision Hygiene",
+    "physical_page": 188,
+    "parent_order": 629
+  },
+  {
+    "order": 661,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 188,
+    "parent_order": 660
+  },
+  {
+    "order": 662,
+    "depth": 2,
+    "title": "Minimum pre-trade commitment",
+    "physical_page": 188,
+    "parent_order": 660
+  },
+  {
+    "order": 663,
+    "depth": 2,
+    "title": "Implementation intentions",
+    "physical_page": 189,
+    "parent_order": 660
+  },
+  {
+    "order": 664,
+    "depth": 2,
+    "title": "Checklists should remain short enough to use",
+    "physical_page": 189,
+    "parent_order": 660
+  },
+  {
+    "order": 665,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 189,
+    "parent_order": 660
+  },
+  {
+    "order": 666,
+    "depth": 2,
+    "title": "Quiz 62",
+    "physical_page": 189,
+    "parent_order": 660
+  },
+  {
+    "order": 667,
+    "depth": 1,
+    "title": "Chapter 63 - The Trading Journal as an Evidence Database",
+    "physical_page": 190,
+    "parent_order": 629
+  },
+  {
+    "order": 668,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 190,
+    "parent_order": 667
+  },
+  {
+    "order": 669,
+    "depth": 2,
+    "title": "The journal is not a diary of feelings alone",
+    "physical_page": 190,
+    "parent_order": 667
+  },
+  {
+    "order": 670,
+    "depth": 2,
+    "title": "Core fields",
+    "physical_page": 190,
+    "parent_order": 667
+  },
+  {
+    "order": 671,
+    "depth": 2,
+    "title": "Bad lesson",
+    "physical_page": 191,
+    "parent_order": 667
+  },
+  {
+    "order": 672,
+    "depth": 2,
+    "title": "Better lesson",
+    "physical_page": 191,
+    "parent_order": 667
+  },
+  {
+    "order": 673,
+    "depth": 2,
+    "title": "Screenshot review without P/L",
+    "physical_page": 191,
+    "parent_order": 667
+  },
+  {
+    "order": 674,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 191,
+    "parent_order": 667
+  },
+  {
+    "order": 675,
+    "depth": 2,
+    "title": "Quiz 63",
+    "physical_page": 191,
+    "parent_order": 667
+  },
+  {
+    "order": 676,
+    "depth": 1,
+    "title": "Chapter 64 - The 30-Trade Integrity Challenge",
+    "physical_page": 192,
+    "parent_order": 629
+  },
+  {
+    "order": 677,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 192,
+    "parent_order": 676
+  },
+  {
+    "order": 678,
+    "depth": 2,
+    "title": "The challenge",
+    "physical_page": 192,
+    "parent_order": 676
+  },
+  {
+    "order": 679,
+    "depth": 2,
+    "title": "Why 30?",
+    "physical_page": 192,
+    "parent_order": 676
+  },
+  {
+    "order": 680,
+    "depth": 2,
+    "title": "Violation classification",
+    "physical_page": 192,
+    "parent_order": 676
+  },
+  {
+    "order": 681,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 193,
+    "parent_order": 676
+  },
+  {
+    "order": 682,
+    "depth": 2,
+    "title": "Quiz 64",
+    "physical_page": 193,
+    "parent_order": 676
+  },
+  {
+    "order": 683,
+    "depth": 1,
+    "title": "Chapter 65 - Weekly, Monthly and Quarterly Review",
+    "physical_page": 194,
+    "parent_order": 629
+  },
+  {
+    "order": 684,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 194,
+    "parent_order": 683
+  },
+  {
+    "order": 685,
+    "depth": 2,
+    "title": "Weekly review",
+    "physical_page": 194,
+    "parent_order": 683
+  },
+  {
+    "order": 686,
+    "depth": 2,
+    "title": "Monthly review",
+    "physical_page": 194,
+    "parent_order": 683
+  },
+  {
+    "order": 687,
+    "depth": 2,
+    "title": "Quarterly review",
+    "physical_page": 195,
+    "parent_order": 683
+  },
+  {
+    "order": 688,
+    "depth": 2,
+    "title": "Change-control rule",
+    "physical_page": 195,
+    "parent_order": 683
+  },
+  {
+    "order": 689,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 195,
+    "parent_order": 683
+  },
+  {
+    "order": 690,
+    "depth": 2,
+    "title": "Quiz 65",
+    "physical_page": 195,
+    "parent_order": 683
+  },
+  {
+    "order": 691,
+    "depth": 2,
+    "title": "Gate Exam F - Psychology and Process",
+    "physical_page": 195,
+    "parent_order": 683
+  },
+  {
+    "order": 692,
+    "depth": 0,
+    "title": "VII Part VII - Serious Demo Trading, Broker Due Diligence and Micro-Live Progression",
+    "physical_page": 197,
+    "parent_order": null
+  },
+  {
+    "order": 693,
+    "depth": 1,
+    "title": "Chapter 66 - Demo Trading as Forward Testing, Not a Game",
+    "physical_page": 198,
+    "parent_order": 692
+  },
+  {
+    "order": 694,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 198,
+    "parent_order": 693
+  },
+  {
+    "order": 695,
+    "depth": 2,
+    "title": "What demo can test",
+    "physical_page": 198,
+    "parent_order": 693
+  },
+  {
+    "order": 696,
+    "depth": 2,
+    "title": "What demo cannot fully test",
+    "physical_page": 198,
+    "parent_order": 693
+  },
+  {
+    "order": 697,
+    "depth": 2,
+    "title": "Make demo realistic",
+    "physical_page": 198,
+    "parent_order": 693
+  },
+  {
+    "order": 698,
+    "depth": 2,
+    "title": "Minimum demo gate",
+    "physical_page": 199,
+    "parent_order": 693
+  },
+  {
+    "order": 699,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 199,
+    "parent_order": 693
+  },
+  {
+    "order": 700,
+    "depth": 2,
+    "title": "Quiz 66",
+    "physical_page": 199,
+    "parent_order": 693
+  },
+  {
+    "order": 701,
+    "depth": 1,
+    "title": "Chapter 67 - The 100-Trade Forward-Test Protocol",
+    "physical_page": 200,
+    "parent_order": 692
+  },
+  {
+    "order": 702,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 200,
+    "parent_order": 701
+  },
+  {
+    "order": 703,
+    "depth": 2,
+    "title": "Before Trade 1",
+    "physical_page": 200,
+    "parent_order": 701
+  },
+  {
+    "order": 704,
+    "depth": 2,
+    "title": "Checkpoints",
+    "physical_page": 200,
+    "parent_order": 701
+  },
+  {
+    "order": 705,
+    "depth": 3,
+    "title": "Trades 1-25",
+    "physical_page": 200,
+    "parent_order": 704
+  },
+  {
+    "order": 706,
+    "depth": 3,
+    "title": "Trades 26-50",
+    "physical_page": 200,
+    "parent_order": 704
+  },
+  {
+    "order": 707,
+    "depth": 3,
+    "title": "Trades 51-75",
+    "physical_page": 201,
+    "parent_order": 704
+  },
+  {
+    "order": 708,
+    "depth": 3,
+    "title": "Trades 76-100+",
+    "physical_page": 201,
+    "parent_order": 704
+  },
+  {
+    "order": 709,
+    "depth": 2,
+    "title": "Backtest versus demo comparison",
+    "physical_page": 201,
+    "parent_order": 701
+  },
+  {
+    "order": 710,
+    "depth": 2,
+    "title": "Formal Week-52 style go/no-go review",
+    "physical_page": 201,
+    "parent_order": 701
+  },
+  {
+    "order": 711,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 201,
+    "parent_order": 701
+  },
+  {
+    "order": 712,
+    "depth": 2,
+    "title": "Quiz 67",
+    "physical_page": 202,
+    "parent_order": 701
+  },
+  {
+    "order": 713,
+    "depth": 1,
+    "title": "Chapter 68 - Broker Due Diligence for a Kenyan Retail Trader",
+    "physical_page": 203,
+    "parent_order": 692
+  },
+  {
+    "order": 714,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 203,
+    "parent_order": 713
+  },
+  {
+    "order": 715,
+    "depth": 2,
+    "title": "Verify the entity, not the logo",
+    "physical_page": 203,
+    "parent_order": 713
+  },
+  {
+    "order": 716,
+    "depth": 2,
+    "title": "Broker scorecard",
+    "physical_page": 203,
+    "parent_order": 713
+  },
+  {
+    "order": 717,
+    "depth": 2,
+    "title": "Marketing claims to ignore until measured",
+    "physical_page": 204,
+    "parent_order": 713
+  },
+  {
+    "order": 718,
+    "depth": 2,
+    "title": "Small funding/withdrawal test",
+    "physical_page": 204,
+    "parent_order": 713
+  },
+  {
+    "order": 719,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 204,
+    "parent_order": 713
+  },
+  {
+    "order": 720,
+    "depth": 2,
+    "title": "Quiz 68",
+    "physical_page": 205,
+    "parent_order": 713
+  },
+  {
+    "order": 721,
+    "depth": 1,
+    "title": "Chapter 69 - Micro-Live: Introducing Real Money Without Changing the Strategy",
+    "physical_page": 206,
+    "parent_order": 692
+  },
+  {
+    "order": 722,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 206,
+    "parent_order": 721
+  },
+  {
+    "order": 723,
+    "depth": 2,
+    "title": "The purpose",
+    "physical_page": 206,
+    "parent_order": 721
+  },
+  {
+    "order": 724,
+    "depth": 2,
+    "title": "Initial course risk",
+    "physical_page": 206,
+    "parent_order": 721
+  },
+  {
+    "order": 725,
+    "depth": 2,
+    "title": "What to compare",
+    "physical_page": 206,
+    "parent_order": 721
+  },
+  {
+    "order": 726,
+    "depth": 2,
+    "title": "No strategy changes because “money feels different”",
+    "physical_page": 207,
+    "parent_order": 721
+  },
+  {
+    "order": 727,
+    "depth": 2,
+    "title": "Scaling gate",
+    "physical_page": 207,
+    "parent_order": 721
+  },
+  {
+    "order": 728,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 207,
+    "parent_order": 721
+  },
+  {
+    "order": 729,
+    "depth": 2,
+    "title": "Quiz 69",
+    "physical_page": 207,
+    "parent_order": 721
+  },
+  {
+    "order": 730,
+    "depth": 1,
+    "title": "Chapter 70 - Slippage, Requotes, Partial Fills and Live Execution Analysis",
+    "physical_page": 208,
+    "parent_order": 692
+  },
+  {
+    "order": 731,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 208,
+    "parent_order": 730
+  },
+  {
+    "order": 732,
+    "depth": 2,
+    "title": "Expected versus realized price",
+    "physical_page": 208,
+    "parent_order": 730
+  },
+  {
+    "order": 733,
+    "depth": 2,
+    "title": "Sources of execution difference",
+    "physical_page": 208,
+    "parent_order": 730
+  },
+  {
+    "order": 734,
+    "depth": 2,
+    "title": "Requotes and rejected orders",
+    "physical_page": 208,
+    "parent_order": 730
+  },
+  {
+    "order": 735,
+    "depth": 2,
+    "title": "Partial fills",
+    "physical_page": 209,
+    "parent_order": 730
+  },
+  {
+    "order": 736,
+    "depth": 2,
+    "title": "Execution quality is strategy-dependent",
+    "physical_page": 209,
+    "parent_order": 730
+  },
+  {
+    "order": 737,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 209,
+    "parent_order": 730
+  },
+  {
+    "order": 738,
+    "depth": 2,
+    "title": "Quiz 70",
+    "physical_page": 209,
+    "parent_order": 730
+  },
+  {
+    "order": 739,
+    "depth": 1,
+    "title": "Chapter 71 - Scaling, De-Scaling and Capital Preservation",
+    "physical_page": 210,
+    "parent_order": 692
+  },
+  {
+    "order": 740,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 210,
+    "parent_order": 739
+  },
+  {
+    "order": 741,
+    "depth": 2,
+    "title": "Scaling must follow evidence",
+    "physical_page": 210,
+    "parent_order": 739
+  },
+  {
+    "order": 742,
+    "depth": 2,
+    "title": "De-scaling should be easier than scaling",
+    "physical_page": 210,
+    "parent_order": 739
+  },
+  {
+    "order": 743,
+    "depth": 2,
+    "title": "Capital additions are not performance",
+    "physical_page": 211,
+    "parent_order": 739
+  },
+  {
+    "order": 744,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 211,
+    "parent_order": 739
+  },
+  {
+    "order": 745,
+    "depth": 2,
+    "title": "Quiz 71",
+    "physical_page": 211,
+    "parent_order": 739
+  },
+  {
+    "order": 746,
+    "depth": 1,
+    "title": "Chapter 72 - Kenya Tax and Recordkeeping: What the Course Can and Cannot Conclude",
+    "physical_page": 212,
+    "parent_order": 692
+  },
+  {
+    "order": 747,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 212,
+    "parent_order": 746
+  },
+  {
+    "order": 748,
+    "depth": 2,
+    "title": "Important scope warning",
+    "physical_page": 212,
+    "parent_order": 746
+  },
+  {
+    "order": 749,
+    "depth": 2,
+    "title": "Records to keep from Day 1 of live trading",
+    "physical_page": 212,
+    "parent_order": 746
+  },
+  {
+    "order": 750,
+    "depth": 2,
+    "title": "Do not wait until profits are large",
+    "physical_page": 213,
+    "parent_order": 746
+  },
+  {
+    "order": 751,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 213,
+    "parent_order": 746
+  },
+  {
+    "order": 752,
+    "depth": 2,
+    "title": "Quiz 72",
+    "physical_page": 213,
+    "parent_order": 746
+  },
+  {
+    "order": 753,
+    "depth": 1,
+    "title": "Chapter 73 - Operational Security, Account Safety and Continuity",
+    "physical_page": 214,
+    "parent_order": 692
+  },
+  {
+    "order": 754,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 214,
+    "parent_order": 753
+  },
+  {
+    "order": 755,
+    "depth": 2,
+    "title": "Account security",
+    "physical_page": 214,
+    "parent_order": 753
+  },
+  {
+    "order": 756,
+    "depth": 2,
+    "title": "Payment security",
+    "physical_page": 214,
+    "parent_order": 753
+  },
+  {
+    "order": 757,
+    "depth": 2,
+    "title": "Continuity plan",
+    "physical_page": 214,
+    "parent_order": 753
+  },
+  {
+    "order": 758,
+    "depth": 2,
+    "title": "Backups",
+    "physical_page": 215,
+    "parent_order": 753
+  },
+  {
+    "order": 759,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 215,
+    "parent_order": 753
+  },
+  {
+    "order": 760,
+    "depth": 2,
+    "title": "Quiz 73",
+    "physical_page": 215,
+    "parent_order": 753
+  },
+  {
+    "order": 761,
+    "depth": 1,
+    "title": "Chapter 74 - Scams, Signals, Copy Trading, Binary Options and “Guaranteed” Systems",
+    "physical_page": 216,
+    "parent_order": 692
+  },
+  {
+    "order": 762,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 216,
+    "parent_order": 761
+  },
+  {
+    "order": 763,
+    "depth": 2,
+    "title": "The central filter",
+    "physical_page": 216,
+    "parent_order": 761
+  },
+  {
+    "order": 764,
+    "depth": 2,
+    "title": "Red flags",
+    "physical_page": 216,
+    "parent_order": 761
+  },
+  {
+    "order": 765,
+    "depth": 2,
+    "title": "Signal services",
+    "physical_page": 217,
+    "parent_order": 761
+  },
+  {
+    "order": 766,
+    "depth": 2,
+    "title": "Copy trading",
+    "physical_page": 217,
+    "parent_order": 761
+  },
+  {
+    "order": 767,
+    "depth": 2,
+    "title": "Binary-option-style products",
+    "physical_page": 217,
+    "parent_order": 761
+  },
+  {
+    "order": 768,
+    "depth": 2,
+    "title": "“AI bots” and EAs",
+    "physical_page": 217,
+    "parent_order": 761
+  },
+  {
+    "order": 769,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 217,
+    "parent_order": 761
+  },
+  {
+    "order": 770,
+    "depth": 2,
+    "title": "Quiz 74",
+    "physical_page": 217,
+    "parent_order": 761
+  },
+  {
+    "order": 771,
+    "depth": 1,
+    "title": "Chapter 75 - Funded/Prop Trading Programs: Evaluate Later, Not as a Shortcut",
+    "physical_page": 218,
+    "parent_order": 692
+  },
+  {
+    "order": 772,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 218,
+    "parent_order": 771
+  },
+  {
+    "order": 773,
+    "depth": 2,
+    "title": "The attraction",
+    "physical_page": 218,
+    "parent_order": 771
+  },
+  {
+    "order": 774,
+    "depth": 2,
+    "title": "The problems to analyze",
+    "physical_page": 218,
+    "parent_order": 771
+  },
+  {
+    "order": 775,
+    "depth": 2,
+    "title": "Course policy",
+    "physical_page": 219,
+    "parent_order": 771
+  },
+  {
+    "order": 776,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 219,
+    "parent_order": 771
+  },
+  {
+    "order": 777,
+    "depth": 2,
+    "title": "Quiz 75",
+    "physical_page": 219,
+    "parent_order": 771
+  },
+  {
+    "order": 778,
+    "depth": 2,
+    "title": "Gate Exam G - Demo to Micro-Live",
+    "physical_page": 219,
+    "parent_order": 771
+  },
+  {
+    "order": 779,
+    "depth": 0,
+    "title": "VIII Part VIII - Advanced Foreign-Exchange Literacy",
+    "physical_page": 221,
+    "parent_order": null
+  },
+  {
+    "order": 780,
+    "depth": 1,
+    "title": "Chapter 76 - Advanced Market Structure: Dealers, Venues and Liquidity",
+    "physical_page": 222,
+    "parent_order": 779
+  },
+  {
+    "order": 781,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 222,
+    "parent_order": 780
+  },
+  {
+    "order": 782,
+    "depth": 2,
+    "title": "A fragmented OTC market",
+    "physical_page": 222,
+    "parent_order": 780
+  },
+  {
+    "order": 783,
+    "depth": 2,
+    "title": "Dealer role",
+    "physical_page": 222,
+    "parent_order": 780
+  },
+  {
+    "order": 784,
+    "depth": 2,
+    "title": "Liquidity is conditional",
+    "physical_page": 222,
+    "parent_order": 780
+  },
+  {
+    "order": 785,
+    "depth": 2,
+    "title": "Last look and execution conventions",
+    "physical_page": 223,
+    "parent_order": 780
+  },
+  {
+    "order": 786,
+    "depth": 2,
+    "title": "FX Global Code",
+    "physical_page": 223,
+    "parent_order": 780
+  },
+  {
+    "order": 787,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 223,
+    "parent_order": 780
+  },
+  {
+    "order": 788,
+    "depth": 2,
+    "title": "Quiz 76",
+    "physical_page": 223,
+    "parent_order": 780
+  },
+  {
+    "order": 789,
+    "depth": 1,
+    "title": "Chapter 77 - Spot, Forwards, FX Swaps and Interest-Rate Parity",
+    "physical_page": 224,
+    "parent_order": 779
+  },
+  {
+    "order": 790,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 224,
+    "parent_order": 789
+  },
+  {
+    "order": 791,
+    "depth": 2,
+    "title": "Why forward rates differ from spot",
+    "physical_page": 224,
+    "parent_order": 789
+  },
+  {
+    "order": 792,
+    "depth": 2,
+    "title": "Covered interest parity intuition",
+    "physical_page": 224,
+    "parent_order": 789
+  },
+  {
+    "order": 793,
+    "depth": 2,
+    "title": "Forward premium/discount",
+    "physical_page": 224,
+    "parent_order": 789
+  },
+  {
+    "order": 794,
+    "depth": 2,
+    "title": "FX swap",
+    "physical_page": 225,
+    "parent_order": 789
+  },
+  {
+    "order": 795,
+    "depth": 2,
+    "title": "Cross-currency basis - advanced note",
+    "physical_page": 225,
+    "parent_order": 789
+  },
+  {
+    "order": 796,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 225,
+    "parent_order": 789
+  },
+  {
+    "order": 797,
+    "depth": 2,
+    "title": "Quiz 77",
+    "physical_page": 225,
+    "parent_order": 789
+  },
+  {
+    "order": 798,
+    "depth": 1,
+    "title": "Chapter 78 - Currency Futures and What They Add to Your Analysis",
+    "physical_page": 226,
+    "parent_order": 779
+  },
+  {
+    "order": 799,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 226,
+    "parent_order": 798
+  },
+  {
+    "order": 800,
+    "depth": 2,
+    "title": "Futures structure",
+    "physical_page": 226,
+    "parent_order": 798
+  },
+  {
+    "order": 801,
+    "depth": 2,
+    "title": "Futures versus retail spot/CFD",
+    "physical_page": 226,
+    "parent_order": 798
+  },
+  {
+    "order": 802,
+    "depth": 2,
+    "title": "Basis and convergence",
+    "physical_page": 227,
+    "parent_order": 798
+  },
+  {
+    "order": 803,
+    "depth": 2,
+    "title": "Why a spot trader may look at futures",
+    "physical_page": 227,
+    "parent_order": 798
+  },
+  {
+    "order": 804,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 227,
+    "parent_order": 798
+  },
+  {
+    "order": 805,
+    "depth": 2,
+    "title": "Quiz 78",
+    "physical_page": 227,
+    "parent_order": 798
+  },
+  {
+    "order": 806,
+    "depth": 1,
+    "title": "Chapter 79 - FX Options: Calls, Puts, Delta and Implied Volatility",
+    "physical_page": 228,
+    "parent_order": 779
+  },
+  {
+    "order": 807,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 228,
+    "parent_order": 806
+  },
+  {
+    "order": 808,
+    "depth": 2,
+    "title": "Option basics",
+    "physical_page": 228,
+    "parent_order": 806
+  },
+  {
+    "order": 809,
+    "depth": 2,
+    "title": "Implied volatility",
+    "physical_page": 228,
+    "parent_order": 806
+  },
+  {
+    "order": 810,
+    "depth": 2,
+    "title": "Delta",
+    "physical_page": 229,
+    "parent_order": 806
+  },
+  {
+    "order": 811,
+    "depth": 2,
+    "title": "Realized versus implied volatility",
+    "physical_page": 229,
+    "parent_order": 806
+  },
+  {
+    "order": 812,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 229,
+    "parent_order": 806
+  },
+  {
+    "order": 813,
+    "depth": 2,
+    "title": "Quiz 79",
+    "physical_page": 229,
+    "parent_order": 806
+  },
+  {
+    "order": 814,
+    "depth": 1,
+    "title": "Chapter 80 - Risk Reversals, Skew and What Option Markets Can Suggest",
+    "physical_page": 230,
+    "parent_order": 779
+  },
+  {
+    "order": 815,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 230,
+    "parent_order": 814
+  },
+  {
+    "order": 816,
+    "depth": 2,
+    "title": "Skew",
+    "physical_page": 230,
+    "parent_order": 814
+  },
+  {
+    "order": 817,
+    "depth": 2,
+    "title": "Interpretation",
+    "physical_page": 230,
+    "parent_order": 814
+  },
+  {
+    "order": 818,
+    "depth": 2,
+    "title": "Term structure",
+    "physical_page": 230,
+    "parent_order": 814
+  },
+  {
+    "order": 819,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 231,
+    "parent_order": 814
+  },
+  {
+    "order": 820,
+    "depth": 2,
+    "title": "Quiz 80",
+    "physical_page": 231,
+    "parent_order": 814
+  },
+  {
+    "order": 821,
+    "depth": 1,
+    "title": "Chapter 81 - Positioning: CFTC Commitments of Traders",
+    "physical_page": 232,
+    "parent_order": 779
+  },
+  {
+    "order": 822,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 232,
+    "parent_order": 821
+  },
+  {
+    "order": 823,
+    "depth": 2,
+    "title": "What COT is",
+    "physical_page": 232,
+    "parent_order": 821
+  },
+  {
+    "order": 824,
+    "depth": 2,
+    "title": "What positioning can tell you",
+    "physical_page": 232,
+    "parent_order": 821
+  },
+  {
+    "order": 825,
+    "depth": 2,
+    "title": "What it cannot tell you",
+    "physical_page": 232,
+    "parent_order": 821
+  },
+  {
+    "order": 826,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 233,
+    "parent_order": 821
+  },
+  {
+    "order": 827,
+    "depth": 2,
+    "title": "Quiz 81",
+    "physical_page": 233,
+    "parent_order": 821
+  },
+  {
+    "order": 828,
+    "depth": 1,
+    "title": "Chapter 82 - Order Flow, Volume and the Limits of Retail Data",
+    "physical_page": 234,
+    "parent_order": 779
+  },
+  {
+    "order": 829,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 234,
+    "parent_order": 828
+  },
+  {
+    "order": 830,
+    "depth": 2,
+    "title": "Order flow",
+    "physical_page": 234,
+    "parent_order": 828
+  },
+  {
+    "order": 831,
+    "depth": 2,
+    "title": "Tick volume",
+    "physical_page": 234,
+    "parent_order": 828
+  },
+  {
+    "order": 832,
+    "depth": 2,
+    "title": "Exchange volume",
+    "physical_page": 234,
+    "parent_order": 828
+  },
+  {
+    "order": 833,
+    "depth": 2,
+    "title": "DOM/order book",
+    "physical_page": 234,
+    "parent_order": 828
+  },
+  {
+    "order": 834,
+    "depth": 2,
+    "title": "Microstructure reading",
+    "physical_page": 234,
+    "parent_order": 828
+  },
+  {
+    "order": 835,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 235,
+    "parent_order": 828
+  },
+  {
+    "order": 836,
+    "depth": 2,
+    "title": "Quiz 82",
+    "physical_page": 235,
+    "parent_order": 828
+  },
+  {
+    "order": 837,
+    "depth": 1,
+    "title": "Chapter 83 - Volatility Regimes, Clustering and Range Expectations",
+    "physical_page": 236,
+    "parent_order": 779
+  },
+  {
+    "order": 838,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 236,
+    "parent_order": 837
+  },
+  {
+    "order": 839,
+    "depth": 2,
+    "title": "Volatility clusters",
+    "physical_page": 236,
+    "parent_order": 837
+  },
+  {
+    "order": 840,
+    "depth": 2,
+    "title": "ATR as local scale",
+    "physical_page": 236,
+    "parent_order": 837
+  },
+  {
+    "order": 841,
+    "depth": 2,
+    "title": "Volatility and position sizing",
+    "physical_page": 236,
+    "parent_order": 837
+  },
+  {
+    "order": 842,
+    "depth": 2,
+    "title": "Regime transitions",
+    "physical_page": 236,
+    "parent_order": 837
+  },
+  {
+    "order": 843,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 236,
+    "parent_order": 837
+  },
+  {
+    "order": 844,
+    "depth": 2,
+    "title": "Quiz 83",
+    "physical_page": 237,
+    "parent_order": 837
+  },
+  {
+    "order": 845,
+    "depth": 1,
+    "title": "Chapter 84 - Advanced Central-Bank Analysis: Reaction Functions and Communication",
+    "physical_page": 238,
+    "parent_order": 779
+  },
+  {
+    "order": 846,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 238,
+    "parent_order": 845
+  },
+  {
+    "order": 847,
+    "depth": 2,
+    "title": "Decision is only one data point",
+    "physical_page": 238,
+    "parent_order": 845
+  },
+  {
+    "order": 848,
+    "depth": 2,
+    "title": "Reaction function",
+    "physical_page": 238,
+    "parent_order": 845
+  },
+  {
+    "order": 849,
+    "depth": 2,
+    "title": "Market-implied path",
+    "physical_page": 239,
+    "parent_order": 845
+  },
+  {
+    "order": 850,
+    "depth": 2,
+    "title": "Primary sources",
+    "physical_page": 239,
+    "parent_order": 845
+  },
+  {
+    "order": 851,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 239,
+    "parent_order": 845
+  },
+  {
+    "order": 852,
+    "depth": 2,
+    "title": "Quiz 84",
+    "physical_page": 239,
+    "parent_order": 845
+  },
+  {
+    "order": 853,
+    "depth": 1,
+    "title": "Chapter 85 - Fiscal Policy, Sovereign Risk and Political Economy",
+    "physical_page": 240,
+    "parent_order": 779
+  },
+  {
+    "order": 854,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 240,
+    "parent_order": 853
+  },
+  {
+    "order": 855,
+    "depth": 2,
+    "title": "Fiscal channels",
+    "physical_page": 240,
+    "parent_order": 853
+  },
+  {
+    "order": 856,
+    "depth": 2,
+    "title": "Higher yield: good or bad?",
+    "physical_page": 240,
+    "parent_order": 853
+  },
+  {
+    "order": 857,
+    "depth": 2,
+    "title": "Debt sustainability",
+    "physical_page": 241,
+    "parent_order": 853
+  },
+  {
+    "order": 858,
+    "depth": 2,
+    "title": "Political risk premium",
+    "physical_page": 241,
+    "parent_order": 853
+  },
+  {
+    "order": 859,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 241,
+    "parent_order": 853
+  },
+  {
+    "order": 860,
+    "depth": 2,
+    "title": "Quiz 85",
+    "physical_page": 241,
+    "parent_order": 853
+  },
+  {
+    "order": 861,
+    "depth": 1,
+    "title": "Chapter 86 - Commodity Currencies, Terms of Trade and External Shocks",
+    "physical_page": 242,
+    "parent_order": 779
+  },
+  {
+    "order": 862,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 242,
+    "parent_order": 861
+  },
+  {
+    "order": 863,
+    "depth": 2,
+    "title": "Terms of trade",
+    "physical_page": 242,
+    "parent_order": 861
+  },
+  {
+    "order": 864,
+    "depth": 2,
+    "title": "CAD and oil",
+    "physical_page": 242,
+    "parent_order": 861
+  },
+  {
+    "order": 865,
+    "depth": 2,
+    "title": "AUD and commodities/China",
+    "physical_page": 242,
+    "parent_order": 861
+  },
+  {
+    "order": 866,
+    "depth": 2,
+    "title": "NZD and agriculture/risk",
+    "physical_page": 242,
+    "parent_order": 861
+  },
+  {
+    "order": 867,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 242,
+    "parent_order": 861
+  },
+  {
+    "order": 868,
+    "depth": 2,
+    "title": "Quiz 86",
+    "physical_page": 243,
+    "parent_order": 861
+  },
+  {
+    "order": 869,
+    "depth": 1,
+    "title": "Chapter 87 - Safe Havens, Funding Currencies and Crisis Dynamics",
+    "physical_page": 244,
+    "parent_order": 779
+  },
+  {
+    "order": 870,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 244,
+    "parent_order": 869
+  },
+  {
+    "order": 871,
+    "depth": 2,
+    "title": "USD in global stress",
+    "physical_page": 244,
+    "parent_order": 869
+  },
+  {
+    "order": 872,
+    "depth": 2,
+    "title": "JPY",
+    "physical_page": 244,
+    "parent_order": 869
+  },
+  {
+    "order": 873,
+    "depth": 2,
+    "title": "CHF",
+    "physical_page": 244,
+    "parent_order": 869
+  },
+  {
+    "order": 874,
+    "depth": 2,
+    "title": "Funding currency concept",
+    "physical_page": 244,
+    "parent_order": 869
+  },
+  {
+    "order": 875,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 244,
+    "parent_order": 869
+  },
+  {
+    "order": 876,
+    "depth": 2,
+    "title": "Quiz 87",
+    "physical_page": 245,
+    "parent_order": 869
+  },
+  {
+    "order": 877,
+    "depth": 1,
+    "title": "Chapter 88 - Building a Professional Currency Thesis",
+    "physical_page": 246,
+    "parent_order": 779
+  },
+  {
+    "order": 878,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 246,
+    "parent_order": 877
+  },
+  {
+    "order": 879,
+    "depth": 2,
+    "title": "Thesis template",
+    "physical_page": 246,
+    "parent_order": 877
+  },
+  {
+    "order": 880,
+    "depth": 3,
+    "title": "Currency A",
+    "physical_page": 246,
+    "parent_order": 879
+  },
+  {
+    "order": 881,
+    "depth": 3,
+    "title": "Currency B",
+    "physical_page": 246,
+    "parent_order": 879
+  },
+  {
+    "order": 882,
+    "depth": 3,
+    "title": "Relative case",
+    "physical_page": 246,
+    "parent_order": 879
+  },
+  {
+    "order": 883,
+    "depth": 3,
+    "title": "Catalysts",
+    "physical_page": 246,
+    "parent_order": 879
+  },
+  {
+    "order": 884,
+    "depth": 3,
+    "title": "Invalidation",
+    "physical_page": 246,
+    "parent_order": 879
+  },
+  {
+    "order": 885,
+    "depth": 3,
+    "title": "Trade expression",
+    "physical_page": 247,
+    "parent_order": 879
+  },
+  {
+    "order": 886,
+    "depth": 2,
+    "title": "Bull and bear argument",
+    "physical_page": 247,
+    "parent_order": 877
+  },
+  {
+    "order": 887,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 247,
+    "parent_order": 877
+  },
+  {
+    "order": 888,
+    "depth": 2,
+    "title": "Quiz 88",
+    "physical_page": 247,
+    "parent_order": 877
+  },
+  {
+    "order": 889,
+    "depth": 1,
+    "title": "Chapter 89 - Professional Trading Plan: From Market Thesis to Portfolio Rules",
+    "physical_page": 248,
+    "parent_order": 779
+  },
+  {
+    "order": 890,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 248,
+    "parent_order": 889
+  },
+  {
+    "order": 891,
+    "depth": 2,
+    "title": "Your trading plan should contain",
+    "physical_page": 248,
+    "parent_order": 889
+  },
+  {
+    "order": 892,
+    "depth": 3,
+    "title": "Mission and constraints",
+    "physical_page": 248,
+    "parent_order": 891
+  },
+  {
+    "order": 893,
+    "depth": 3,
+    "title": "Strategy inventory",
+    "physical_page": 248,
+    "parent_order": 891
+  },
+  {
+    "order": 894,
+    "depth": 3,
+    "title": "Risk policy",
+    "physical_page": 248,
+    "parent_order": 891
+  },
+  {
+    "order": 895,
+    "depth": 3,
+    "title": "Execution policy",
+    "physical_page": 249,
+    "parent_order": 891
+  },
+  {
+    "order": 896,
+    "depth": 3,
+    "title": "Review policy",
+    "physical_page": 249,
+    "parent_order": 891
+  },
+  {
+    "order": 897,
+    "depth": 3,
+    "title": "Governance",
+    "physical_page": 249,
+    "parent_order": 891
+  },
+  {
+    "order": 898,
+    "depth": 2,
+    "title": "The plan outranks your mood",
+    "physical_page": 249,
+    "parent_order": 889
+  },
+  {
+    "order": 899,
+    "depth": 2,
+    "title": "Exercises",
+    "physical_page": 249,
+    "parent_order": 889
+  },
+  {
+    "order": 900,
+    "depth": 2,
+    "title": "Quiz 89",
+    "physical_page": 249,
+    "parent_order": 889
+  },
+  {
+    "order": 901,
+    "depth": 1,
+    "title": "Chapter 90 - Graduation: The Gate Before the IT/Systematic Track",
+    "physical_page": 250,
+    "parent_order": 779
+  },
+  {
+    "order": 902,
+    "depth": 2,
+    "title": "Learning objectives",
+    "physical_page": 250,
+    "parent_order": 901
+  },
+  {
+    "order": 903,
+    "depth": 2,
+    "title": "Why technology remains postponed",
+    "physical_page": 250,
+    "parent_order": 901
+  },
+  {
+    "order": 904,
+    "depth": 2,
+    "title": "Knowledge graduation checklist",
+    "physical_page": 250,
+    "parent_order": 901
+  },
+  {
+    "order": 905,
+    "depth": 2,
+    "title": "Evidence graduation checklist",
+    "physical_page": 251,
+    "parent_order": 901
+  },
+  {
+    "order": 906,
+    "depth": 2,
+    "title": "The question you should be able to ask technology later",
+    "physical_page": 251,
+    "parent_order": 901
+  },
+  {
+    "order": 907,
+    "depth": 2,
+    "title": "Final advanced quiz 90",
+    "physical_page": 252,
+    "parent_order": 901
+  },
+  {
+    "order": 908,
+    "depth": 1,
+    "title": "Final Comprehensive Examination",
+    "physical_page": 253,
+    "parent_order": 779
+  },
+  {
+    "order": 909,
+    "depth": 2,
+    "title": "Section A - Market mechanics",
+    "physical_page": 253,
+    "parent_order": 908
+  },
+  {
+    "order": 910,
+    "depth": 2,
+    "title": "Section B - Regulation and execution",
+    "physical_page": 253,
+    "parent_order": 908
+  },
+  {
+    "order": 911,
+    "depth": 2,
+    "title": "Section C - Technical literacy",
+    "physical_page": 254,
+    "parent_order": 908
+  },
+  {
+    "order": 912,
+    "depth": 2,
+    "title": "Section D - Macro and fundamentals",
+    "physical_page": 254,
+    "parent_order": 908
+  },
+  {
+    "order": 913,
+    "depth": 2,
+    "title": "Section E - Risk and probability",
+    "physical_page": 254,
+    "parent_order": 908
+  },
+  {
+    "order": 914,
+    "depth": 2,
+    "title": "Section F - Strategy and evidence",
+    "physical_page": 255,
+    "parent_order": 908
+  },
+  {
+    "order": 915,
+    "depth": 2,
+    "title": "Section G - Psychology and process",
+    "physical_page": 255,
+    "parent_order": 908
+  },
+  {
+    "order": 916,
+    "depth": 2,
+    "title": "Section H - Advanced FX",
+    "physical_page": 255,
+    "parent_order": 908
+  },
+  {
+    "order": 917,
+    "depth": 2,
+    "title": "Section I - Practical oral defence",
+    "physical_page": 256,
+    "parent_order": 908
+  },
+  {
+    "order": 918,
+    "depth": 0,
+    "title": "IX Part IX - Curriculum Calendar, Reading Plan and Working Templates",
+    "physical_page": 257,
+    "parent_order": null
+  },
+  {
+    "order": 919,
+    "depth": 1,
+    "title": "Appendix A - The 52-Week Core Curriculum",
+    "physical_page": 258,
+    "parent_order": 918
+  },
+  {
+    "order": 920,
+    "depth": 2,
+    "title": "If 52 weeks is not enough",
+    "physical_page": 261,
+    "parent_order": 919
+  },
+  {
+    "order": 921,
+    "depth": 1,
+    "title": "Appendix B - Book Curriculum and Reading Order",
+    "physical_page": 262,
+    "parent_order": 918
+  },
+  {
+    "order": 922,
+    "depth": 2,
+    "title": "Core Book 1 - Currency Trading For Dummies, 4th Edition",
+    "physical_page": 262,
+    "parent_order": 921
+  },
+  {
+    "order": 923,
+    "depth": 3,
+    "title": "Reading tasks",
+    "physical_page": 262,
+    "parent_order": 922
+  },
+  {
+    "order": 924,
+    "depth": 2,
+    "title": "Core Book 2 - Technical Analysis of the Financial Markets",
+    "physical_page": 262,
+    "parent_order": 921
+  },
+  {
+    "order": 925,
+    "depth": 2,
+    "title": "Core Book 3 - Day Trading and Swing Trading the Currency Market, 3rd Edition",
+    "physical_page": 263,
+    "parent_order": 921
+  },
+  {
+    "order": 926,
+    "depth": 2,
+    "title": "Core Book 4 - Trading in the Zone",
+    "physical_page": 263,
+    "parent_order": 921
+  },
+  {
+    "order": 927,
+    "depth": 2,
+    "title": "Core Book 5 - Leveraged Trading",
+    "physical_page": 263,
+    "parent_order": 921
+  },
+  {
+    "order": 928,
+    "depth": 2,
+    "title": "Core Book 6 - Evidence-Based Technical Analysis",
+    "physical_page": 263,
+    "parent_order": 921
+  },
+  {
+    "order": 929,
+    "depth": 2,
+    "title": "Core Book 7 - Systematic Trading",
+    "physical_page": 264,
+    "parent_order": 921
+  },
+  {
+    "order": 930,
+    "depth": 2,
+    "title": "Advanced Book 8 - Trading and Exchanges",
+    "physical_page": 264,
+    "parent_order": 921
+  },
+  {
+    "order": 931,
+    "depth": 2,
+    "title": "Advanced Book 9 - The Microstructure Approach to Exchange Rates",
+    "physical_page": 264,
+    "parent_order": 921
+  },
+  {
+    "order": 932,
+    "depth": 2,
+    "title": "Decision Book 10 - Thinking in Bets",
+    "physical_page": 264,
+    "parent_order": 921
+  },
+  {
+    "order": 933,
+    "depth": 2,
+    "title": "Optional later book - Advanced Futures Trading Strategies",
+    "physical_page": 265,
+    "parent_order": 921
+  },
+  {
+    "order": 934,
+    "depth": 2,
+    "title": "Deliberately postponed - Advances in Financial Machine Learning",
+    "physical_page": 265,
+    "parent_order": 921
+  },
+  {
+    "order": 935,
+    "depth": 1,
+    "title": "Appendix C - Free Primary Resource Library",
+    "physical_page": 266,
+    "parent_order": 918
+  },
+  {
+    "order": 936,
+    "depth": 2,
+    "title": "Kenya regulation and investor protection",
+    "physical_page": 266,
+    "parent_order": 935
+  },
+  {
+    "order": 937,
+    "depth": 2,
+    "title": "Global FX market structure",
+    "physical_page": 266,
+    "parent_order": 935
+  },
+  {
+    "order": 938,
+    "depth": 2,
+    "title": "Retail risk and fraud education",
+    "physical_page": 266,
+    "parent_order": 935
+  },
+  {
+    "order": 939,
+    "depth": 2,
+    "title": "Central banks",
+    "physical_page": 266,
+    "parent_order": 935
+  },
+  {
+    "order": 940,
+    "depth": 2,
+    "title": "Official economic-release calendars",
+    "physical_page": 267,
+    "parent_order": 935
+  },
+  {
+    "order": 941,
+    "depth": 2,
+    "title": "Positioning",
+    "physical_page": 267,
+    "parent_order": 935
+  },
+  {
+    "order": 942,
+    "depth": 2,
+    "title": "Structured free education / platforms",
+    "physical_page": 267,
+    "parent_order": 935
+  },
+  {
+    "order": 943,
+    "depth": 2,
+    "title": "Kenya tax starting points",
+    "physical_page": 268,
+    "parent_order": 935
+  },
+  {
+    "order": 944,
+    "depth": 1,
+    "title": "Appendix D - Research Papers Worth Reading After the Foundations",
+    "physical_page": 269,
+    "parent_order": 918
+  },
+  {
+    "order": 945,
+    "depth": 2,
+    "title": "How to read a research paper",
+    "physical_page": 269,
+    "parent_order": 944
+  },
+  {
+    "order": 946,
+    "depth": 1,
+    "title": "Appendix E - Formula Sheet",
+    "physical_page": 270,
+    "parent_order": 918
+  },
+  {
+    "order": 947,
+    "depth": 2,
+    "title": "Exchange-rate movement",
+    "physical_page": 270,
+    "parent_order": 946
+  },
+  {
+    "order": 948,
+    "depth": 2,
+    "title": "Spread",
+    "physical_page": 270,
+    "parent_order": 946
+  },
+  {
+    "order": 949,
+    "depth": 2,
+    "title": "Cash risk",
+    "physical_page": 270,
+    "parent_order": 946
+  },
+  {
+    "order": 950,
+    "depth": 2,
+    "title": "Position size",
+    "physical_page": 270,
+    "parent_order": 946
+  },
+  {
+    "order": 951,
+    "depth": 2,
+    "title": "Pip value in quote currency",
+    "physical_page": 270,
+    "parent_order": 946
+  },
+  {
+    "order": 952,
+    "depth": 2,
+    "title": "Expectancy",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 953,
+    "depth": 2,
+    "title": "Profit factor",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 954,
+    "depth": 2,
+    "title": "Break-even win rate before costs",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 955,
+    "depth": 2,
+    "title": "Drawdown",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 956,
+    "depth": 2,
+    "title": "Recovery required",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 957,
+    "depth": 2,
+    "title": "Fractional losing streak",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 958,
+    "depth": 2,
+    "title": "Net P/L",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 959,
+    "depth": 2,
+    "title": "Simplified forward-rate intuition",
+    "physical_page": 271,
+    "parent_order": 946
+  },
+  {
+    "order": 960,
+    "depth": 1,
+    "title": "Appendix F - Course Risk Policy Card",
+    "physical_page": 272,
+    "parent_order": 918
+  },
+  {
+    "order": 961,
+    "depth": 1,
+    "title": "Appendix G - 100-Chart Annotation Worksheet",
+    "physical_page": 273,
+    "parent_order": 918
+  },
+  {
+    "order": 962,
+    "depth": 2,
+    "title": "100-chart progress grid",
+    "physical_page": 273,
+    "parent_order": 961
+  },
+  {
+    "order": 963,
+    "depth": 1,
+    "title": "Appendix H - Economic Event Study Worksheet",
+    "physical_page": 275,
+    "parent_order": 918
+  },
+  {
+    "order": 964,
+    "depth": 1,
+    "title": "Appendix I - Weekly Macro Sheet",
+    "physical_page": 276,
+    "parent_order": 918
+  },
+  {
+    "order": 965,
+    "depth": 2,
+    "title": "USD",
+    "physical_page": 276,
+    "parent_order": 964
+  },
+  {
+    "order": 966,
+    "depth": 2,
+    "title": "EUR",
+    "physical_page": 276,
+    "parent_order": 964
+  },
+  {
+    "order": 967,
+    "depth": 2,
+    "title": "GBP",
+    "physical_page": 276,
+    "parent_order": 964
+  },
+  {
+    "order": 968,
+    "depth": 2,
+    "title": "JPY",
+    "physical_page": 276,
+    "parent_order": 964
+  },
+  {
+    "order": 969,
+    "depth": 2,
+    "title": "AUD / CAD / NZD / CHF",
+    "physical_page": 277,
+    "parent_order": 964
+  },
+  {
+    "order": 970,
+    "depth": 2,
+    "title": "Relative-strength thesis table",
+    "physical_page": 277,
+    "parent_order": 964
+  },
+  {
+    "order": 971,
+    "depth": 2,
+    "title": "This week’s conclusion",
+    "physical_page": 277,
+    "parent_order": 964
+  },
+  {
+    "order": 972,
+    "depth": 1,
+    "title": "Appendix J - Position-Sizing Drill Sheet",
+    "physical_page": 278,
+    "parent_order": 918
+  },
+  {
+    "order": 973,
+    "depth": 1,
+    "title": "Appendix K - One-Page Strategy Specification Template",
+    "physical_page": 279,
+    "parent_order": 918
+  },
+  {
+    "order": 974,
+    "depth": 2,
+    "title": "Market eligibility",
+    "physical_page": 279,
+    "parent_order": 973
+  },
+  {
+    "order": 975,
+    "depth": 2,
+    "title": "Long",
+    "physical_page": 279,
+    "parent_order": 973
+  },
+  {
+    "order": 976,
+    "depth": 2,
+    "title": "Short",
+    "physical_page": 279,
+    "parent_order": 973
+  },
+  {
+    "order": 977,
+    "depth": 2,
+    "title": "Risk",
+    "physical_page": 280,
+    "parent_order": 973
+  },
+  {
+    "order": 978,
+    "depth": 2,
+    "title": "Exit",
+    "physical_page": 280,
+    "parent_order": 973
+  },
+  {
+    "order": 979,
+    "depth": 2,
+    "title": "Costs",
+    "physical_page": 280,
+    "parent_order": 973
+  },
+  {
+    "order": 980,
+    "depth": 2,
+    "title": "Forbidden actions",
+    "physical_page": 280,
+    "parent_order": 973
+  },
+  {
+    "order": 981,
+    "depth": 2,
+    "title": "Evidence plan",
+    "physical_page": 280,
+    "parent_order": 973
+  },
+  {
+    "order": 982,
+    "depth": 1,
+    "title": "Appendix L - Manual Backtest / Replay Log",
+    "physical_page": 281,
+    "parent_order": 918
+  },
+  {
+    "order": 983,
+    "depth": 2,
+    "title": "Test cover sheet",
+    "physical_page": 281,
+    "parent_order": 982
+  },
+  {
+    "order": 984,
+    "depth": 1,
+    "title": "Appendix M - Robustness Matrix",
+    "physical_page": 282,
+    "parent_order": 918
+  },
+  {
+    "order": 985,
+    "depth": 1,
+    "title": "Appendix N - Pre-Trade Checklist",
+    "physical_page": 283,
+    "parent_order": 918
+  },
+  {
+    "order": 986,
+    "depth": 1,
+    "title": "Appendix O - Full Trade Journal Template",
+    "physical_page": 284,
+    "parent_order": 918
+  },
+  {
+    "order": 987,
+    "depth": 2,
+    "title": "After exit",
+    "physical_page": 284,
+    "parent_order": 986
+  },
+  {
+    "order": 988,
+    "depth": 1,
+    "title": "Appendix P - Weekly Review Template",
+    "physical_page": 286,
+    "parent_order": 918
+  },
+  {
+    "order": 989,
+    "depth": 2,
+    "title": "Best process decision",
+    "physical_page": 286,
+    "parent_order": 988
+  },
+  {
+    "order": 990,
+    "depth": 2,
+    "title": "Worst process decision",
+    "physical_page": 286,
+    "parent_order": 988
+  },
+  {
+    "order": 991,
+    "depth": 2,
+    "title": "Behaviour pattern noticed",
+    "physical_page": 286,
+    "parent_order": 988
+  },
+  {
+    "order": 992,
+    "depth": 2,
+    "title": "Does anything require strategy research rather than immediate rule change?",
+    "physical_page": 286,
+    "parent_order": 988
+  },
+  {
+    "order": 993,
+    "depth": 2,
+    "title": "Upcoming official macro events",
+    "physical_page": 287,
+    "parent_order": 988
+  },
+  {
+    "order": 994,
+    "depth": 1,
+    "title": "Appendix Q - Monthly Strategy Scorecard",
+    "physical_page": 288,
+    "parent_order": 918
+  },
+  {
+    "order": 995,
+    "depth": 2,
+    "title": "Contribution review",
+    "physical_page": 288,
+    "parent_order": 994
+  },
+  {
+    "order": 996,
+    "depth": 2,
+    "title": "Decision",
+    "physical_page": 288,
+    "parent_order": 994
+  },
+  {
+    "order": 997,
+    "depth": 1,
+    "title": "Appendix R - Broker Scorecard",
+    "physical_page": 289,
+    "parent_order": 918
+  },
+  {
+    "order": 998,
+    "depth": 1,
+    "title": "Appendix S - Micro-Live Go/No-Go Form",
+    "physical_page": 290,
+    "parent_order": 918
+  },
+  {
+    "order": 999,
+    "depth": 1,
+    "title": "Appendix T - Strategy Retirement / Pause Form",
+    "physical_page": 291,
+    "parent_order": 918
+  },
+  {
+    "order": 1000,
+    "depth": 1,
+    "title": "Appendix U - Forex and Trading Glossary",
+    "physical_page": 292,
+    "parent_order": 918
+  },
+  {
+    "order": 1001,
+    "depth": 0,
+    "title": "X Part X - Quiz Answer Key and Assessment Rubrics",
+    "physical_page": 299,
+    "parent_order": null
+  },
+  {
+    "order": 1002,
+    "depth": 1,
+    "title": "Appendix V - Chapter Quiz Answer Key, Chapters 1-30",
+    "physical_page": 300,
+    "parent_order": 1001
+  },
+  {
+    "order": 1003,
+    "depth": 2,
+    "title": "Quiz 1",
+    "physical_page": 300,
+    "parent_order": 1002
+  },
+  {
+    "order": 1004,
+    "depth": 2,
+    "title": "Quiz 2",
+    "physical_page": 300,
+    "parent_order": 1002
+  },
+  {
+    "order": 1005,
+    "depth": 2,
+    "title": "Quiz 3",
+    "physical_page": 300,
+    "parent_order": 1002
+  },
+  {
+    "order": 1006,
+    "depth": 2,
+    "title": "Quiz 4",
+    "physical_page": 301,
+    "parent_order": 1002
+  },
+  {
+    "order": 1007,
+    "depth": 2,
+    "title": "Quiz 5",
+    "physical_page": 301,
+    "parent_order": 1002
+  },
+  {
+    "order": 1008,
+    "depth": 2,
+    "title": "Quiz 6",
+    "physical_page": 301,
+    "parent_order": 1002
+  },
+  {
+    "order": 1009,
+    "depth": 2,
+    "title": "Quiz 7",
+    "physical_page": 301,
+    "parent_order": 1002
+  },
+  {
+    "order": 1010,
+    "depth": 2,
+    "title": "Quiz 8",
+    "physical_page": 302,
+    "parent_order": 1002
+  },
+  {
+    "order": 1011,
+    "depth": 2,
+    "title": "Quiz 9",
+    "physical_page": 302,
+    "parent_order": 1002
+  },
+  {
+    "order": 1012,
+    "depth": 2,
+    "title": "Quiz 10",
+    "physical_page": 302,
+    "parent_order": 1002
+  },
+  {
+    "order": 1013,
+    "depth": 2,
+    "title": "Quiz 11",
+    "physical_page": 302,
+    "parent_order": 1002
+  },
+  {
+    "order": 1014,
+    "depth": 2,
+    "title": "Quiz 12",
+    "physical_page": 302,
+    "parent_order": 1002
+  },
+  {
+    "order": 1015,
+    "depth": 2,
+    "title": "Quiz 13",
+    "physical_page": 303,
+    "parent_order": 1002
+  },
+  {
+    "order": 1016,
+    "depth": 2,
+    "title": "Quiz 14",
+    "physical_page": 303,
+    "parent_order": 1002
+  },
+  {
+    "order": 1017,
+    "depth": 2,
+    "title": "Quiz 15",
+    "physical_page": 303,
+    "parent_order": 1002
+  },
+  {
+    "order": 1018,
+    "depth": 2,
+    "title": "Quiz 16",
+    "physical_page": 303,
+    "parent_order": 1002
+  },
+  {
+    "order": 1019,
+    "depth": 2,
+    "title": "Quiz 17",
+    "physical_page": 303,
+    "parent_order": 1002
+  },
+  {
+    "order": 1020,
+    "depth": 2,
+    "title": "Quiz 18",
+    "physical_page": 304,
+    "parent_order": 1002
+  },
+  {
+    "order": 1021,
+    "depth": 2,
+    "title": "Quiz 19",
+    "physical_page": 304,
+    "parent_order": 1002
+  },
+  {
+    "order": 1022,
+    "depth": 2,
+    "title": "Quiz 20",
+    "physical_page": 304,
+    "parent_order": 1002
+  },
+  {
+    "order": 1023,
+    "depth": 2,
+    "title": "Quiz 21",
+    "physical_page": 304,
+    "parent_order": 1002
+  },
+  {
+    "order": 1024,
+    "depth": 2,
+    "title": "Quiz 22",
+    "physical_page": 305,
+    "parent_order": 1002
+  },
+  {
+    "order": 1025,
+    "depth": 2,
+    "title": "Quiz 23",
+    "physical_page": 305,
+    "parent_order": 1002
+  },
+  {
+    "order": 1026,
+    "depth": 2,
+    "title": "Quiz 24",
+    "physical_page": 305,
+    "parent_order": 1002
+  },
+  {
+    "order": 1027,
+    "depth": 2,
+    "title": "Quiz 25",
+    "physical_page": 305,
+    "parent_order": 1002
+  },
+  {
+    "order": 1028,
+    "depth": 2,
+    "title": "Quiz 26",
+    "physical_page": 305,
+    "parent_order": 1002
+  },
+  {
+    "order": 1029,
+    "depth": 2,
+    "title": "Quiz 27",
+    "physical_page": 306,
+    "parent_order": 1002
+  },
+  {
+    "order": 1030,
+    "depth": 2,
+    "title": "Quiz 28",
+    "physical_page": 306,
+    "parent_order": 1002
+  },
+  {
+    "order": 1031,
+    "depth": 2,
+    "title": "Quiz 29",
+    "physical_page": 306,
+    "parent_order": 1002
+  },
+  {
+    "order": 1032,
+    "depth": 2,
+    "title": "Quiz 30",
+    "physical_page": 306,
+    "parent_order": 1002
+  },
+  {
+    "order": 1033,
+    "depth": 1,
+    "title": "Appendix W - Chapter Quiz Answer Key, Chapters 31-60",
+    "physical_page": 308,
+    "parent_order": 1001
+  },
+  {
+    "order": 1034,
+    "depth": 2,
+    "title": "Quiz 31",
+    "physical_page": 308,
+    "parent_order": 1033
+  },
+  {
+    "order": 1035,
+    "depth": 2,
+    "title": "Quiz 32",
+    "physical_page": 308,
+    "parent_order": 1033
+  },
+  {
+    "order": 1036,
+    "depth": 2,
+    "title": "Quiz 33",
+    "physical_page": 308,
+    "parent_order": 1033
+  },
+  {
+    "order": 1037,
+    "depth": 2,
+    "title": "Quiz 34",
+    "physical_page": 309,
+    "parent_order": 1033
+  },
+  {
+    "order": 1038,
+    "depth": 2,
+    "title": "Quiz 35",
+    "physical_page": 309,
+    "parent_order": 1033
+  },
+  {
+    "order": 1039,
+    "depth": 2,
+    "title": "Quiz 36",
+    "physical_page": 309,
+    "parent_order": 1033
+  },
+  {
+    "order": 1040,
+    "depth": 2,
+    "title": "Quiz 37",
+    "physical_page": 309,
+    "parent_order": 1033
+  },
+  {
+    "order": 1041,
+    "depth": 2,
+    "title": "Quiz 38",
+    "physical_page": 309,
+    "parent_order": 1033
+  },
+  {
+    "order": 1042,
+    "depth": 2,
+    "title": "Quiz 39",
+    "physical_page": 310,
+    "parent_order": 1033
+  },
+  {
+    "order": 1043,
+    "depth": 2,
+    "title": "Quiz 40",
+    "physical_page": 310,
+    "parent_order": 1033
+  },
+  {
+    "order": 1044,
+    "depth": 2,
+    "title": "Quiz 41",
+    "physical_page": 310,
+    "parent_order": 1033
+  },
+  {
+    "order": 1045,
+    "depth": 2,
+    "title": "Quiz 42",
+    "physical_page": 310,
+    "parent_order": 1033
+  },
+  {
+    "order": 1046,
+    "depth": 2,
+    "title": "Quiz 43",
+    "physical_page": 310,
+    "parent_order": 1033
+  },
+  {
+    "order": 1047,
+    "depth": 2,
+    "title": "Quiz 44",
+    "physical_page": 311,
+    "parent_order": 1033
+  },
+  {
+    "order": 1048,
+    "depth": 2,
+    "title": "Quiz 45",
+    "physical_page": 311,
+    "parent_order": 1033
+  },
+  {
+    "order": 1049,
+    "depth": 2,
+    "title": "Quiz 46",
+    "physical_page": 311,
+    "parent_order": 1033
+  },
+  {
+    "order": 1050,
+    "depth": 2,
+    "title": "Quiz 47",
+    "physical_page": 311,
+    "parent_order": 1033
+  },
+  {
+    "order": 1051,
+    "depth": 2,
+    "title": "Quiz 48",
+    "physical_page": 311,
+    "parent_order": 1033
+  },
+  {
+    "order": 1052,
+    "depth": 2,
+    "title": "Quiz 49",
+    "physical_page": 312,
+    "parent_order": 1033
+  },
+  {
+    "order": 1053,
+    "depth": 2,
+    "title": "Quiz 50",
+    "physical_page": 312,
+    "parent_order": 1033
+  },
+  {
+    "order": 1054,
+    "depth": 2,
+    "title": "Quiz 51",
+    "physical_page": 312,
+    "parent_order": 1033
+  },
+  {
+    "order": 1055,
+    "depth": 2,
+    "title": "Quiz 52",
+    "physical_page": 312,
+    "parent_order": 1033
+  },
+  {
+    "order": 1056,
+    "depth": 2,
+    "title": "Quiz 53",
+    "physical_page": 313,
+    "parent_order": 1033
+  },
+  {
+    "order": 1057,
+    "depth": 2,
+    "title": "Quiz 54",
+    "physical_page": 313,
+    "parent_order": 1033
+  },
+  {
+    "order": 1058,
+    "depth": 2,
+    "title": "Quiz 55",
+    "physical_page": 313,
+    "parent_order": 1033
+  },
+  {
+    "order": 1059,
+    "depth": 2,
+    "title": "Quiz 56",
+    "physical_page": 313,
+    "parent_order": 1033
+  },
+  {
+    "order": 1060,
+    "depth": 2,
+    "title": "Quiz 57",
+    "physical_page": 313,
+    "parent_order": 1033
+  },
+  {
+    "order": 1061,
+    "depth": 2,
+    "title": "Quiz 58",
+    "physical_page": 314,
+    "parent_order": 1033
+  },
+  {
+    "order": 1062,
+    "depth": 2,
+    "title": "Quiz 59",
+    "physical_page": 314,
+    "parent_order": 1033
+  },
+  {
+    "order": 1063,
+    "depth": 2,
+    "title": "Quiz 60",
+    "physical_page": 314,
+    "parent_order": 1033
+  },
+  {
+    "order": 1064,
+    "depth": 1,
+    "title": "Appendix X - Chapter Quiz Answer Key, Chapters 61-90",
+    "physical_page": 315,
+    "parent_order": 1001
+  },
+  {
+    "order": 1065,
+    "depth": 2,
+    "title": "Quiz 61",
+    "physical_page": 315,
+    "parent_order": 1064
+  },
+  {
+    "order": 1066,
+    "depth": 2,
+    "title": "Quiz 62",
+    "physical_page": 315,
+    "parent_order": 1064
+  },
+  {
+    "order": 1067,
+    "depth": 2,
+    "title": "Quiz 63",
+    "physical_page": 315,
+    "parent_order": 1064
+  },
+  {
+    "order": 1068,
+    "depth": 2,
+    "title": "Quiz 64",
+    "physical_page": 316,
+    "parent_order": 1064
+  },
+  {
+    "order": 1069,
+    "depth": 2,
+    "title": "Quiz 65",
+    "physical_page": 316,
+    "parent_order": 1064
+  },
+  {
+    "order": 1070,
+    "depth": 2,
+    "title": "Quiz 66",
+    "physical_page": 316,
+    "parent_order": 1064
+  },
+  {
+    "order": 1071,
+    "depth": 2,
+    "title": "Quiz 67",
+    "physical_page": 316,
+    "parent_order": 1064
+  },
+  {
+    "order": 1072,
+    "depth": 2,
+    "title": "Quiz 68",
+    "physical_page": 316,
+    "parent_order": 1064
+  },
+  {
+    "order": 1073,
+    "depth": 2,
+    "title": "Quiz 69",
+    "physical_page": 317,
+    "parent_order": 1064
+  },
+  {
+    "order": 1074,
+    "depth": 2,
+    "title": "Quiz 70",
+    "physical_page": 317,
+    "parent_order": 1064
+  },
+  {
+    "order": 1075,
+    "depth": 2,
+    "title": "Quiz 71",
+    "physical_page": 317,
+    "parent_order": 1064
+  },
+  {
+    "order": 1076,
+    "depth": 2,
+    "title": "Quiz 72",
+    "physical_page": 317,
+    "parent_order": 1064
+  },
+  {
+    "order": 1077,
+    "depth": 2,
+    "title": "Quiz 73",
+    "physical_page": 317,
+    "parent_order": 1064
+  },
+  {
+    "order": 1078,
+    "depth": 2,
+    "title": "Quiz 74",
+    "physical_page": 318,
+    "parent_order": 1064
+  },
+  {
+    "order": 1079,
+    "depth": 2,
+    "title": "Quiz 75",
+    "physical_page": 318,
+    "parent_order": 1064
+  },
+  {
+    "order": 1080,
+    "depth": 2,
+    "title": "Quiz 76",
+    "physical_page": 318,
+    "parent_order": 1064
+  },
+  {
+    "order": 1081,
+    "depth": 2,
+    "title": "Quiz 77",
+    "physical_page": 318,
+    "parent_order": 1064
+  },
+  {
+    "order": 1082,
+    "depth": 2,
+    "title": "Quiz 78",
+    "physical_page": 319,
+    "parent_order": 1064
+  },
+  {
+    "order": 1083,
+    "depth": 2,
+    "title": "Quiz 79",
+    "physical_page": 319,
+    "parent_order": 1064
+  },
+  {
+    "order": 1084,
+    "depth": 2,
+    "title": "Quiz 80",
+    "physical_page": 319,
+    "parent_order": 1064
+  },
+  {
+    "order": 1085,
+    "depth": 2,
+    "title": "Quiz 81",
+    "physical_page": 319,
+    "parent_order": 1064
+  },
+  {
+    "order": 1086,
+    "depth": 2,
+    "title": "Quiz 82",
+    "physical_page": 319,
+    "parent_order": 1064
+  },
+  {
+    "order": 1087,
+    "depth": 2,
+    "title": "Quiz 83",
+    "physical_page": 320,
+    "parent_order": 1064
+  },
+  {
+    "order": 1088,
+    "depth": 2,
+    "title": "Quiz 84",
+    "physical_page": 320,
+    "parent_order": 1064
+  },
+  {
+    "order": 1089,
+    "depth": 2,
+    "title": "Quiz 85",
+    "physical_page": 320,
+    "parent_order": 1064
+  },
+  {
+    "order": 1090,
+    "depth": 2,
+    "title": "Quiz 86",
+    "physical_page": 320,
+    "parent_order": 1064
+  },
+  {
+    "order": 1091,
+    "depth": 2,
+    "title": "Quiz 87",
+    "physical_page": 321,
+    "parent_order": 1064
+  },
+  {
+    "order": 1092,
+    "depth": 2,
+    "title": "Quiz 88",
+    "physical_page": 321,
+    "parent_order": 1064
+  },
+  {
+    "order": 1093,
+    "depth": 2,
+    "title": "Quiz 89",
+    "physical_page": 321,
+    "parent_order": 1064
+  },
+  {
+    "order": 1094,
+    "depth": 2,
+    "title": "Quiz 90",
+    "physical_page": 321,
+    "parent_order": 1064
+  },
+  {
+    "order": 1095,
+    "depth": 1,
+    "title": "Appendix Y - Gate Exam Answer Framework",
+    "physical_page": 322,
+    "parent_order": 1001
+  },
+  {
+    "order": 1096,
+    "depth": 2,
+    "title": "Gate A - Market Mechanics",
+    "physical_page": 322,
+    "parent_order": 1095
+  },
+  {
+    "order": 1097,
+    "depth": 2,
+    "title": "Gate B - Chart and Technical Literacy",
+    "physical_page": 322,
+    "parent_order": 1095
+  },
+  {
+    "order": 1098,
+    "depth": 2,
+    "title": "Gate C - Macro",
+    "physical_page": 322,
+    "parent_order": 1095
+  },
+  {
+    "order": 1099,
+    "depth": 2,
+    "title": "Gate D - Risk",
+    "physical_page": 323,
+    "parent_order": 1095
+  },
+  {
+    "order": 1100,
+    "depth": 2,
+    "title": "Gate E - Strategy and Evidence",
+    "physical_page": 323,
+    "parent_order": 1095
+  },
+  {
+    "order": 1101,
+    "depth": 2,
+    "title": "Gate F - Psychology and Process",
+    "physical_page": 323,
+    "parent_order": 1095
+  },
+  {
+    "order": 1102,
+    "depth": 2,
+    "title": "Gate G - Demo to Micro-Live",
+    "physical_page": 323,
+    "parent_order": 1095
+  },
+  {
+    "order": 1103,
+    "depth": 2,
+    "title": "Final exam",
+    "physical_page": 324,
+    "parent_order": 1095
+  },
+  {
+    "order": 1104,
+    "depth": 1,
+    "title": "Appendix Z - Source Framework, Bibliography and Update Policy",
+    "physical_page": 325,
+    "parent_order": 1001
+  },
+  {
+    "order": 1105,
+    "depth": 2,
+    "title": "How the supplied 49-page roadmap was used",
+    "physical_page": 325,
+    "parent_order": 1104
+  },
+  {
+    "order": 1106,
+    "depth": 2,
+    "title": "Source hierarchy used in this course",
+    "physical_page": 326,
+    "parent_order": 1104
+  },
+  {
+    "order": 1107,
+    "depth": 3,
+    "title": "Tier 1 - Primary/official",
+    "physical_page": 326,
+    "parent_order": 1106
+  },
+  {
+    "order": 1108,
+    "depth": 3,
+    "title": "Tier 2 - Reputable books/publishers",
+    "physical_page": 326,
+    "parent_order": 1106
+  },
+  {
+    "order": 1109,
+    "depth": 3,
+    "title": "Tier 3 - Structured secondary education",
+    "physical_page": 326,
+    "parent_order": 1106
+  },
+  {
+    "order": 1110,
+    "depth": 3,
+    "title": "Tier 4 - Social media/influencers",
+    "physical_page": 326,
+    "parent_order": 1106
+  },
+  {
+    "order": 1111,
+    "depth": 2,
+    "title": "Core official references",
+    "physical_page": 326,
+    "parent_order": 1104
+  },
+  {
+    "order": 1112,
+    "depth": 2,
+    "title": "Selected academic references",
+    "physical_page": 327,
+    "parent_order": 1104
+  },
+  {
+    "order": 1113,
+    "depth": 2,
+    "title": "Book bibliography",
+    "physical_page": 327,
+    "parent_order": 1104
+  },
+  {
+    "order": 1114,
+    "depth": 2,
+    "title": "Update policy",
+    "physical_page": 328,
+    "parent_order": 1104
+  },
+  {
+    "order": 1115,
+    "depth": 3,
+    "title": "Review frequency",
+    "physical_page": 328,
+    "parent_order": 1114
+  },
+  {
+    "order": 1116,
+    "depth": 2,
+    "title": "Closing principle",
+    "physical_page": 328,
+    "parent_order": 1104
+  }
+]

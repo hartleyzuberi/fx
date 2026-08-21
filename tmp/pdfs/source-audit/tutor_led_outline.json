@@ -1,0 +1,1920 @@
+[
+  {
+    "order": 0,
+    "depth": 0,
+    "title": "Tutor-Led Guided Study Edition",
+    "physical_page": 1,
+    "parent_order": null
+  },
+  {
+    "order": 1,
+    "depth": 0,
+    "title": "Original Course - Front Matter",
+    "physical_page": 3,
+    "parent_order": null
+  },
+  {
+    "order": 2,
+    "depth": 0,
+    "title": "WEEK 1 - Session 1 - Chapter 1: What Forex Actually Is",
+    "physical_page": 35,
+    "parent_order": null
+  },
+  {
+    "order": 3,
+    "depth": 1,
+    "title": "Original Chapter 1",
+    "physical_page": 37,
+    "parent_order": 2
+  },
+  {
+    "order": 4,
+    "depth": 1,
+    "title": "Chapter 1 Mastery Check",
+    "physical_page": 41,
+    "parent_order": 2
+  },
+  {
+    "order": 5,
+    "depth": 0,
+    "title": "WEEK 1 - Session 2 - Chapter 2: Who Trades Forex and Why Prices Move",
+    "physical_page": 42,
+    "parent_order": null
+  },
+  {
+    "order": 6,
+    "depth": 1,
+    "title": "Original Chapter 2",
+    "physical_page": 44,
+    "parent_order": 5
+  },
+  {
+    "order": 7,
+    "depth": 1,
+    "title": "Chapter 2 Mastery Check",
+    "physical_page": 47,
+    "parent_order": 5
+  },
+  {
+    "order": 8,
+    "depth": 0,
+    "title": "WEEK 2 - Chapter 3: Currency Pairs, Quotes, Pips and Cross Rates",
+    "physical_page": 48,
+    "parent_order": null
+  },
+  {
+    "order": 9,
+    "depth": 1,
+    "title": "Original Chapter 3",
+    "physical_page": 50,
+    "parent_order": 8
+  },
+  {
+    "order": 10,
+    "depth": 1,
+    "title": "Chapter 3 Mastery Check",
+    "physical_page": 53,
+    "parent_order": 8
+  },
+  {
+    "order": 11,
+    "depth": 0,
+    "title": "WEEK 3 - Session 1 - Chapter 4: Bid, Ask, Spread and Transaction Costs",
+    "physical_page": 54,
+    "parent_order": null
+  },
+  {
+    "order": 12,
+    "depth": 1,
+    "title": "Original Chapter 4",
+    "physical_page": 56,
+    "parent_order": 11
+  },
+  {
+    "order": 13,
+    "depth": 1,
+    "title": "Chapter 4 Mastery Check",
+    "physical_page": 59,
+    "parent_order": 11
+  },
+  {
+    "order": 14,
+    "depth": 0,
+    "title": "WEEK 3 - Session 2 - Chapter 5: Orders and Execution",
+    "physical_page": 60,
+    "parent_order": null
+  },
+  {
+    "order": 15,
+    "depth": 1,
+    "title": "Original Chapter 5",
+    "physical_page": 62,
+    "parent_order": 14
+  },
+  {
+    "order": 16,
+    "depth": 1,
+    "title": "Chapter 5 Mastery Check",
+    "physical_page": 65,
+    "parent_order": 14
+  },
+  {
+    "order": 17,
+    "depth": 0,
+    "title": "WEEK 4 - Session 1 - Chapter 6: Margin, Leverage, Equity and Stop-Out",
+    "physical_page": 66,
+    "parent_order": null
+  },
+  {
+    "order": 18,
+    "depth": 1,
+    "title": "Original Chapter 6",
+    "physical_page": 68,
+    "parent_order": 17
+  },
+  {
+    "order": 19,
+    "depth": 1,
+    "title": "Chapter 6 Mastery Check",
+    "physical_page": 71,
+    "parent_order": 17
+  },
+  {
+    "order": 20,
+    "depth": 0,
+    "title": "WEEK 4 - Session 2 - Chapter 7: Kenya: Regulation, Broker Due Diligence and Scam Defence",
+    "physical_page": 72,
+    "parent_order": null
+  },
+  {
+    "order": 21,
+    "depth": 1,
+    "title": "Original Chapter 7",
+    "physical_page": 74,
+    "parent_order": 20
+  },
+  {
+    "order": 22,
+    "depth": 1,
+    "title": "Chapter 7 Mastery Check",
+    "physical_page": 77,
+    "parent_order": 20
+  },
+  {
+    "order": 23,
+    "depth": 0,
+    "title": "WEEK 3 - Session 3 - Chapter 8: Demo Platform Literacy Before Chart Analysis",
+    "physical_page": 78,
+    "parent_order": null
+  },
+  {
+    "order": 24,
+    "depth": 1,
+    "title": "Original Chapter 8",
+    "physical_page": 80,
+    "parent_order": 23
+  },
+  {
+    "order": 25,
+    "depth": 1,
+    "title": "Chapter 8 Mastery Check",
+    "physical_page": 83,
+    "parent_order": 23
+  },
+  {
+    "order": 26,
+    "depth": 0,
+    "title": "WEEK 5 - Chapter 9: OHLC, Candlesticks and Timeframes",
+    "physical_page": 85,
+    "parent_order": null
+  },
+  {
+    "order": 27,
+    "depth": 1,
+    "title": "Original Chapter 9",
+    "physical_page": 87,
+    "parent_order": 26
+  },
+  {
+    "order": 28,
+    "depth": 1,
+    "title": "Chapter 9 Mastery Check",
+    "physical_page": 90,
+    "parent_order": 26
+  },
+  {
+    "order": 29,
+    "depth": 0,
+    "title": "WEEK 6 - Chapter 10: Swing Highs, Swing Lows and Market Structure",
+    "physical_page": 91,
+    "parent_order": null
+  },
+  {
+    "order": 30,
+    "depth": 1,
+    "title": "Original Chapter 10",
+    "physical_page": 93,
+    "parent_order": 29
+  },
+  {
+    "order": 31,
+    "depth": 1,
+    "title": "Chapter 10 Mastery Check",
+    "physical_page": 96,
+    "parent_order": 29
+  },
+  {
+    "order": 32,
+    "depth": 0,
+    "title": "WEEK 7 - Session 1 - Chapter 11: Support, Resistance and Zones",
+    "physical_page": 97,
+    "parent_order": null
+  },
+  {
+    "order": 33,
+    "depth": 1,
+    "title": "Original Chapter 11",
+    "physical_page": 99,
+    "parent_order": 32
+  },
+  {
+    "order": 34,
+    "depth": 1,
+    "title": "Chapter 11 Mastery Check",
+    "physical_page": 101,
+    "parent_order": 32
+  },
+  {
+    "order": 35,
+    "depth": 0,
+    "title": "WEEK 7 - Session 2 - Chapter 12: Breakouts, False Breakouts and Consolidation",
+    "physical_page": 102,
+    "parent_order": null
+  },
+  {
+    "order": 36,
+    "depth": 1,
+    "title": "Original Chapter 12",
+    "physical_page": 104,
+    "parent_order": 35
+  },
+  {
+    "order": 37,
+    "depth": 1,
+    "title": "Chapter 12 Mastery Check",
+    "physical_page": 106,
+    "parent_order": 35
+  },
+  {
+    "order": 38,
+    "depth": 0,
+    "title": "WEEK 8 - Chapter 13: Volatility: Range, ATR and Why Stops Need Context",
+    "physical_page": 107,
+    "parent_order": null
+  },
+  {
+    "order": 39,
+    "depth": 1,
+    "title": "Original Chapter 13",
+    "physical_page": 109,
+    "parent_order": 38
+  },
+  {
+    "order": 40,
+    "depth": 1,
+    "title": "Chapter 13 Mastery Check",
+    "physical_page": 112,
+    "parent_order": 38
+  },
+  {
+    "order": 41,
+    "depth": 0,
+    "title": "WEEK 9 - Chapter 14: Moving Averages, Trend Filters and Momentum",
+    "physical_page": 113,
+    "parent_order": null
+  },
+  {
+    "order": 42,
+    "depth": 1,
+    "title": "Original Chapter 14",
+    "physical_page": 115,
+    "parent_order": 41
+  },
+  {
+    "order": 43,
+    "depth": 1,
+    "title": "Chapter 14 Mastery Check",
+    "physical_page": 118,
+    "parent_order": 41
+  },
+  {
+    "order": 44,
+    "depth": 0,
+    "title": "WEEK 10 - Chapter 15: Oscillators: RSI, MACD, Bollinger Bands and Misuse",
+    "physical_page": 119,
+    "parent_order": null
+  },
+  {
+    "order": 45,
+    "depth": 1,
+    "title": "Original Chapter 15",
+    "physical_page": 121,
+    "parent_order": 44
+  },
+  {
+    "order": 46,
+    "depth": 1,
+    "title": "Chapter 15 Mastery Check",
+    "physical_page": 123,
+    "parent_order": 44
+  },
+  {
+    "order": 47,
+    "depth": 0,
+    "title": "WEEK 11 - Chapter 16: Chart Patterns and Candlestick Patterns: Language, Not Proof",
+    "physical_page": 124,
+    "parent_order": null
+  },
+  {
+    "order": 48,
+    "depth": 1,
+    "title": "Original Chapter 16",
+    "physical_page": 126,
+    "parent_order": 47
+  },
+  {
+    "order": 49,
+    "depth": 1,
+    "title": "Chapter 16 Mastery Check",
+    "physical_page": 129,
+    "parent_order": 47
+  },
+  {
+    "order": 50,
+    "depth": 0,
+    "title": "WEEK 12 - Chapter 17: Multiple-Timeframe Analysis and the 100-Chart Gate",
+    "physical_page": 130,
+    "parent_order": null
+  },
+  {
+    "order": 51,
+    "depth": 1,
+    "title": "Original Chapter 17",
+    "physical_page": 132,
+    "parent_order": 50
+  },
+  {
+    "order": 52,
+    "depth": 1,
+    "title": "Chapter 17 Mastery Check",
+    "physical_page": 135,
+    "parent_order": 50
+  },
+  {
+    "order": 53,
+    "depth": 0,
+    "title": "WEEK 13 - Chapter 18: Economics From First Principles: Growth, Inflation, Employment and Rates",
+    "physical_page": 137,
+    "parent_order": null
+  },
+  {
+    "order": 54,
+    "depth": 1,
+    "title": "Original Chapter 18",
+    "physical_page": 139,
+    "parent_order": 53
+  },
+  {
+    "order": 55,
+    "depth": 1,
+    "title": "Chapter 18 Mastery Check",
+    "physical_page": 142,
+    "parent_order": 53
+  },
+  {
+    "order": 56,
+    "depth": 0,
+    "title": "WEEK 14 - Chapter 19: How Central Banks Move Markets",
+    "physical_page": 143,
+    "parent_order": null
+  },
+  {
+    "order": 57,
+    "depth": 1,
+    "title": "Original Chapter 19",
+    "physical_page": 145,
+    "parent_order": 56
+  },
+  {
+    "order": 58,
+    "depth": 1,
+    "title": "Chapter 19 Mastery Check",
+    "physical_page": 148,
+    "parent_order": 56
+  },
+  {
+    "order": 59,
+    "depth": 0,
+    "title": "WEEK 15 - Session 1 - Chapter 20: The U.S. Dollar and the Federal Reserve",
+    "physical_page": 149,
+    "parent_order": null
+  },
+  {
+    "order": 60,
+    "depth": 1,
+    "title": "Original Chapter 20",
+    "physical_page": 151,
+    "parent_order": 59
+  },
+  {
+    "order": 61,
+    "depth": 1,
+    "title": "Chapter 20 Mastery Check",
+    "physical_page": 154,
+    "parent_order": 59
+  },
+  {
+    "order": 62,
+    "depth": 0,
+    "title": "WEEK 15 - Session 2 - Chapter 21: The Euro and the ECB",
+    "physical_page": 155,
+    "parent_order": null
+  },
+  {
+    "order": 63,
+    "depth": 1,
+    "title": "Original Chapter 21",
+    "physical_page": 157,
+    "parent_order": 62
+  },
+  {
+    "order": 64,
+    "depth": 1,
+    "title": "Chapter 21 Mastery Check",
+    "physical_page": 159,
+    "parent_order": 62
+  },
+  {
+    "order": 65,
+    "depth": 0,
+    "title": "WEEK 15 - Session 3 - Chapter 22: The British Pound and the Bank of England",
+    "physical_page": 160,
+    "parent_order": null
+  },
+  {
+    "order": 66,
+    "depth": 1,
+    "title": "Original Chapter 22",
+    "physical_page": 162,
+    "parent_order": 65
+  },
+  {
+    "order": 67,
+    "depth": 1,
+    "title": "Chapter 22 Mastery Check",
+    "physical_page": 164,
+    "parent_order": 65
+  },
+  {
+    "order": 68,
+    "depth": 0,
+    "title": "WEEK 16 - Session 1 - Chapter 23: The Japanese Yen and the Bank of Japan",
+    "physical_page": 165,
+    "parent_order": null
+  },
+  {
+    "order": 69,
+    "depth": 1,
+    "title": "Original Chapter 23",
+    "physical_page": 167,
+    "parent_order": 68
+  },
+  {
+    "order": 70,
+    "depth": 1,
+    "title": "Chapter 23 Mastery Check",
+    "physical_page": 169,
+    "parent_order": 68
+  },
+  {
+    "order": 71,
+    "depth": 0,
+    "title": "WEEK 16 - Session 2 - Chapter 24: AUD, CAD, NZD and CHF: Commodity, Small-Open-Economy and Safe-Haven Dynamics",
+    "physical_page": 170,
+    "parent_order": null
+  },
+  {
+    "order": 72,
+    "depth": 1,
+    "title": "Original Chapter 24",
+    "physical_page": 172,
+    "parent_order": 71
+  },
+  {
+    "order": 73,
+    "depth": 1,
+    "title": "Chapter 24 Mastery Check",
+    "physical_page": 174,
+    "parent_order": 71
+  },
+  {
+    "order": 74,
+    "depth": 0,
+    "title": "WEEK 17 - Session 1 - Chapter 25: Economic Data Releases: How to Read Them Properly",
+    "physical_page": 175,
+    "parent_order": null
+  },
+  {
+    "order": 75,
+    "depth": 1,
+    "title": "Original Chapter 25",
+    "physical_page": 177,
+    "parent_order": 74
+  },
+  {
+    "order": 76,
+    "depth": 1,
+    "title": "Chapter 25 Mastery Check",
+    "physical_page": 180,
+    "parent_order": 74
+  },
+  {
+    "order": 77,
+    "depth": 0,
+    "title": "WEEK 17 - Session 2 - Chapter 26: Expectations, Pricing and \"Good News / Bad Price\"",
+    "physical_page": 181,
+    "parent_order": null
+  },
+  {
+    "order": 78,
+    "depth": 1,
+    "title": "Original Chapter 26",
+    "physical_page": 183,
+    "parent_order": 77
+  },
+  {
+    "order": 79,
+    "depth": 1,
+    "title": "Chapter 26 Mastery Check",
+    "physical_page": 185,
+    "parent_order": 77
+  },
+  {
+    "order": 80,
+    "depth": 0,
+    "title": "WEEK 18 - Chapter 27: Bonds, Yields, Yield Curves and Real Rates",
+    "physical_page": 186,
+    "parent_order": null
+  },
+  {
+    "order": 81,
+    "depth": 1,
+    "title": "Original Chapter 27",
+    "physical_page": 188,
+    "parent_order": 80
+  },
+  {
+    "order": 82,
+    "depth": 1,
+    "title": "Chapter 27 Mastery Check",
+    "physical_page": 190,
+    "parent_order": 80
+  },
+  {
+    "order": 83,
+    "depth": 0,
+    "title": "WEEK 19 - Session 1 - Chapter 28: Risk Sentiment, Equity Markets, Credit and Safe Havens",
+    "physical_page": 191,
+    "parent_order": null
+  },
+  {
+    "order": 84,
+    "depth": 1,
+    "title": "Original Chapter 28",
+    "physical_page": 193,
+    "parent_order": 83
+  },
+  {
+    "order": 85,
+    "depth": 1,
+    "title": "Chapter 28 Mastery Check",
+    "physical_page": 195,
+    "parent_order": 83
+  },
+  {
+    "order": 86,
+    "depth": 0,
+    "title": "WEEK 19 - Session 2 - Chapter 29: Balance of Payments, Trade and Capital Flows",
+    "physical_page": 196,
+    "parent_order": null
+  },
+  {
+    "order": 87,
+    "depth": 1,
+    "title": "Original Chapter 29",
+    "physical_page": 198,
+    "parent_order": 86
+  },
+  {
+    "order": 88,
+    "depth": 1,
+    "title": "Chapter 29 Mastery Check",
+    "physical_page": 200,
+    "parent_order": 86
+  },
+  {
+    "order": 89,
+    "depth": 0,
+    "title": "WEEK 19 - Session 3 - Chapter 30: Carry, Interest Differentials and Forward Pricing",
+    "physical_page": 201,
+    "parent_order": null
+  },
+  {
+    "order": 90,
+    "depth": 1,
+    "title": "Original Chapter 30",
+    "physical_page": 203,
+    "parent_order": 89
+  },
+  {
+    "order": 91,
+    "depth": 1,
+    "title": "Chapter 30 Mastery Check",
+    "physical_page": 205,
+    "parent_order": 89
+  },
+  {
+    "order": 92,
+    "depth": 0,
+    "title": "WEEK 19 - Session 4 - Chapter 31: Correlations, Intermarket Relationships and Hidden Duplicate Bets",
+    "physical_page": 206,
+    "parent_order": null
+  },
+  {
+    "order": 93,
+    "depth": 1,
+    "title": "Original Chapter 31",
+    "physical_page": 208,
+    "parent_order": 92
+  },
+  {
+    "order": 94,
+    "depth": 1,
+    "title": "Chapter 31 Mastery Check",
+    "physical_page": 210,
+    "parent_order": 92
+  },
+  {
+    "order": 95,
+    "depth": 0,
+    "title": "WEEK 20 - Session 1 - Chapter 32: Geopolitics, Intervention and Event Risk",
+    "physical_page": 211,
+    "parent_order": null
+  },
+  {
+    "order": 96,
+    "depth": 1,
+    "title": "Original Chapter 32",
+    "physical_page": 213,
+    "parent_order": 95
+  },
+  {
+    "order": 97,
+    "depth": 1,
+    "title": "Chapter 32 Mastery Check",
+    "physical_page": 215,
+    "parent_order": 95
+  },
+  {
+    "order": 98,
+    "depth": 0,
+    "title": "WEEK 20 - Session 2 - Chapter 33: Building a Weekly Macro Process",
+    "physical_page": 216,
+    "parent_order": null
+  },
+  {
+    "order": 99,
+    "depth": 1,
+    "title": "Original Chapter 33",
+    "physical_page": 218,
+    "parent_order": 98
+  },
+  {
+    "order": 100,
+    "depth": 1,
+    "title": "Chapter 33 Mastery Check",
+    "physical_page": 221,
+    "parent_order": 98
+  },
+  {
+    "order": 101,
+    "depth": 0,
+    "title": "WEEK 21 - Session 1 - Chapter 34: Probability: The Language of Trading",
+    "physical_page": 223,
+    "parent_order": null
+  },
+  {
+    "order": 102,
+    "depth": 1,
+    "title": "Original Chapter 34",
+    "physical_page": 225,
+    "parent_order": 101
+  },
+  {
+    "order": 103,
+    "depth": 1,
+    "title": "Chapter 34 Mastery Check",
+    "physical_page": 228,
+    "parent_order": 101
+  },
+  {
+    "order": 104,
+    "depth": 0,
+    "title": "WEEK 21 - Session 2 - Chapter 35: R-Multiples, Payoff Ratios and Profit Factor",
+    "physical_page": 229,
+    "parent_order": null
+  },
+  {
+    "order": 105,
+    "depth": 1,
+    "title": "Original Chapter 35",
+    "physical_page": 231,
+    "parent_order": 104
+  },
+  {
+    "order": 106,
+    "depth": 1,
+    "title": "Chapter 35 Mastery Check",
+    "physical_page": 234,
+    "parent_order": 104
+  },
+  {
+    "order": 107,
+    "depth": 0,
+    "title": "WEEK 22 - Chapter 36: Position Sizing From First Principles",
+    "physical_page": 235,
+    "parent_order": null
+  },
+  {
+    "order": 108,
+    "depth": 1,
+    "title": "Original Chapter 36",
+    "physical_page": 237,
+    "parent_order": 107
+  },
+  {
+    "order": 109,
+    "depth": 1,
+    "title": "Chapter 36 Mastery Check",
+    "physical_page": 240,
+    "parent_order": 107
+  },
+  {
+    "order": 110,
+    "depth": 0,
+    "title": "WEEK 23 - Session 1 - Chapter 37: Drawdown, Losing Streaks, Compounding and Risk of Ruin",
+    "physical_page": 241,
+    "parent_order": null
+  },
+  {
+    "order": 111,
+    "depth": 1,
+    "title": "Original Chapter 37",
+    "physical_page": 243,
+    "parent_order": 110
+  },
+  {
+    "order": 112,
+    "depth": 1,
+    "title": "Chapter 37 Mastery Check",
+    "physical_page": 246,
+    "parent_order": 110
+  },
+  {
+    "order": 113,
+    "depth": 0,
+    "title": "WEEK 23 - Session 2 - Chapter 38: Stops, Targets and Exit Logic",
+    "physical_page": 247,
+    "parent_order": null
+  },
+  {
+    "order": 114,
+    "depth": 1,
+    "title": "Original Chapter 38",
+    "physical_page": 249,
+    "parent_order": 113
+  },
+  {
+    "order": 115,
+    "depth": 1,
+    "title": "Chapter 38 Mastery Check",
+    "physical_page": 252,
+    "parent_order": 113
+  },
+  {
+    "order": 116,
+    "depth": 0,
+    "title": "WEEK 23 - Session 3 - Chapter 39: Correlation, Portfolio Exposure and Open-Risk Limits",
+    "physical_page": 253,
+    "parent_order": null
+  },
+  {
+    "order": 117,
+    "depth": 1,
+    "title": "Original Chapter 39",
+    "physical_page": 255,
+    "parent_order": 116
+  },
+  {
+    "order": 118,
+    "depth": 1,
+    "title": "Chapter 39 Mastery Check",
+    "physical_page": 257,
+    "parent_order": 116
+  },
+  {
+    "order": 119,
+    "depth": 0,
+    "title": "WEEK 24 - Session 1 - Chapter 40: Costs, Break-Even Mathematics and Trading Frequency",
+    "physical_page": 258,
+    "parent_order": null
+  },
+  {
+    "order": 120,
+    "depth": 1,
+    "title": "Original Chapter 40",
+    "physical_page": 260,
+    "parent_order": 119
+  },
+  {
+    "order": 121,
+    "depth": 1,
+    "title": "Chapter 40 Mastery Check",
+    "physical_page": 262,
+    "parent_order": 119
+  },
+  {
+    "order": 122,
+    "depth": 0,
+    "title": "WEEK 24 - Session 2 - Chapter 41: News, Weekend, Gap and Tail-Risk Controls",
+    "physical_page": 263,
+    "parent_order": null
+  },
+  {
+    "order": 123,
+    "depth": 1,
+    "title": "Original Chapter 41",
+    "physical_page": 265,
+    "parent_order": 122
+  },
+  {
+    "order": 124,
+    "depth": 1,
+    "title": "Chapter 41 Mastery Check",
+    "physical_page": 267,
+    "parent_order": 122
+  },
+  {
+    "order": 125,
+    "depth": 0,
+    "title": "WEEK 24 - Session 3 - Chapter 42: Capital, Compounding and the Income Reality",
+    "physical_page": 268,
+    "parent_order": null
+  },
+  {
+    "order": 126,
+    "depth": 1,
+    "title": "Original Chapter 42",
+    "physical_page": 270,
+    "parent_order": 125
+  },
+  {
+    "order": 127,
+    "depth": 1,
+    "title": "Chapter 42 Mastery Check",
+    "physical_page": 273,
+    "parent_order": 125
+  },
+  {
+    "order": 128,
+    "depth": 0,
+    "title": "WEEK 25 - Chapter 43: Choosing a Trading Style Without Choosing an Identity",
+    "physical_page": 275,
+    "parent_order": null
+  },
+  {
+    "order": 129,
+    "depth": 1,
+    "title": "Original Chapter 43",
+    "physical_page": 277,
+    "parent_order": 128
+  },
+  {
+    "order": 130,
+    "depth": 1,
+    "title": "Chapter 43 Mastery Check",
+    "physical_page": 279,
+    "parent_order": 128
+  },
+  {
+    "order": 131,
+    "depth": 0,
+    "title": "WEEK 26 - Session 1 - Chapter 44: Trend Following From First Principles",
+    "physical_page": 280,
+    "parent_order": null
+  },
+  {
+    "order": 132,
+    "depth": 1,
+    "title": "Original Chapter 44",
+    "physical_page": 282,
+    "parent_order": 131
+  },
+  {
+    "order": 133,
+    "depth": 1,
+    "title": "Chapter 44 Mastery Check",
+    "physical_page": 284,
+    "parent_order": 131
+  },
+  {
+    "order": 134,
+    "depth": 0,
+    "title": "WEEK 26 - Session 2 - Chapter 45: Breakout Trading and Donchian Logic",
+    "physical_page": 285,
+    "parent_order": null
+  },
+  {
+    "order": 135,
+    "depth": 1,
+    "title": "Original Chapter 45",
+    "physical_page": 287,
+    "parent_order": 134
+  },
+  {
+    "order": 136,
+    "depth": 1,
+    "title": "Chapter 45 Mastery Check",
+    "physical_page": 289,
+    "parent_order": 134
+  },
+  {
+    "order": 137,
+    "depth": 0,
+    "title": "WEEK 27 - Session 1 - Chapter 46: Momentum: Relative and Time-Series Concepts",
+    "physical_page": 290,
+    "parent_order": null
+  },
+  {
+    "order": 138,
+    "depth": 1,
+    "title": "Original Chapter 46",
+    "physical_page": 292,
+    "parent_order": 137
+  },
+  {
+    "order": 139,
+    "depth": 1,
+    "title": "Chapter 46 Mastery Check",
+    "physical_page": 294,
+    "parent_order": 137
+  },
+  {
+    "order": 140,
+    "depth": 0,
+    "title": "WEEK 27 - Session 2 - Chapter 47: Mean Reversion: The Opposite Intuition",
+    "physical_page": 295,
+    "parent_order": null
+  },
+  {
+    "order": 141,
+    "depth": 1,
+    "title": "Original Chapter 47",
+    "physical_page": 297,
+    "parent_order": 140
+  },
+  {
+    "order": 142,
+    "depth": 1,
+    "title": "Chapter 47 Mastery Check",
+    "physical_page": 299,
+    "parent_order": 140
+  },
+  {
+    "order": 143,
+    "depth": 0,
+    "title": "WEEK 27 - Session 3 - Chapter 48: Carry With a Trend Filter",
+    "physical_page": 300,
+    "parent_order": null
+  },
+  {
+    "order": 144,
+    "depth": 1,
+    "title": "Original Chapter 48",
+    "physical_page": 302,
+    "parent_order": 143
+  },
+  {
+    "order": 145,
+    "depth": 1,
+    "title": "Chapter 48 Mastery Check",
+    "physical_page": 304,
+    "parent_order": 143
+  },
+  {
+    "order": 146,
+    "depth": 0,
+    "title": "WEEK 28 - Session 1 - Chapter 49: News and Event Trading: Advanced, Not Beginner Territory",
+    "physical_page": 305,
+    "parent_order": null
+  },
+  {
+    "order": 147,
+    "depth": 1,
+    "title": "Original Chapter 49",
+    "physical_page": 307,
+    "parent_order": 146
+  },
+  {
+    "order": 148,
+    "depth": 1,
+    "title": "Chapter 49 Mastery Check",
+    "physical_page": 309,
+    "parent_order": 146
+  },
+  {
+    "order": 149,
+    "depth": 0,
+    "title": "WEEK 28 - Session 2 - Chapter 50: Discretionary, Rules-Based and Systematic Decision Making",
+    "physical_page": 310,
+    "parent_order": null
+  },
+  {
+    "order": 150,
+    "depth": 1,
+    "title": "Original Chapter 50",
+    "physical_page": 312,
+    "parent_order": 149
+  },
+  {
+    "order": 151,
+    "depth": 1,
+    "title": "Chapter 50 Mastery Check",
+    "physical_page": 314,
+    "parent_order": 149
+  },
+  {
+    "order": 152,
+    "depth": 0,
+    "title": "WEEKS 29-30 - Chapter 51: The One-Page Strategy Specification",
+    "physical_page": 315,
+    "parent_order": null
+  },
+  {
+    "order": 153,
+    "depth": 1,
+    "title": "Original Chapter 51",
+    "physical_page": 317,
+    "parent_order": 152
+  },
+  {
+    "order": 154,
+    "depth": 1,
+    "title": "Chapter 51 Mastery Check",
+    "physical_page": 320,
+    "parent_order": 152
+  },
+  {
+    "order": 155,
+    "depth": 0,
+    "title": "WEEKS 31-33 - Chapter 52: Manual Backtesting and Bar Replay",
+    "physical_page": 321,
+    "parent_order": null
+  },
+  {
+    "order": 156,
+    "depth": 1,
+    "title": "Original Chapter 52",
+    "physical_page": 323,
+    "parent_order": 155
+  },
+  {
+    "order": 157,
+    "depth": 1,
+    "title": "Chapter 52 Mastery Check",
+    "physical_page": 325,
+    "parent_order": 155
+  },
+  {
+    "order": 158,
+    "depth": 0,
+    "title": "WEEK 32 - AUDIT SESSION - Chapter 53: Data Integrity, Time, Sessions and Look-Ahead Bias",
+    "physical_page": 326,
+    "parent_order": null
+  },
+  {
+    "order": 159,
+    "depth": 1,
+    "title": "Original Chapter 53",
+    "physical_page": 328,
+    "parent_order": 158
+  },
+  {
+    "order": 160,
+    "depth": 1,
+    "title": "Chapter 53 Mastery Check",
+    "physical_page": 330,
+    "parent_order": 158
+  },
+  {
+    "order": 161,
+    "depth": 0,
+    "title": "WEEKS 34-36 - Chapter 54: Development Data, Out-of-Sample Data and Walk-Forward Logic",
+    "physical_page": 331,
+    "parent_order": null
+  },
+  {
+    "order": 162,
+    "depth": 1,
+    "title": "Original Chapter 54",
+    "physical_page": 333,
+    "parent_order": 161
+  },
+  {
+    "order": 163,
+    "depth": 1,
+    "title": "Chapter 54 Mastery Check",
+    "physical_page": 335,
+    "parent_order": 161
+  },
+  {
+    "order": 164,
+    "depth": 0,
+    "title": "WEEK 37 - Chapter 55: Overfitting, Data Mining and Multiple Testing",
+    "physical_page": 336,
+    "parent_order": null
+  },
+  {
+    "order": 165,
+    "depth": 1,
+    "title": "Original Chapter 55",
+    "physical_page": 338,
+    "parent_order": 164
+  },
+  {
+    "order": 166,
+    "depth": 1,
+    "title": "Chapter 55 Mastery Check",
+    "physical_page": 340,
+    "parent_order": 164
+  },
+  {
+    "order": 167,
+    "depth": 0,
+    "title": "WEEK 38 - Chapter 56: Robustness and Stress Testing",
+    "physical_page": 341,
+    "parent_order": null
+  },
+  {
+    "order": 168,
+    "depth": 1,
+    "title": "Original Chapter 56",
+    "physical_page": 343,
+    "parent_order": 167
+  },
+  {
+    "order": 169,
+    "depth": 1,
+    "title": "Chapter 56 Mastery Check",
+    "physical_page": 345,
+    "parent_order": 167
+  },
+  {
+    "order": 170,
+    "depth": 0,
+    "title": "WEEK 39 - Chapter 57: Performance Metrics That Matter",
+    "physical_page": 346,
+    "parent_order": null
+  },
+  {
+    "order": 171,
+    "depth": 1,
+    "title": "Original Chapter 57",
+    "physical_page": 348,
+    "parent_order": 170
+  },
+  {
+    "order": 172,
+    "depth": 1,
+    "title": "Chapter 57 Mastery Check",
+    "physical_page": 350,
+    "parent_order": 170
+  },
+  {
+    "order": 173,
+    "depth": 0,
+    "title": "WEEK 40 - Chapter 58: Regimes, Edge Decay and Strategy Retirement",
+    "physical_page": 351,
+    "parent_order": null
+  },
+  {
+    "order": 174,
+    "depth": 1,
+    "title": "Original Chapter 58",
+    "physical_page": 353,
+    "parent_order": 173
+  },
+  {
+    "order": 175,
+    "depth": 1,
+    "title": "Chapter 58 Mastery Check",
+    "physical_page": 356,
+    "parent_order": 173
+  },
+  {
+    "order": 176,
+    "depth": 0,
+    "title": "WEEK 41 - Session 1 - Chapter 59: Trading Psychology Is Behaviour Under Uncertainty",
+    "physical_page": 358,
+    "parent_order": null
+  },
+  {
+    "order": 177,
+    "depth": 1,
+    "title": "Original Chapter 59",
+    "physical_page": 360,
+    "parent_order": 176
+  },
+  {
+    "order": 178,
+    "depth": 1,
+    "title": "Chapter 59 Mastery Check",
+    "physical_page": 362,
+    "parent_order": 176
+  },
+  {
+    "order": 179,
+    "depth": 0,
+    "title": "WEEK 41 - Session 2 - Chapter 60: Cognitive Biases That Damage Traders",
+    "physical_page": 363,
+    "parent_order": null
+  },
+  {
+    "order": 180,
+    "depth": 1,
+    "title": "Original Chapter 60",
+    "physical_page": 365,
+    "parent_order": 179
+  },
+  {
+    "order": 181,
+    "depth": 1,
+    "title": "Chapter 60 Mastery Check",
+    "physical_page": 367,
+    "parent_order": 179
+  },
+  {
+    "order": 182,
+    "depth": 0,
+    "title": "WEEK 42 - Session 1 - Chapter 61: FOMO, Revenge Trading, Overtrading and Strategy Hopping",
+    "physical_page": 368,
+    "parent_order": null
+  },
+  {
+    "order": 183,
+    "depth": 1,
+    "title": "Original Chapter 61",
+    "physical_page": 370,
+    "parent_order": 182
+  },
+  {
+    "order": 184,
+    "depth": 1,
+    "title": "Chapter 61 Mastery Check",
+    "physical_page": 372,
+    "parent_order": 182
+  },
+  {
+    "order": 185,
+    "depth": 0,
+    "title": "WEEK 42 - Session 2 - Chapter 62: Pre-Trade Commitment and Decision Hygiene",
+    "physical_page": 373,
+    "parent_order": null
+  },
+  {
+    "order": 186,
+    "depth": 1,
+    "title": "Original Chapter 62",
+    "physical_page": 375,
+    "parent_order": 185
+  },
+  {
+    "order": 187,
+    "depth": 1,
+    "title": "Chapter 62 Mastery Check",
+    "physical_page": 377,
+    "parent_order": 185
+  },
+  {
+    "order": 188,
+    "depth": 0,
+    "title": "WEEK 43 - Chapter 63: The Trading Journal as an Evidence Database",
+    "physical_page": 378,
+    "parent_order": null
+  },
+  {
+    "order": 189,
+    "depth": 1,
+    "title": "Original Chapter 63",
+    "physical_page": 380,
+    "parent_order": 188
+  },
+  {
+    "order": 190,
+    "depth": 1,
+    "title": "Chapter 63 Mastery Check",
+    "physical_page": 382,
+    "parent_order": 188
+  },
+  {
+    "order": 191,
+    "depth": 0,
+    "title": "WEEK 44 - Chapter 64: The 30-Trade Integrity Challenge",
+    "physical_page": 383,
+    "parent_order": null
+  },
+  {
+    "order": 192,
+    "depth": 1,
+    "title": "Original Chapter 64",
+    "physical_page": 385,
+    "parent_order": 191
+  },
+  {
+    "order": 193,
+    "depth": 1,
+    "title": "Chapter 64 Mastery Check",
+    "physical_page": 387,
+    "parent_order": 191
+  },
+  {
+    "order": 194,
+    "depth": 0,
+    "title": "WEEKS 43-52 - REVIEW PROCESS - Chapter 65: Weekly, Monthly and Quarterly Review",
+    "physical_page": 388,
+    "parent_order": null
+  },
+  {
+    "order": 195,
+    "depth": 1,
+    "title": "Original Chapter 65",
+    "physical_page": 390,
+    "parent_order": 194
+  },
+  {
+    "order": 196,
+    "depth": 1,
+    "title": "Chapter 65 Mastery Check",
+    "physical_page": 393,
+    "parent_order": 194
+  },
+  {
+    "order": 197,
+    "depth": 0,
+    "title": "WEEKS 45-52 - SERIOUS DEMO - Session 1 - Chapter 66: Demo Trading as Forward Testing, Not a Game",
+    "physical_page": 395,
+    "parent_order": null
+  },
+  {
+    "order": 198,
+    "depth": 1,
+    "title": "Original Chapter 66",
+    "physical_page": 397,
+    "parent_order": 197
+  },
+  {
+    "order": 199,
+    "depth": 1,
+    "title": "Chapter 66 Mastery Check",
+    "physical_page": 399,
+    "parent_order": 197
+  },
+  {
+    "order": 200,
+    "depth": 0,
+    "title": "WEEKS 45-52 - SERIOUS DEMO - Session 2 - Chapter 67: The 100-Trade Forward-Test Protocol",
+    "physical_page": 400,
+    "parent_order": null
+  },
+  {
+    "order": 201,
+    "depth": 1,
+    "title": "Original Chapter 67",
+    "physical_page": 402,
+    "parent_order": 200
+  },
+  {
+    "order": 202,
+    "depth": 1,
+    "title": "Chapter 67 Mastery Check",
+    "physical_page": 405,
+    "parent_order": 200
+  },
+  {
+    "order": 203,
+    "depth": 0,
+    "title": "WEEK 50 - BROKER COMPARISON - Chapter 68: Broker Due Diligence for a Kenyan Retail Trader",
+    "physical_page": 406,
+    "parent_order": null
+  },
+  {
+    "order": 204,
+    "depth": 1,
+    "title": "Original Chapter 68",
+    "physical_page": 408,
+    "parent_order": 203
+  },
+  {
+    "order": 205,
+    "depth": 1,
+    "title": "Chapter 68 Mastery Check",
+    "physical_page": 411,
+    "parent_order": 203
+  },
+  {
+    "order": 206,
+    "depth": 0,
+    "title": "MONTHS 15-18 - MICRO-LIVE - Session 1 - Chapter 69: Micro-Live: Introducing Real Money Without Changing the Strategy",
+    "physical_page": 412,
+    "parent_order": null
+  },
+  {
+    "order": 207,
+    "depth": 1,
+    "title": "Original Chapter 69",
+    "physical_page": 414,
+    "parent_order": 206
+  },
+  {
+    "order": 208,
+    "depth": 1,
+    "title": "Chapter 69 Mastery Check",
+    "physical_page": 416,
+    "parent_order": 206
+  },
+  {
+    "order": 209,
+    "depth": 0,
+    "title": "MONTHS 15-18 - MICRO-LIVE - Session 2 - Chapter 70: Slippage, Requotes, Partial Fills and Live Execution Analysis",
+    "physical_page": 417,
+    "parent_order": null
+  },
+  {
+    "order": 210,
+    "depth": 1,
+    "title": "Original Chapter 70",
+    "physical_page": 419,
+    "parent_order": 209
+  },
+  {
+    "order": 211,
+    "depth": 1,
+    "title": "Chapter 70 Mastery Check",
+    "physical_page": 421,
+    "parent_order": 209
+  },
+  {
+    "order": 212,
+    "depth": 0,
+    "title": "MONTHS 15-18 - MICRO-LIVE - Session 3 - Chapter 71: Scaling, De-Scaling and Capital Preservation",
+    "physical_page": 422,
+    "parent_order": null
+  },
+  {
+    "order": 213,
+    "depth": 1,
+    "title": "Original Chapter 71",
+    "physical_page": 424,
+    "parent_order": 212
+  },
+  {
+    "order": 214,
+    "depth": 1,
+    "title": "Chapter 71 Mastery Check",
+    "physical_page": 426,
+    "parent_order": 212
+  },
+  {
+    "order": 215,
+    "depth": 0,
+    "title": "PRE-LIVE / OPERATIONAL MODULE - Session 1 - Chapter 72: Kenya Tax and Recordkeeping: What the Course Can and Cannot Conclude",
+    "physical_page": 427,
+    "parent_order": null
+  },
+  {
+    "order": 216,
+    "depth": 1,
+    "title": "Original Chapter 72",
+    "physical_page": 429,
+    "parent_order": 215
+  },
+  {
+    "order": 217,
+    "depth": 1,
+    "title": "Chapter 72 Mastery Check",
+    "physical_page": 431,
+    "parent_order": 215
+  },
+  {
+    "order": 218,
+    "depth": 0,
+    "title": "PRE-LIVE / OPERATIONAL MODULE - Session 2 - Chapter 73: Operational Security, Account Safety and Continuity",
+    "physical_page": 432,
+    "parent_order": null
+  },
+  {
+    "order": 219,
+    "depth": 1,
+    "title": "Original Chapter 73",
+    "physical_page": 434,
+    "parent_order": 218
+  },
+  {
+    "order": 220,
+    "depth": 1,
+    "title": "Chapter 73 Mastery Check",
+    "physical_page": 436,
+    "parent_order": 218
+  },
+  {
+    "order": 221,
+    "depth": 0,
+    "title": "PRE-LIVE / OPERATIONAL MODULE - Session 3 - Chapter 74: Scams, Signals, Copy Trading, Binary Options and \"Guaranteed\" Systems",
+    "physical_page": 437,
+    "parent_order": null
+  },
+  {
+    "order": 222,
+    "depth": 1,
+    "title": "Original Chapter 74",
+    "physical_page": 439,
+    "parent_order": 221
+  },
+  {
+    "order": 223,
+    "depth": 1,
+    "title": "Chapter 74 Mastery Check",
+    "physical_page": 441,
+    "parent_order": 221
+  },
+  {
+    "order": 224,
+    "depth": 0,
+    "title": "PRE-LIVE / OPERATIONAL MODULE - Session 4 - Chapter 75: Funded/Prop Trading Programs: Evaluate Later, Not as a Shortcut",
+    "physical_page": 442,
+    "parent_order": null
+  },
+  {
+    "order": 225,
+    "depth": 1,
+    "title": "Original Chapter 75",
+    "physical_page": 444,
+    "parent_order": 224
+  },
+  {
+    "order": 226,
+    "depth": 1,
+    "title": "Chapter 75 Mastery Check",
+    "physical_page": 447,
+    "parent_order": 224
+  },
+  {
+    "order": 227,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 1 - Chapter 76: Advanced Market Structure: Dealers, Venues and Liquidity",
+    "physical_page": 449,
+    "parent_order": null
+  },
+  {
+    "order": 228,
+    "depth": 1,
+    "title": "Original Chapter 76",
+    "physical_page": 451,
+    "parent_order": 227
+  },
+  {
+    "order": 229,
+    "depth": 1,
+    "title": "Chapter 76 Mastery Check",
+    "physical_page": 453,
+    "parent_order": 227
+  },
+  {
+    "order": 230,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 2 - Chapter 77: Spot, Forwards, FX Swaps and Interest-Rate Parity",
+    "physical_page": 454,
+    "parent_order": null
+  },
+  {
+    "order": 231,
+    "depth": 1,
+    "title": "Original Chapter 77",
+    "physical_page": 456,
+    "parent_order": 230
+  },
+  {
+    "order": 232,
+    "depth": 1,
+    "title": "Chapter 77 Mastery Check",
+    "physical_page": 458,
+    "parent_order": 230
+  },
+  {
+    "order": 233,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 3 - Chapter 78: Currency Futures and What They Add to Your Analysis",
+    "physical_page": 459,
+    "parent_order": null
+  },
+  {
+    "order": 234,
+    "depth": 1,
+    "title": "Original Chapter 78",
+    "physical_page": 461,
+    "parent_order": 233
+  },
+  {
+    "order": 235,
+    "depth": 1,
+    "title": "Chapter 78 Mastery Check",
+    "physical_page": 463,
+    "parent_order": 233
+  },
+  {
+    "order": 236,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 4 - Chapter 79: FX Options: Calls, Puts, Delta and Implied Volatility",
+    "physical_page": 464,
+    "parent_order": null
+  },
+  {
+    "order": 237,
+    "depth": 1,
+    "title": "Original Chapter 79",
+    "physical_page": 466,
+    "parent_order": 236
+  },
+  {
+    "order": 238,
+    "depth": 1,
+    "title": "Chapter 79 Mastery Check",
+    "physical_page": 468,
+    "parent_order": 236
+  },
+  {
+    "order": 239,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 5 - Chapter 80: Risk Reversals, Skew and What Option Markets Can Suggest",
+    "physical_page": 469,
+    "parent_order": null
+  },
+  {
+    "order": 240,
+    "depth": 1,
+    "title": "Original Chapter 80",
+    "physical_page": 471,
+    "parent_order": 239
+  },
+  {
+    "order": 241,
+    "depth": 1,
+    "title": "Chapter 80 Mastery Check",
+    "physical_page": 473,
+    "parent_order": 239
+  },
+  {
+    "order": 242,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 6 - Chapter 81: Positioning: CFTC Commitments of Traders",
+    "physical_page": 474,
+    "parent_order": null
+  },
+  {
+    "order": 243,
+    "depth": 1,
+    "title": "Original Chapter 81",
+    "physical_page": 476,
+    "parent_order": 242
+  },
+  {
+    "order": 244,
+    "depth": 1,
+    "title": "Chapter 81 Mastery Check",
+    "physical_page": 478,
+    "parent_order": 242
+  },
+  {
+    "order": 245,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 7 - Chapter 82: Order Flow, Volume and the Limits of Retail Data",
+    "physical_page": 479,
+    "parent_order": null
+  },
+  {
+    "order": 246,
+    "depth": 1,
+    "title": "Original Chapter 82",
+    "physical_page": 481,
+    "parent_order": 245
+  },
+  {
+    "order": 247,
+    "depth": 1,
+    "title": "Chapter 82 Mastery Check",
+    "physical_page": 483,
+    "parent_order": 245
+  },
+  {
+    "order": 248,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 8 - Chapter 83: Volatility Regimes, Clustering and Range Expectations",
+    "physical_page": 484,
+    "parent_order": null
+  },
+  {
+    "order": 249,
+    "depth": 1,
+    "title": "Original Chapter 83",
+    "physical_page": 486,
+    "parent_order": 248
+  },
+  {
+    "order": 250,
+    "depth": 1,
+    "title": "Chapter 83 Mastery Check",
+    "physical_page": 488,
+    "parent_order": 248
+  },
+  {
+    "order": 251,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 9 - Chapter 84: Advanced Central-Bank Analysis: Reaction Functions and Communication",
+    "physical_page": 489,
+    "parent_order": null
+  },
+  {
+    "order": 252,
+    "depth": 1,
+    "title": "Original Chapter 84",
+    "physical_page": 491,
+    "parent_order": 251
+  },
+  {
+    "order": 253,
+    "depth": 1,
+    "title": "Chapter 84 Mastery Check",
+    "physical_page": 493,
+    "parent_order": 251
+  },
+  {
+    "order": 254,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 10 - Chapter 85: Fiscal Policy, Sovereign Risk and Political Economy",
+    "physical_page": 494,
+    "parent_order": null
+  },
+  {
+    "order": 255,
+    "depth": 1,
+    "title": "Original Chapter 85",
+    "physical_page": 496,
+    "parent_order": 254
+  },
+  {
+    "order": 256,
+    "depth": 1,
+    "title": "Chapter 85 Mastery Check",
+    "physical_page": 498,
+    "parent_order": 254
+  },
+  {
+    "order": 257,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 11 - Chapter 86: Commodity Currencies, Terms of Trade and External Shocks",
+    "physical_page": 499,
+    "parent_order": null
+  },
+  {
+    "order": 258,
+    "depth": 1,
+    "title": "Original Chapter 86",
+    "physical_page": 501,
+    "parent_order": 257
+  },
+  {
+    "order": 259,
+    "depth": 1,
+    "title": "Chapter 86 Mastery Check",
+    "physical_page": 503,
+    "parent_order": 257
+  },
+  {
+    "order": 260,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 12 - Chapter 87: Safe Havens, Funding Currencies and Crisis Dynamics",
+    "physical_page": 504,
+    "parent_order": null
+  },
+  {
+    "order": 261,
+    "depth": 1,
+    "title": "Original Chapter 87",
+    "physical_page": 506,
+    "parent_order": 260
+  },
+  {
+    "order": 262,
+    "depth": 1,
+    "title": "Chapter 87 Mastery Check",
+    "physical_page": 508,
+    "parent_order": 260
+  },
+  {
+    "order": 263,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 13 - Chapter 88: Building a Professional Currency Thesis",
+    "physical_page": 509,
+    "parent_order": null
+  },
+  {
+    "order": 264,
+    "depth": 1,
+    "title": "Original Chapter 88",
+    "physical_page": 511,
+    "parent_order": 263
+  },
+  {
+    "order": 265,
+    "depth": 1,
+    "title": "Chapter 88 Mastery Check",
+    "physical_page": 513,
+    "parent_order": 263
+  },
+  {
+    "order": 266,
+    "depth": 0,
+    "title": "MONTH 12+ - ADVANCED SESSION 14 - Chapter 89: Professional Trading Plan: From Market Thesis to Portfolio Rules",
+    "physical_page": 514,
+    "parent_order": null
+  },
+  {
+    "order": 267,
+    "depth": 1,
+    "title": "Original Chapter 89",
+    "physical_page": 516,
+    "parent_order": 266
+  },
+  {
+    "order": 268,
+    "depth": 1,
+    "title": "Chapter 89 Mastery Check",
+    "physical_page": 518,
+    "parent_order": 266
+  },
+  {
+    "order": 269,
+    "depth": 0,
+    "title": "WEEK 52 / GRADUATION GATE - Chapter 90: Graduation: The Gate Before the IT/Systematic Track",
+    "physical_page": 519,
+    "parent_order": null
+  },
+  {
+    "order": 270,
+    "depth": 1,
+    "title": "Original Chapter 90",
+    "physical_page": 521,
+    "parent_order": 269
+  },
+  {
+    "order": 271,
+    "depth": 1,
+    "title": "Chapter 90 Mastery Check",
+    "physical_page": 528,
+    "parent_order": 269
+  },
+  {
+    "order": 272,
+    "depth": 0,
+    "title": "Part IX - Curriculum Calendar, Reading and Resources",
+    "physical_page": 529,
+    "parent_order": null
+  },
+  {
+    "order": 273,
+    "depth": 0,
+    "title": "Part X - Quiz Answers, Gate Framework and Bibliography",
+    "physical_page": 571,
+    "parent_order": null
+  }
+]
