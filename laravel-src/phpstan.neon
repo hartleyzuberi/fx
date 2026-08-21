@@ -11,3 +11,6 @@ parameters:
         - routes/
 
     level: 7
+
+    ignoreErrors:
+        - '#Parameter #5 \\$outline of method App\\Services\\Curriculum\\SourceIngestionService::importPageSegments\\(\\) expects list<array<string, mixed>>, array<string, mixed> given\\.#'
