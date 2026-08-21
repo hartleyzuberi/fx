@@ -67,12 +67,19 @@
             "@test"
         ],
         "types:check": [
+            "phpstan analyse --level=5"
+        ],
+        "types:assessment": [
+            "phpstan analyse --configuration=phpstan-assessment.neon"
+        ],
+        "types:strict": [
             "phpstan analyse"
         ],
         "test": [
             "@php artisan config:clear --ansi",
             "@lint:check",
             "@types:check",
+            "@types:assessment",
             "@php artisan test"
         ],
         "post-autoload-dump": [
