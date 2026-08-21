@@ -35,7 +35,7 @@ class QuestionDeliveryService
             : ($question->answer_key ?? []);
     }
 
-    /** @return array<string, mixed>|list<mixed>|null */
+    /** @return array<array-key, mixed>|null */
     public function effectiveChoices(User $user, Question $question): ?array
     {
         return $this->usesStructuredVariant($user, $question)
@@ -56,7 +56,10 @@ class QuestionDeliveryService
             && (bool) $user->learnerProfile?->ai_tutor_enabled;
     }
 
-    /** @return array<string, mixed>|list<mixed>|null */
+    /**
+     * @param array<array-key, mixed>|null $choices
+     * @return array<array-key, mixed>|null
+     */
     public function publicChoices(?array $choices): ?array
     {
         if ($choices === null) {
@@ -66,7 +69,10 @@ class QuestionDeliveryService
         return $this->stripProtectedMetadata($choices);
     }
 
-    /** @return array<string, mixed>|list<mixed> */
+    /**
+     * @param array<array-key, mixed> $value
+     * @return array<array-key, mixed>
+     */
     private function stripProtectedMetadata(array $value): array
     {
         $protected = [
