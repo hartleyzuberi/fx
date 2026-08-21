@@ -149,7 +149,11 @@ class QuestionBankValidator
         ];
     }
 
-    /** @param array<string, mixed>|list<mixed>|null $choices @param array<string, mixed>|null $answerKey @param list<string> $errors */
+    /**
+     * @param array<array-key, mixed>|null $choices
+     * @param array<string, mixed>|null $answerKey
+     * @param list<string> $errors
+     */
     private function validateStructuredPayload(string $label, string $type, ?array $choices, ?array $answerKey, array &$errors): void
     {
         if (! in_array($type, self::SUPPORTED_TYPES, true) || $type === 'free_response' || $type === 'manual_review') {
