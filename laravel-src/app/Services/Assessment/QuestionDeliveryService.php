@@ -57,7 +57,7 @@ class QuestionDeliveryService
     }
 
     /**
-     * @param array<array-key, mixed>|null $choices
+     * @param  array<array-key, mixed>|null  $choices
      * @return array<array-key, mixed>|null
      */
     public function publicChoices(?array $choices): ?array
@@ -70,7 +70,7 @@ class QuestionDeliveryService
     }
 
     /**
-     * @param array<array-key, mixed> $value
+     * @param  array<array-key, mixed>  $value
      * @return array<array-key, mixed>
      */
     private function stripProtectedMetadata(array $value): array
