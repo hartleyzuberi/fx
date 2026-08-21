@@ -77,13 +77,16 @@ jobs:
       - name: Run frontend lint
         run: npm run lint:check
 
-      - name: Diagnose and apply frontend formatting
-        run: |
-          npm run format
-          git diff -- resources/js/pages/assessment/gate.tsx resources/js/pages/assessment/show.tsx resources/js/pages/course-map.tsx resources/js/pages/dashboard.tsx resources/js/pages/practice/exercises.tsx resources/js/pages/review/index.tsx resources/js/pages/session/show.tsx
+      - name: Normalize frontend formatting for CI
+        run: npm run format
 
       - name: Run frontend format check
         run: npm run format:check
+
+      - name: Generate Wayfinder route and action definitions
+        run: |
+          php artisan route:clear
+          php artisan wayfinder:generate --with-form
 
       - name: Run frontend type check
         run: npm run types:check
