@@ -160,6 +160,7 @@ class StructuredSourceParser
     private function parseExercises(array $pages, array $ranges): array
     {
         $exercises = [];
+        /** @var array{chapter: int, title: string, page: int, items: list<string>, prose: list<string>}|null $section */
         $section = null;
         $flush = function () use (&$section, &$exercises): void {
             if ($section === null) {
@@ -285,7 +286,7 @@ class StructuredSourceParser
             'title' => trim((string) preg_replace('/\s*https?:\/\/.*$/su', '', preg_replace('/\s+/u', ' ', $item))),
             'url' => $links[$index] ?? '',
             'source_page' => 269,
-        ], $matches[1] ?? [], array_keys($matches[1] ?? []));
+        ], $matches[1], array_keys($matches[1]));
     }
 
     /** @param array<int, array<string, mixed>> $pages @return list<array{url: string, source_page: int}> */
