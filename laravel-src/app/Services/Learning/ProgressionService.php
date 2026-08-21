@@ -44,10 +44,10 @@ class ProgressionService
         return ['advanced' => $advanced, 'reasons' => $reasons, 'next_unit_slug' => $advanced ? $next?->slug : null];
     }
 
-    /** @return array{advanced: bool, reasons: list<string>, next_unit_slug: string|null, course_completed: bool} */
-    public function evaluateAfterGate(Enrollment $enrollment, LearningUnit $unit, float $score, bool $passed, bool $finalExam = false): array
+    /** @param list<string> $blockingReasons @return array{advanced: bool, reasons: list<string>, next_unit_slug: string|null, course_completed: bool} */
+    public function evaluateAfterGate(Enrollment $enrollment, LearningUnit $unit, float $score, bool $passed, bool $finalExam = false, array $blockingReasons = []): array
     {
-        $reasons = $passed ? [] : ['The gate score is below the required threshold.'];
+        $reasons = $passed ? [] : ($blockingReasons !== [] ? $blockingReasons : ['One or more gate requirements are not yet complete.']);
         $currentProgress = UnitProgress::query()->where('enrollment_id', $enrollment->id)->where('learning_unit_id', $unit->id)->firstOrFail();
         $from = $currentProgress->status;
         $to = $passed ? 'passed' : 'needs_review';
