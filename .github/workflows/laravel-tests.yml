@@ -63,8 +63,11 @@ jobs:
       - name: Run PHP style checks
         run: composer lint:check
 
-      - name: Run PHP static analysis
+      - name: Run application static analysis
         run: composer types:check
+
+      - name: Run strict assessment static analysis
+        run: composer types:assessment
 
       - name: Run frontend lint
         run: npm run lint:check
