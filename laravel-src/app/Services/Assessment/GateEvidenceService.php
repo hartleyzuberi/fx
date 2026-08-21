@@ -4,7 +4,6 @@ namespace App\Services\Assessment;
 
 use App\Models\Assessment;
 use App\Models\User;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
 class GateEvidenceService
