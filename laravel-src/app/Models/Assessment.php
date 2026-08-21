@@ -10,7 +10,12 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 /**
  * @property string $id
  * @property string $learning_unit_id
+ * @property string $assessment_type
+ * @property string $title
  * @property float $passing_score
+ * @property bool $is_gate
+ * @property bool $answers_protected
+ * @property array<string, mixed>|null $rules
  * @property Collection<int, Question> $questions
  */
 class Assessment extends Model
