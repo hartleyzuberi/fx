@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ContentBlock;
+use App\Models\ContentMapping;
 use App\Models\Enrollment;
 use App\Models\LearningUnit;
 use Inertia\Inertia;
@@ -15,18 +17,39 @@ class ReferenceController extends Controller
         abort_unless($unit->curriculum_version_id === $enrollment->curriculum_version_id && $unit->unit_type === 'appendix', 404);
         $blocks = $unit->blocks()->with(['mappings.segment.page.version.document'])->get();
 
-        return Inertia::render('resources/show', [
-            'unit' => ['title' => $unit->title, 'metadata' => $unit->metadata],
-            'blocks' => $blocks->map(fn ($block): array => [
+        $payload = [];
+        foreach ($blocks as $block) {
+            if (! $block instanceof ContentBlock) {
+                continue;
+            }
+            $sources = [];
+            $seen = [];
+            foreach ($block->mappings as $mapping) {
+                if (! $mapping instanceof ContentMapping) {
+                    continue;
+                }
+                $document = $mapping->segment->page->version->document->title;
+                $page = $mapping->segment->page->physical_page;
+                $key = $document.'-'.$page;
+                if (isset($seen[$key])) {
+                    continue;
+                }
+                $seen[$key] = true;
+                $sources[] = ['document' => $document, 'page' => $page];
+            }
+
+            $payload[] = [
                 'id' => $block->id,
                 'type' => $block->block_type,
                 'title' => $block->title,
                 'body' => $block->body,
-                'sources' => $block->mappings->map(fn ($mapping): array => [
-                    'document' => $mapping->segment->page->version->document->title,
-                    'page' => $mapping->segment->page->physical_page,
-                ])->unique(fn (array $source): string => $source['document'].'-'.$source['page'])->values(),
-            ]),
+                'sources' => $sources,
+            ];
+        }
+
+        return Inertia::render('resources/show', [
+            'unit' => ['title' => $unit->title, 'metadata' => $unit->metadata],
+            'blocks' => $payload,
         ]);
     }
 }
