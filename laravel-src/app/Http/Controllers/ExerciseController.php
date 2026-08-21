@@ -57,7 +57,7 @@ class ExerciseController extends Controller
     {
         $this->enrollmentFor($unit);
         $record = DB::table('practice_assignments')->where('id', $assignment)->where('learning_unit_id', $unit->id)->first();
-        abort_unless($record, 404);
+        abort_unless($record !== null, 404);
         $requirements = json_decode($record->requirements, true) ?: [];
 
         if (isset($requirements['evidence_key'])) {
@@ -86,7 +86,9 @@ class ExerciseController extends Controller
         return back()->with('success', "Exercise response saved as revision {$revision}.");
     }
 
-    /** @param object $assignment @param array<string, mixed> $requirements */
+    /**
+     * @param  array<string, mixed>  $requirements
+     */
     private function storeEvidenceObservation(Request $request, object $assignment, array $requirements): RedirectResponse
     {
         $attachmentRequired = (bool) ($requirements['attachment_required'] ?? false);
