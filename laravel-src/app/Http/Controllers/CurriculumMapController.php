@@ -22,17 +22,36 @@ class CurriculumMapController extends Controller
         $phases = LearningUnit::query()->where('curriculum_version_id', $enrollment->curriculum_version_id)
             ->where('unit_type', 'phase')->with('children')->orderBy('position')->get();
 
-        return Inertia::render('course-map', [
-            'phases' => $phases->map(fn (LearningUnit $phase): array => [
-                'id' => $phase->id, 'title' => $phase->title,
-                'status' => $progress->get($phase->id)?->status ?? 'locked',
-                'sessions' => $phase->children->map(fn (LearningUnit $unit): array => [
-                    'id' => $unit->id, 'slug' => $unit->slug, 'title' => $unit->title,
-                    'schedule' => $unit->metadata['schedule'] ?? null,
-                    'status' => $progress->get($unit->id)?->status ?? 'locked',
-                    'lockReason' => ($progress->get($unit->id)?->status ?? 'locked') === 'locked' ? 'Master the preceding required session and its assessment before this session unlocks.' : null,
-                ])->values(),
-            ])->values(),
-        ]);
+        $phasePayload = [];
+        foreach ($phases as $phase) {
+            $phaseProgress = $progress->get($phase->id);
+            $phaseStatus = $phaseProgress instanceof UnitProgress ? $phaseProgress->status : 'locked';
+            $sessions = [];
+
+            foreach ($phase->children as $unit) {
+                $unitProgress = $progress->get($unit->id);
+                $status = $unitProgress instanceof UnitProgress ? $unitProgress->status : 'locked';
+                $metadata = is_array($unit->metadata) ? $unit->metadata : [];
+                $sessions[] = [
+                    'id' => $unit->id,
+                    'slug' => $unit->slug,
+                    'title' => $unit->title,
+                    'schedule' => $metadata['schedule'] ?? null,
+                    'status' => $status,
+                    'lockReason' => $status === 'locked'
+                        ? 'Master the preceding required session and its assessment before this session unlocks.'
+                        : null,
+                ];
+            }
+
+            $phasePayload[] = [
+                'id' => $phase->id,
+                'title' => $phase->title,
+                'status' => $phaseStatus,
+                'sessions' => $sessions,
+            ];
+        }
+
+        return Inertia::render('course-map', ['phases' => $phasePayload]);
     }
 }
