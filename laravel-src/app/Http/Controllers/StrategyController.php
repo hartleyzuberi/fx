@@ -17,11 +17,13 @@ class StrategyController extends Controller
         $access->assertChapterAvailable($request->user(), 51);
         $validated = $request->validate(['name' => ['required', 'string', 'max:120'], 'specification' => ['required', 'array'], ...collect(self::FIELDS)->mapWithKeys(fn (string $field): array => ["specification.{$field}" => ['required']])->all()]);
         $latest = DB::table('strategy_versions')->where('user_id', $request->user()->id)->where('name', $validated['name'])->orderByDesc('version_number')->first();
+        $supersedesId = $latest !== null ? $latest->id : null;
+        $nextVersion = $latest !== null ? ((int) $latest->version_number) + 1 : 1;
         $specification = $validated['specification'];
         ksort($specification);
         DB::table('strategy_versions')->insert([
-            'id' => (string) Str::ulid(), 'user_id' => $request->user()->id, 'supersedes_id' => $latest?->id,
-            'name' => $validated['name'], 'version_number' => ($latest?->version_number ?? 0) + 1, 'status' => 'draft',
+            'id' => (string) Str::ulid(), 'user_id' => $request->user()->id, 'supersedes_id' => $supersedesId,
+            'name' => $validated['name'], 'version_number' => $nextVersion, 'status' => 'draft',
             'specification' => json_encode($specification, JSON_THROW_ON_ERROR), 'specification_sha256' => hash('sha256', json_encode($specification, JSON_THROW_ON_ERROR)),
             'created_at' => now(), 'updated_at' => now(),
         ]);
