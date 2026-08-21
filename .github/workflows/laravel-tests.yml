@@ -4,12 +4,14 @@ on:
   pull_request:
     paths:
       - 'laravel-src/**'
+      - 'tmp/pdfs/source-audit/**'
       - '.github/workflows/laravel-tests.yml'
   push:
     branches:
       - main
     paths:
       - 'laravel-src/**'
+      - 'tmp/pdfs/source-audit/**'
       - '.github/workflows/laravel-tests.yml'
 
 permissions:
@@ -49,6 +51,11 @@ jobs:
           touch database/database.sqlite
           php artisan key:generate
           php artisan migrate --force
+
+      - name: Ingest canonical course and validate no-AI question bank
+        run: |
+          php artisan course:ingest --force
+          php artisan course:validate-question-bank
 
       - name: Install frontend dependencies
         run: npm ci
