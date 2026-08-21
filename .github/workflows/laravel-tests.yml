@@ -61,10 +61,7 @@ jobs:
         run: npm ci
 
       - name: Run PHP style checks
-        run: |
-          ./vendor/bin/pint --parallel
-          git diff -- app/Services/Assessment/GateEvidenceService.php app/Services/Assessment/QuestionBankValidator.php app/Services/Assessment/StructuredQuestionBankBuilder.php
-          test -z "$(git status --porcelain)"
+        run: composer lint:check
 
       - name: Run PHP static analysis
         run: composer types:check
