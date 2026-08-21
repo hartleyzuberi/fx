@@ -6,7 +6,10 @@ use App\Models\Question;
 
 class StructuredQuestionGrader
 {
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $answerKey
+     * @return array<string, mixed>
+     */
     public function grade(Question $question, mixed $answer, string $questionType, array $answerKey): array
     {
         return match ($questionType) {
@@ -20,13 +23,17 @@ class StructuredQuestionGrader
         };
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $key
+     * @return array<string, mixed>
+     */
     private function gradeSingleChoice(mixed $answer, array $key): array
     {
         $selected = is_bool($answer) ? ($answer ? 'true' : 'false') : trim((string) $answer);
         $correct = trim((string) ($key['correct'] ?? $key['value'] ?? ''));
         $isCorrect = $selected !== '' && hash_equals($correct, $selected);
-        $misconception = $key['misconceptions'][$selected] ?? null;
+        $misconceptionMap = is_array($key['misconceptions'] ?? null) ? $key['misconceptions'] : [];
+        $misconception = $misconceptionMap[$selected] ?? null;
 
         return $this->result(
             $isCorrect ? 'correct' : ($misconception ? 'misconception' : 'incorrect'),
@@ -38,7 +45,10 @@ class StructuredQuestionGrader
         );
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $key
+     * @return array<string, mixed>
+     */
     private function gradeMultipleSelect(mixed $answer, array $key): array
     {
         $selected = $this->stringList($answer);
@@ -64,7 +74,10 @@ class StructuredQuestionGrader
         );
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $key
+     * @return array<string, mixed>
+     */
     private function gradeNumeric(mixed $answer, array $key): array
     {
         if (! is_numeric($answer)) {
@@ -87,7 +100,10 @@ class StructuredQuestionGrader
         );
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $key
+     * @return array<string, mixed>
+     */
     private function gradeMap(mixed $answer, array $key): array
     {
         $submitted = is_array($answer) ? $answer : [];
@@ -110,7 +126,10 @@ class StructuredQuestionGrader
         return $this->result($status, $score, $matched, $missing, [], $status === 'correct' ? 'Correct.' : 'One or more items are matched or classified incorrectly.');
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $key
+     * @return array<string, mixed>
+     */
     private function gradeOrdering(mixed $answer, array $key): array
     {
         $expected = $this->stringList($key['order'] ?? $key['correct'] ?? []);
@@ -143,11 +162,15 @@ class StructuredQuestionGrader
         return $this->result($status, $score, $status === 'correct' ? $expected : [], $status === 'correct' ? [] : ['correct sequence'], [], $status === 'correct' ? 'Correct.' : 'The sequence is not yet correct.');
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param array<string, mixed> $key
+     * @return array<string, mixed>
+     */
     private function gradeFillBlank(mixed $answer, array $key): array
     {
         $normalized = $this->normalize((string) $answer);
-        $accepted = array_map(fn (mixed $value): string => $this->normalize((string) $value), $key['accepted'] ?? []);
+        $acceptedRaw = is_array($key['accepted'] ?? null) ? $key['accepted'] : [];
+        $accepted = array_map(fn (mixed $value): string => $this->normalize((string) $value), $acceptedRaw);
         $isCorrect = $normalized !== '' && in_array($normalized, $accepted, true);
 
         return $this->result($isCorrect ? 'correct' : 'incorrect', $isCorrect ? 100 : 0, $isCorrect ? [$normalized] : [], $isCorrect ? [] : ['accepted answer'], [], $isCorrect ? 'Correct.' : 'That answer does not match the accepted course answer.');
@@ -163,7 +186,11 @@ class StructuredQuestionGrader
         return array_values(array_unique(array_map(fn (mixed $item): string => trim((string) $item), array_filter($value, fn (mixed $item): bool => $item !== null && $item !== ''))));
     }
 
-    /** @return list<string> */
+    /**
+     * @param list<string> $selected
+     * @param array<string, mixed> $key
+     * @return list<string>
+     */
     private function selectedMisconceptions(array $selected, array $key): array
     {
         $map = is_array($key['misconceptions'] ?? null) ? $key['misconceptions'] : [];
@@ -176,7 +203,12 @@ class StructuredQuestionGrader
         return trim(mb_strtolower((string) preg_replace('/\s+/u', ' ', $value)));
     }
 
-    /** @return array<string, mixed> */
+    /**
+     * @param list<string> $correct
+     * @param list<string> $missing
+     * @param list<string> $misconceptions
+     * @return array<string, mixed>
+     */
     private function result(string $status, int $score, array $correct, array $missing, array $misconceptions, string $feedback): array
     {
         return [
