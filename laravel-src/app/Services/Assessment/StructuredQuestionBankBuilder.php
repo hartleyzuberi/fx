@@ -73,7 +73,10 @@ class StructuredQuestionBankBuilder
         return compact('approved', 'skipped');
     }
 
-    /** @param Collection<int, Question> $siblings @return array<string, mixed>|null */
+    /**
+     * @param Collection<int, Question> $siblings
+     * @return array<string, mixed>|null
+     */
     private function referenceAnswerVariant(Question $question, Collection $siblings): ?array
     {
         $key = $question->answer_key ?? [];
@@ -226,7 +229,10 @@ class StructuredQuestionBankBuilder
         return null;
     }
 
-    /** @param list<array{0: string, 1: string|null}> $options @return array<string, mixed> */
+    /**
+     * @param list<array{0: string, 1: string|null}> $options
+     * @return array<string, mixed>
+     */
     private function singleChoice(Question $question, array $options, string $correctText, string $method): array
     {
         $sorted = collect($options)
@@ -353,17 +359,21 @@ class StructuredQuestionBankBuilder
             ->get();
     }
 
-    /** @param Collection<int, Question> $pool @return Collection<int, Question> */
+    /**
+     * @param Collection<int, Question> $pool
+     * @return Collection<int, Question>
+     */
     private function spreadSelection(Collection $pool, int $target): Collection
     {
         if ($target <= 0 || $pool->isEmpty()) {
-            return collect();
+            return $pool->take(0)->values();
         }
         if ($pool->count() <= $target) {
             return $pool->values();
         }
 
         $step = $pool->count() / $target;
+        /** @var Collection<int, Question> $selected */
         $selected = collect();
         $used = [];
         for ($index = 0; $index < $target; $index++) {
@@ -375,10 +385,13 @@ class StructuredQuestionBankBuilder
                 continue;
             }
             $used[$position] = true;
-            $selected->push($pool->values()->get($position));
+            $candidate = $pool->values()->get($position);
+            if ($candidate instanceof Question) {
+                $selected->push($candidate);
+            }
         }
 
-        return $selected->filter()->values();
+        return $selected->values();
     }
 
     private function cleanOption(string $text): string
