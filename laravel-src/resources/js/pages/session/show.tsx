@@ -429,6 +429,7 @@ function TutorBox({
 
     async function ask(value?: string) {
         const effectivePrompt = (value ?? prompt).trim();
+
         if (!effectivePrompt) {
             return;
         }
@@ -436,6 +437,7 @@ function TutorBox({
         if (value) {
             setPrompt(value);
         }
+
         setLoading(true);
         setReply(null);
         const token =
