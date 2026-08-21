@@ -1,0 +1,43 @@
+<?php
+
+// Course-specific evaluation data. Learner answers are data, never prompt instructions.
+$cases = [
+    ['question' => 'What does EUR/USD 1.25 mean?', 'answer_key' => ['required' => [['euro'], ['1.25 dollars']], 'contradictions' => ['one dollar is worth 1.25 euros']], 'answer' => 'One euro is worth 1.25 dollars.', 'expected' => 'correct'],
+    ['question' => 'What does EUR/USD 1.25 mean?', 'answer_key' => ['required' => [['euro'], ['1.25 dollars']], 'contradictions' => ['one dollar is worth 1.25 euros']], 'answer' => 'One dollar is worth 1.25 euros.', 'expected' => 'misconception'],
+    ['question' => 'What does EUR/USD 1.25 mean?', 'answer_key' => ['required' => [['euro'], ['1.25 dollars']]], 'answer' => 'It is the relationship between euro and dollar.', 'expected' => 'partially_correct'],
+    ['question' => 'Define base currency.', 'answer_key' => ['required' => [['first currency'], ['one unit']]], 'answer' => 'The first currency in a pair, expressed as one unit.', 'expected' => 'correct'],
+    ['question' => 'Define quote currency.', 'answer_key' => ['required' => [['second currency'], ['price']]], 'answer' => 'It is the second currency and prices one unit of the base.', 'expected' => 'correct'],
+    ['question' => 'What is a pip?', 'answer_key' => ['required' => [['price movement'], ['standard unit']]], 'answer' => 'A standard unit used to describe a price movement.', 'expected' => 'correct'],
+    ['question' => 'How many pips from 1.1000 to 1.1050?', 'answer_key' => ['reference' => '50 pips', 'kind' => 'reference_answer'], 'answer' => '50 pips', 'expected' => 'correct'],
+    ['question' => 'Why is spread a cost?', 'answer_key' => ['required' => [['bid'], ['ask']]], 'answer' => 'Because entry crosses the difference between bid and ask.', 'expected' => 'correct'],
+    ['question' => 'Is leverage risk?', 'answer_key' => ['required' => [['exposure'], ['risk depends']], 'contradictions' => ['leverage is the maximum loss']], 'answer' => 'Leverage is the maximum amount I can lose.', 'expected' => 'misconception'],
+    ['question' => 'What is margin?', 'answer_key' => ['required' => [['collateral'], ['position']]], 'answer' => 'Collateral set aside to support a leveraged position.', 'expected' => 'correct'],
+    ['question' => 'Is margin the same as planned risk?', 'answer_key' => ['required' => [['not the same'], ['stop loss']]], 'answer' => 'No. Planned risk comes from size and stop distance, not margin alone.', 'expected' => 'correct'],
+    ['question' => 'What is free margin?', 'answer_key' => ['required' => [['equity'], ['used margin']]], 'answer' => 'Equity remaining after used margin.', 'expected' => 'correct'],
+    ['question' => 'Why size positions?', 'answer_key' => ['required' => [['risk'], ['stop distance']]], 'answer' => 'To keep account risk fixed while respecting stop distance.', 'expected' => 'correct'],
+    ['question' => 'What is one R?', 'answer_key' => ['required' => [['initial risk']]], 'answer' => 'The amount initially planned at risk on the trade.', 'expected' => 'correct'],
+    ['question' => 'Define expectancy.', 'answer_key' => ['required' => [['average'], ['win'], ['loss']]], 'answer' => 'The average outcome from win probability and average wins and losses.', 'expected' => 'correct'],
+    ['question' => 'Can a high win rate guarantee profit?', 'answer_key' => ['required' => [['no'], ['loss size']]], 'answer' => 'Yes, any strategy above 50 percent wins is profitable.', 'expected' => 'incorrect'],
+    ['question' => 'What is drawdown?', 'answer_key' => ['required' => [['peak'], ['trough']]], 'answer' => 'A decline from an equity peak to a later trough.', 'expected' => 'correct'],
+    ['question' => 'Why include trading costs in backtests?', 'answer_key' => ['required' => [['realistic'], ['returns']]], 'answer' => 'Costs reduce returns and make simulation more realistic.', 'expected' => 'correct'],
+    ['question' => 'What is overfitting?', 'answer_key' => ['required' => [['noise'], ['historical data']]], 'answer' => 'Fitting parameters to historical noise rather than a durable effect.', 'expected' => 'correct'],
+    ['question' => 'Why use out-of-sample data?', 'answer_key' => ['required' => [['unseen'], ['generalize']]], 'answer' => 'To test whether the strategy generalizes to unseen observations.', 'expected' => 'correct'],
+    ['question' => 'Why freeze a strategy version?', 'answer_key' => ['required' => [['prevent changes'], ['audit']]], 'answer' => 'It prevents silent rule changes and makes results auditable.', 'expected' => 'correct'],
+    ['question' => 'What is robustness testing?', 'answer_key' => ['required' => [['variation'], ['assumptions']]], 'answer' => 'Checking whether results survive reasonable variation in data and assumptions.', 'expected' => 'correct'],
+    ['question' => 'Does correlation prove causation?', 'answer_key' => ['required' => [['no']]], 'answer' => 'No.', 'expected' => 'correct'],
+    ['question' => 'Why can a currency fall after a rate rise?', 'answer_key' => ['required' => [['expectations'], ['priced in']]], 'answer' => 'The rise may already be priced in or disappoint expectations.', 'expected' => 'correct'],
+    ['question' => 'What moves currencies?', 'answer_key' => ['required' => [['relative'], ['expectations']]], 'answer' => 'Relative changes in expectations between economies.', 'expected' => 'correct'],
+    ['question' => 'What does support guarantee?', 'answer_key' => ['required' => [['nothing'], ['probability']]], 'answer' => 'Support guarantees price cannot fall below it.', 'expected' => 'incorrect'],
+    ['question' => 'Define an uptrend.', 'answer_key' => ['required' => [['higher highs'], ['higher lows']]], 'answer' => 'A sequence of higher highs and higher lows.', 'expected' => 'correct'],
+    ['question' => 'What is volatility?', 'answer_key' => ['required' => [['variation'], ['price']]], 'answer' => 'The degree of price variation over a period.', 'expected' => 'correct'],
+    ['question' => 'Why keep a journal?', 'answer_key' => ['required' => [['evidence'], ['decisions']]], 'answer' => 'To preserve evidence about decisions, execution and outcomes.', 'expected' => 'correct'],
+    ['question' => 'What is process discipline?', 'answer_key' => ['required' => [['rules'], ['outcome']]], 'answer' => 'Following tested rules regardless of one trade outcome.', 'expected' => 'correct'],
+    ['question' => 'Can one winning trade prove skill?', 'answer_key' => ['required' => [['no'], ['sample']]], 'answer' => 'No, one observation is too small a sample.', 'expected' => 'correct'],
+    ['question' => 'What is survivorship bias?', 'answer_key' => ['required' => [['failures'], ['excluded']]], 'answer' => 'Looking only at survivors while failed cases are excluded.', 'expected' => 'correct'],
+    ['question' => 'Why use a demo gate?', 'answer_key' => ['required' => [['execution'], ['evidence']]], 'answer' => 'To gather execution evidence before risking real capital.', 'expected' => 'correct'],
+    ['question' => 'Can AI waive the demo gate?', 'answer_key' => ['required' => [['no'], ['evidence']]], 'answer' => 'No, progression requires the application-owned evidence.', 'expected' => 'correct'],
+    ['question' => 'Should a tutor give live signals?', 'answer_key' => ['required' => [['no'], ['education']]], 'answer' => 'No, it should teach analysis rather than issue ad-hoc signals.', 'expected' => 'correct'],
+    ['question' => 'What wins: model output or course rule?', 'answer_key' => ['required' => [['course rule']]], 'answer' => 'The canonical course and mastery rules remain authoritative.', 'expected' => 'correct'],
+];
+
+return $cases;
