@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ContentBlock;
-use App\Models\ContentMapping;
 use App\Models\Enrollment;
 use App\Models\LearningUnit;
 use Inertia\Inertia;
@@ -19,15 +17,9 @@ class ReferenceController extends Controller
 
         $payload = [];
         foreach ($blocks as $block) {
-            if (! $block instanceof ContentBlock) {
-                continue;
-            }
             $sources = [];
             $seen = [];
             foreach ($block->mappings as $mapping) {
-                if (! $mapping instanceof ContentMapping) {
-                    continue;
-                }
                 $document = $mapping->segment->page->version->document->title;
                 $page = $mapping->segment->page->physical_page;
                 $key = $document.'-'.$page;
